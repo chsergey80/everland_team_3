@@ -12,6 +12,9 @@
 - Grid
 - JS
 
+## Кирьянов Игорь
+### 1. Внес корректировки в index.css - расставил блоки по порядку, описал назначение
+
 ## Макет в Figma
 * [Ссылка на макет](https://www.figma.com/file/59a1PXM1KLWN0hWWMl1Kni/Everland-(%D0%92%D0%B5%D0%B1%2B)?node-id=430%3A712&t=xwTybjLNsqVvjcig-0)
 
