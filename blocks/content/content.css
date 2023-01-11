@@ -1,0 +1,8 @@
+/* здесь самые общие стили контента */
+.content {
+  border: 1px solid red;
+  margin: auto;
+  max-width: 1440px;
+  background-color: #E5E5E5;
+  display: block;
+}

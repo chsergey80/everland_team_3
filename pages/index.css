@@ -2,6 +2,9 @@
 @import url(../vendor/fonts.css);
 
 
+/* самые общие стили контента */
+@import url(../blocks/content/content.css);
+
 /* Блок 1 header */
 @import url(../blocks/header/header.css);
 
