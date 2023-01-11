@@ -1,0 +1,17 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/about-everland/about-everland.css);
+@import url(../blocks/agency/agency.css);
+@import url(../blocks/directions/directions.css);
+@import url(../blocks/donation/donation.css);
+@import url(../blocks/everland-in-numbers/everland-in-numbers.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/forwhom/forwhom.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/history/history.css);
+@import url(../blocks/in-work/in-work.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/news/news.css);
+@import url(../blocks/special-projects/special-projects.css);
+@import url(../blocks/support/support.css);
