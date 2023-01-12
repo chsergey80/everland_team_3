@@ -43,6 +43,14 @@
 
 /* Блок 9 Истории */
 @import url(../blocks/history/history.css);
+@import url(../blocks/history/__card/history__card.css);
+@import url(../blocks/history/__card/_reverse/history__card_reverse.css);
+@import url(../blocks/history/__avatar/history__avatar.css);
+@import url(../blocks/history/__info/history__info.css);
+@import url(../blocks/history/__quote/history__quote.css);
+@import url(../blocks/history/__text/history__text.css);
+@import url(../blocks/history/__subtitle/history__subtitle.css);
+@import url(../blocks/history/__description/history__description.css);
 
 
 /*Блок 10 Агентство */

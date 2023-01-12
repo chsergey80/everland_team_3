@@ -1,0 +1,7 @@
+/* стили описания в разделе history__info */
+.history__description{
+  margin: 0;
+  line-height: 26px;
+  font-size: 20px;
+  font-weight: 400;
+}

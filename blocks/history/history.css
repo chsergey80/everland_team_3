@@ -1,0 +1,5 @@
+/* самые общие стили блока history */
+.history{
+  border: 1px solid blue;
+  height: 900px;
+}

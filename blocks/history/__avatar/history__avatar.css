@@ -1,0 +1,8 @@
+/* стили аватаров в блоке history_card */
+.history__avatar{
+  /* border: 2px solid goldenrod; */
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  object-fit: contain;
+}
