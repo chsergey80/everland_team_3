@@ -1,17 +1,61 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
-@import url(../blocks/about-everland/about-everland.css);
-@import url(../blocks/agency/agency.css);
-@import url(../blocks/directions/directions.css);
-@import url(../blocks/donation/donation.css);
-@import url(../blocks/everland-in-numbers/everland-in-numbers.css);
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/forwhom/forwhom.css);
+
+/* самые общие стили контента */
+@import url(../blocks/content/content.css);
+
+/* Блок 1 header */
 @import url(../blocks/header/header.css);
-@import url(../blocks/history/history.css);
-@import url(../blocks/in-work/in-work.css);
+
+
+/* Блок без номера - Верхнее меню - навигация */
 @import url(../blocks/navigation/navigation.css);
-@import url(../blocks/news/news.css);
+
+
+/* Блок 2 Everland - социально-предпринимательский проект */
+@import url(../blocks/about-everland/about-everland.css);
+
+
+/* Блок 3 с кнопками для пожертвований */
+@import url(../blocks/donation/donation.css);
+
+
+/* Блок 4 Для кого */
+@import url(../blocks/forwhom/forwhom.css);
+
+
+/* Блок 5 Направления работы */
+@import url(../blocks/directions/directions.css);
+
+
+/* Блок 6 Преимущества */
+@import url(../blocks/in-work/in-work.css);
+
+
+/* Блок 7 Everland в цифрах */
+@import url(../blocks/everland-in-numbers/everland-in-numbers.css);
+
+
+/* Блок 8 Спецпроекты */
 @import url(../blocks/special-projects/special-projects.css);
+
+
+/* Блок 9 Истории */
+@import url(../blocks/history/history.css);
+
+
+/*Блок 10 Агентство */
+@import url(../blocks/agency/agency.css);
+
+
+/* Блок 11 Новости */
+@import url(../blocks/news/news.css);
+
+
+/* Блок 12 Поддержать */
 @import url(../blocks/support/support.css);
+
+
+/* Блок 13 footer */
+@import url(../blocks/footer/footer.css);
