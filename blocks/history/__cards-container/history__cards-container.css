@@ -5,6 +5,7 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
   /* row-gap: 16px; */ /* вставить в макет на мобильную версию */
+  margin-top: 99px;
   margin-left: 40px;
   margin-right: 40px;
 }

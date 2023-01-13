@@ -1,15 +1,17 @@
 /* стили блока с информацией к аватрау */
 .history__info{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-self: flex-start;
-  flex-wrap: wrap;
+  margin-top: 51px;
+  /* flex-wrap: wrap; */
 }
 
 @media screen and (max-width: 1439px) {
   .history__info {
     display: block;
+    margin-top: 4px;
   }
 }
