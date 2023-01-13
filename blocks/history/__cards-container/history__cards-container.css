@@ -1,0 +1,10 @@
+/* стили контейнера для маленьких карточек внизу блока history */
+.history__cards-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+}
