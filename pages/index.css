@@ -2,11 +2,19 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(..//blocks/section-title/section-title.css);
 @import url(../blocks/about-everland/about-everland.css);
 @import url(../blocks/agency/agency.css);
 @import url(../blocks/directions/directions.css);
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/everland-in-numbers/everland-in-numbers.css);
+@import url(../blocks/numbers-card/numbers-card.css);
+@import url(../blocks/numbers-card/__img/numbers-card__img.css);
+@import url(../blocks/numbers-card/__text-area/numbers-card__text-area.css);
+@import url(../blocks/numbers-card/__text-box/numbers-card__text-box.css);
+@import url(../blocks/numbers-card/__title/numbers-card__title.css);
+@import url(../blocks/numbers-card/__title-span/numbers-card__title-span.css);
+@import url(../blocks/numbers-card/__text/numbers-card__text.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/forwhom/forwhom.css);
 @import url(../blocks/header/header.css);

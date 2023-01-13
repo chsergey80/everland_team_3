@@ -1,0 +1,23 @@
+.section-title {
+  /*Это все заголовки, начала каждой секции! паддинги не писала, так как где-то отступ 100px, где-то 150.*/
+  color: #333;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+  margin: 0;
+}
+
+
+@media (max-width:1439px) {
+  .section-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width:767px) {
+  .section-title {
+    font-size: 26px;
+  }
+}
