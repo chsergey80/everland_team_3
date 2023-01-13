@@ -1,11 +1,11 @@
 /* стили карточки внутри блока history */
 .history__card{
-  /* border: 1px solid green; */
-  min-height: 324px;
+  border: 1px solid green;
+  min-height: 274px;
   margin-left: 40px;
   margin-right: 40px;
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 }
