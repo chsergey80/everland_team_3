@@ -1,0 +1,5 @@
+/* стили блока с текстом title и description */
+.history__text{
+  /* border: 1px solid blue; */
+  max-width: 977px;
+}

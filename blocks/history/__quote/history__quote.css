@@ -1,0 +1,7 @@
+/* стили кавычек в history__info */
+.history__quote{
+  /* border: 1px solid orangered; */
+  margin-right: 19px;
+  height: 35px;
+  width: 27.5px;
+}

@@ -1,6 +1,7 @@
 /* здесь самые общие стили контента */
 .content {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  font-family: 'Raleway';
   margin: auto;
   max-width: 1440px;
   background-color: #fff;

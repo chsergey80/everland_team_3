@@ -1,0 +1,7 @@
+/* стили надписи с именем в мини карточках */
+.history__card-mini-name {
+  margin: 0;
+  line-height: 26px;
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -1,0 +1,14 @@
+/* стили маленьких карточек внизу блока history */
+.history__card-mini{
+  background: #EAE6FF;
+  width: 670px; /* скорее всего max-width .. не так это точно */
+  height: 285px; /* скорее весго,  потом уберу */
+  /* padding-left: 30px; */
+  /* padding-right: 30px; */
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-left: 40px; */
+}
