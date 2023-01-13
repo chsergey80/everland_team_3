@@ -1,10 +1,12 @@
 /* стили контейнера для маленьких карточек внизу блока history */
 .history__cards-container{
+  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  column-gap: 20px;
+  /* row-gap: 16px; */ /* вставить в макет на мобильную версию */
   margin-left: 40px;
   margin-right: 40px;
-  /* padding-left: 40px;
-  padding-right: 40px; */
+  /* flex-wrap: wrap; */
 }

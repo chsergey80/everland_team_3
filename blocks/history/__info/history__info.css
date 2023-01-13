@@ -1,8 +1,9 @@
 /* стили блока с информацией к аватрау */
 .history__info{
   /* border: 1px solid black; */
-  /* max-width: 1256px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-self: flex-start;
+  flex-wrap: wrap;
 }
