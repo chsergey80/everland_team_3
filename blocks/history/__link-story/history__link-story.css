@@ -1,0 +1,15 @@
+/* стили ссылки оформленной как кнопка "история Максима" */
+.history__link-story{
+  text-decoration: none;
+  background: #E7F0FF;
+  border: 1px solid #0C4BA0;
+  border-radius: 10px;
+  color: #0C4BA0;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+

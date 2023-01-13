@@ -9,3 +9,9 @@
   display: block;
 
 }
+
+@media screen and (max-width: 1439px) {
+  .history {
+    max-width: 768px;
+  }
+}

@@ -5,3 +5,10 @@
   max-height: 224px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 1439px) {
+  .history__avatar {
+    max-width: 204px;
+    max-height: 204px;
+  }
+}

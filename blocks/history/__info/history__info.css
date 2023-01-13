@@ -7,3 +7,9 @@
   align-self: flex-start;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1439px) {
+  .history__info {
+    display: block;
+  }
+}
