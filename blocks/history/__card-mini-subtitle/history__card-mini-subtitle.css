@@ -14,3 +14,11 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .history__card-mini-subtitle {
+    margin-top: 4px;
+    line-height: 19px;
+    font-size: 16px;
+  }
+}

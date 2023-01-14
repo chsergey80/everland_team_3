@@ -12,3 +12,10 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 1439px) {
+  .history__card-mini-name {
+    line-height: 17px;
+    font-size: 14px;
+  }
+}

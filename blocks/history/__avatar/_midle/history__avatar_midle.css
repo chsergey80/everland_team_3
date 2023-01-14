@@ -1,6 +1,9 @@
 /* модификатор аватара на среднем размере контента */
 .history__avatar_midle {
-  /* здесь ни чего нет, на других размерах контента аватраы одинакового размера */
+  max-width: 224px;
+  max-height: 224px;
+  border-radius: 50%;
+
 }
 
 @media screen and (max-width: 1439px) {
@@ -8,4 +11,12 @@
     max-width: 120px;
     max-height: 120px;
 }
+}
+
+@media screen and (max-width: 767px) {
+  .history__avatar_midle {
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0;
+  }
 }

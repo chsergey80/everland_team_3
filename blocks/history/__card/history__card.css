@@ -17,3 +17,15 @@
     padding-bottom: 23px; */
 }
 }
+
+@media screen and (max-width: 767px) {
+  .history__card {
+    /* padding-top: 23px;
+    padding-bottom: 23px; */
+    display: block;
+    max-width: 299px;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+}

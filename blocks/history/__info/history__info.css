@@ -15,3 +15,11 @@
     margin-top: 4px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .history__info {
+    display: block;
+    margin-top: 4px;
+    max-width: 299px;
+  }
+}

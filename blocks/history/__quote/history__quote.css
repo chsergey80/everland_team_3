@@ -13,3 +13,10 @@
     width: 20px;
   }
 }
+
+@media screen and (max-width: 1439px) {
+  .history__quote {
+    height: 24.44px;
+    width: 17.14px;
+  }
+}

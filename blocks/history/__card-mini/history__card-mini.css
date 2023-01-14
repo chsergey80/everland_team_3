@@ -21,3 +21,10 @@
 
 }
 
+@media screen and (max-width: 767px) {
+  .history__card-mini{
+    max-width: 300px;
+    padding: 16px;
+  }
+
+}

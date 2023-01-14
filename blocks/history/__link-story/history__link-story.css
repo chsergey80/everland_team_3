@@ -1,5 +1,6 @@
 /* стили ссылки оформленной как кнопка "история Максима" */
 .history__link-story{
+  display: inline-block;
   text-decoration: none;
   background: #E7F0FF;
   background-size: 16px 16px;
