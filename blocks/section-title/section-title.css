@@ -1,0 +1,36 @@
+.section-title {
+  margin-bottom: 50px;
+  letter-spacing: -0.01em;
+  /*Это все заголовки, начала каждой секции! паддинги не писала, так как где-то отступ 100px, где-то 150.*/
+  margin: 0;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #333;
+}
+
+@media screen and (max-width: 1439px) {
+  .section-title {
+    margin-bottom: 32px;
+  }
+
+  .section-title:last-of-type {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 36px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    margin-bottom: 24px;
+    letter-spacing: -0.02em;
+  }
+  .section-title:last-of-type {
+    font-size: 26px;
+  }
+}

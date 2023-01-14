@@ -1,0 +1,14 @@
+.support__payment-methods {
+    margin-left: 30px;
+    max-width: 622px;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .support__payment-methods {
+    max-width: 260px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,17 @@
+.footer__subscription-block {
+    max-width: 655px;
+    padding-top: 90px;
+}
+
+@media screen and (max-width: 1439px) {
+    .footer__subscription-block {
+        padding-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .footer__subscription-block {
+      padding-top: 0;
+      grid-row: 5;
+    }
+}

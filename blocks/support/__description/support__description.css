@@ -1,0 +1,26 @@
+.support__description {
+    margin: 0;
+    max-width: 633px;
+    font-family: "Raleway", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    padding-top: 14px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__description  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    padding-top: 19px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__description {
+    font-size: 12px;
+    padding-top: 14px;
+  }
+}

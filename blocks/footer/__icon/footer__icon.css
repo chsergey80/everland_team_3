@@ -1,0 +1,17 @@
+.footer__icon {
+    max-width: 100%;
+    padding-top: 11px;
+}
+
+@media screen and (max-width: 1439px) {
+    .footer__icon {
+        padding-top: 7px;
+        max-width: 40px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .footer__icon {
+        padding-top: 0;
+    }
+  }

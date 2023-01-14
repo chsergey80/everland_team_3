@@ -1,0 +1,29 @@
+.footer__partner {
+    max-width: 539px;
+    min-height: 38px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding-top: 58px;
+    position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+    .footer__partner  {
+        padding-top: 20px;
+        max-width: 406px;
+        align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .footer__partner  {
+        max-width: 280px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 30px;
+    }
+  }
+
+
