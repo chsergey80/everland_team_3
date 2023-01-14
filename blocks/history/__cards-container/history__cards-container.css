@@ -1,12 +1,29 @@
 /* стили контейнера для маленьких карточек внизу блока history */
 .history__cards-container{
   border: 1px solid red;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
   /* row-gap: 16px; */ /* вставить в макет на мобильную версию */
+  margin-top: 99px;
   margin-left: 40px;
   margin-right: 40px;
-  /* flex-wrap: wrap; */
+}
+
+
+@media screen and (max-width: 1439px) {
+  .history__cards-container {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__cards-container {
+    margin-top: 31px;
+    grid-template: 1fr 1fr / 1fr;
+    /* grid-template-rows: */
+    row-gap: 16px;
+    justify-items: center;
+    max-width: 299px;
+  }
 }

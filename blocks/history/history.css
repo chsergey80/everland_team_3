@@ -2,5 +2,22 @@
 .history{
   border: 1px solid blue;
   /* height: 900px; */
+  font-family: 'Raleway';
+  margin: auto;
+  max-width: 1440px;
+  background-color: #fff;
+  display: block;
 
+}
+
+@media screen and (max-width: 1439px) {
+  .history {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history {
+    max-width: 320px;
+  }
 }

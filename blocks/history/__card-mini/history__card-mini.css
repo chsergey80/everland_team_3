@@ -2,13 +2,29 @@
 .history__card-mini{
   background: #EAE6FF;
   max-width: 610px; /* скорее всего max-width .. не так это точно */
-  max-height: 285px; /* скорее весго,  потом уберу */
+  /* max-height: 285px; скорее весго,  потом уберу */
   padding: 30px;
   border-radius: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   column-gap: 20px;
   /* margin-left: 40px; */
+}
+
+@media screen and (max-width: 1439px) {
+  .history__card-mini{
+    max-width: 334px;
+    padding: 25px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .history__card-mini{
+    max-width: 300px;
+    padding: 16px;
+  }
+
 }

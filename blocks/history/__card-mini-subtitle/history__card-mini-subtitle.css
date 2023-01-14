@@ -6,3 +6,19 @@
   font-size: 34px;
   font-weight: 700;
 }
+
+@media screen and (max-width: 1439px) {
+  .history__card-mini-subtitle {
+    margin-top: 6px;
+    line-height: 24px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__card-mini-subtitle {
+    margin-top: 4px;
+    line-height: 19px;
+    font-size: 16px;
+  }
+}

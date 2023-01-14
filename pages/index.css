@@ -3,7 +3,7 @@
 
 
 /* самые общие стили контента */
-@import url(../blocks/content/content.css);
+/* @import url(../blocks/content/content.css); */
 
 /* Блок 1 header */
 @import url(../blocks/header/header.css);
@@ -46,11 +46,13 @@
 @import url(../blocks/history/__card/history__card.css);
 @import url(../blocks/history/__card/_reverse/history__card_reverse.css);
 @import url(../blocks/history/__avatar/history__avatar.css);
+@import url(../blocks/history/__avatar/_midle/history__avatar_midle.css);
 @import url(../blocks/history/__info/history__info.css);
 @import url(../blocks/history/__quote/history__quote.css);
 @import url(../blocks/history/__text/history__text.css);
 @import url(../blocks/history/__subtitle/history__subtitle.css);
 @import url(../blocks/history/__description/history__description.css);
+@import url(../blocks/history/__link-story/history__link-story.css);
 @import url(../blocks/history/__cards-container/history__cards-container.css);
 @import url(../blocks/history/__card-mini/history__card-mini.css);
 @import url(../blocks/history/__card-mini-info/history__card-mini-info.css);
