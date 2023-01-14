@@ -1,0 +1,30 @@
+.header-navigation__menu-img {
+    margin: 0 12px 0 0;
+    padding: 0;
+    min-height: 26px;
+    min-width: 26px;
+    background-image: url("../../../images/menu-lines.png");
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border: none;
+}
+
+.header-navigation__menu-img:hover {
+    /*состояние при наведении*/
+    transition: 0.35s;
+    cursor: pointer;
+    color: #4183DC;
+  }
+
+@media screen and (max-width: 1439px) {
+    .header-navigation__menu-img {
+        max-height: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-navigation__menu-img {
+        max-height: 20px;
+        margin-right: -52px;
+    }
+}

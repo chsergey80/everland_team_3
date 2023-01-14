@@ -1,0 +1,15 @@
+.button-link_color_orange {
+    background-color: #FEEFEA;
+    color: #E98509;
+}
+
+.button-link_color_orange:hover { /*состояние при наведении*/
+    transition: 0.35s;
+    cursor: pointer;
+    background-color: #E98509;
+    color: #FFF;
+  }
+
+  .button-link_color_orange:active { /*состояние при нажатии*/
+    background-color: #864A00;
+  }

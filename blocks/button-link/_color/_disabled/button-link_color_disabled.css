@@ -1,0 +1,5 @@
+.button-link_color_disabled {
+    cursor: default;
+    color: rgba(38, 38, 38, 0.5);;
+    background-color: #C4C4C4;
+}

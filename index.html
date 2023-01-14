@@ -24,11 +24,37 @@
 
 <body>
   <header class="header">
-    <div class="content header__content">
-
+    <div class="header-navigation">
+      <img src="./images/logo_everland.svg" alt="Логотип Everland" class="header-navigation__logo">
+      <button class="header-navigation__menu" type="button">
+        <h2 class="header-navigation__menu-paragraph">Меню</h2>
+      </button>
+      <div class="header-navigation__buttons">
+        <a href="#" class="header-navigation__link">
+          <button class="button-primary button-primary_secondary header-navigation__buttons_size"
+            type="button">Платформа
+          </button>
+        </a>
+        <a href="#" class="header-navigation__link">
+          <button class="button-primary header-navigation__buttons_size" type="button">
+            Поддержать
+          </button>
+        </a>
+      </div>
     </div>
   </header>
-
+  <div class="secondary-menu">
+    <ul class="secondary-menu__links">
+      <li class="secondary-menu__link"><a href="#" class="secondary-menu__paragraph">Для кого</a></li>
+      <li class="secondary-menu__link"><a href="#" class="secondary-menu__paragraph">Направления работы</a></li>
+      <li class="secondary-menu__link"><a href="#" class="secondary-menu__paragraph">Преимущества</a></li>
+      <li class="secondary-menu__link"><a href="#" class="secondary-menu__paragraph">Основные цифры</a></li>
+      <li class="secondary-menu__link"><a href="#" class="secondary-menu__paragraph">Спецпроекты</a></li>
+      <li class="secondary-menu__link"><a href="#" class="secondary-menu__paragraph">Истории</a></li>
+      <li class="secondary-menu__link"><a href="#" class="secondary-menu__paragraph">Агенство</a></li>
+      <li class="secondary-menu__link"><a href="#" class="secondary-menu__paragraph">Новости</a></li>
+    </ul>
+  </div>
   <main>
     <!-- Secondary_Menu or navigation-->
     <nav class="navigation">
@@ -131,14 +157,62 @@
     </section>
 
   </main>
-
   <footer class="footer">
     <div class="content footer__grid">
     </div>
   </footer>
 
+  <div class="popup">
+    <nav class="popup__container">
+      <div class="popup__list">
+        <button class="popup__button" type="button">
+          <h2 class="popup__title">О проекте</h2>
+          <img src="./images/mobile-button-down.png" class="popup__button-img">
+        </button>
+        <div class="popup__list-items">
+          <a href="#" class="popup__paragraph">АНО Пространство равных возможностей</a>
+          <a href="#" class="popup__paragraph">Новости</a>
+          <a href="#" class="popup__paragraph">Сотрудничество</a>
+          <a href="#" class="popup__paragraph">Инклюзия</a>
+          <a href="#" class="popup__paragraph">Учебным заведениям</a>
+          <a href="#" class="popup__paragraph">Годовые отчеты</a>
+        </div>
+      </div>
+      <div class="popup__list">
+        <button class="popup__button" type="button">
+          <h2 class="popup__title">Людям с инвалидностью</h2>
+          <img src="./images/mobile-button-down.png" class="popup__button-img">
+        </button>
+        <div class="popup__list-items">
+          <a href="#" class="popup__paragraph">Платформа</a>
+          <a href="#" class="popup__paragraph">Курсы</a>
+          <a href="#" class="popup__paragraph">Everland Profi</a>
+          <a href="#" class="popup__paragraph">Бесплатное такси </a>
+        </div>
+      </div>
+      <div class="popup__list">
+        <button class="popup__button" type="button">
+          <h2 class="popup__title">Услуги</h2>
+          <img src="./images/mobile-button-down.png" class="popup__button-img">
+        </button>
+        <div class="popup__list-items">
+          <a href="#" class="popup__paragraph">Услуги агентства</a>
+          <a href="#" class="popup__paragraph">Готовые сайты </a>
+          <a href="#" class="popup__paragraph">Доступность для людей с инвалидностью</a>
+          <a href="#" class="popup__paragraph">Работодателям</a>
+          <a href="#" class="popup__paragraph">Портфолио</a>
+        </div>
+      </div>
+      <h2 class="popup__title"><a href="#" class="popup__title-link">Мы благодарим</a></h2>
+      <h2 class="popup__title"><a href="#" class="popup__title-link">Программы</a></h2>
+      <h2 class="popup__title"><a href="#" class="popup__title-link">Наставникам</a></h2>
+      <h2 class="popup__title"><a href="#" class="popup__title-link">Помочь</a></h2>
+    </nav>
+  </div>
+
   <script src="./js/slider.js"></script>
   <script src="./js/index.js"></script>
 
 </body>
+
 </html>

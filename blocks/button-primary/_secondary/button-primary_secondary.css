@@ -1,0 +1,18 @@
+.button-primary_secondary { /*кнопка secondary*/
+    color: #0C4BA0;
+    border: 1px solid #0C4BA0;
+    background-color: transparent;
+}
+
+.button-primary_secondary:hover { /*состояние при наведении*/
+    transition: 0.35s;
+    cursor: pointer;
+    border-color: #00275C;
+    background-color: transparent;
+    color: #00275C;
+  }
+
+  .button-primary_secondary:active { /*состояние при нажатии*/
+    color: #FFFFFF;
+    background-color: #00275C;
+  }
