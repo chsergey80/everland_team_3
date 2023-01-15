@@ -1,9 +1,5 @@
 @media screen and (max-width: 767px) {
     .popup__button_opened {
-        display: block;
-        margin: 0;
-        padding: 0;
-        max-width: 24px;
-        background-image: url("../../../images/mobile-button-down.png");
+        background-image: url("../../../../images/mobile-button-up.png");
     }
 }

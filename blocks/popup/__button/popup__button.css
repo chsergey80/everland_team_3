@@ -13,5 +13,9 @@
         align-items: center;
         grid-area: button;
         cursor: pointer;
+        background-image: url("../../../images/mobile-button-down.png");
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: center;
     }
 }

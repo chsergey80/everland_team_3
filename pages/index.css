@@ -25,7 +25,6 @@
 @import url(../blocks/header-navigation/__buttons/header-navigation__buttons.css);
 @import url(../blocks/header-navigation/__link/header-navigation__link.css);
 @import url(../blocks/header-navigation/__logo/header-navigation__logo.css);
-@import url(../blocks/header-navigation/__menu-img/header-navigation__menu-img.css);
 @import url(../blocks/header-navigation/__menu-paragraph/header-navigation__menu-paragraph.css);
 @import url(../blocks/header-navigation/__menu/header-navigation__menu.css);
 @import url(../blocks/secondary-menu/__link/secondary-menu__link.css);
@@ -38,7 +37,6 @@
 @import url(../blocks/popup/__title-link/popup__title-link.css);
 @import url(../blocks/popup/__list-items/popup__list-items.css);
 @import url(../blocks/popup/__button/popup__button.css);
-@import url(../blocks/popup/__button-img/popup__button-img.css);
 
 /* Импорт модификаторов*/
 @import url(../blocks/header-navigation/__buttons/_size/header-navigation__buttons_size.css);
@@ -47,5 +45,5 @@
 @import url(../blocks/button-primary/_disabled/button-primary_disabled.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__list-items/_opened/popup__list-items_opened.css);
-@import url(../blocks/popup/__button-img/_opened/popup__buttom-img_opened.css);
+@import url(../blocks/popup/__button/_opened/popup__button_opened.css);
 @import url(../blocks/header-navigation/__menu/_opened/header-navigation__menu_opened.css);

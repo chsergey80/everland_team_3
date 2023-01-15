@@ -5,8 +5,6 @@ const menuImg = document.querySelector(".header-navigation__menu-img")
 
 const mobileList = document.querySelectorAll(".popup__list");
 const mobileMenuList = document.querySelectorAll(".popup__button");
-const mobileButtonImg = document.querySelectorAll(".popup__button-img");
-const mobileMenu = document.querySelectorAll(".popup__list-items");
 
 /*Открытие попапа*/
 function openPopup(item) {
