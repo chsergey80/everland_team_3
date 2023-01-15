@@ -2,12 +2,19 @@
 .history__card-mini-info {
   border: 2px solid red;
   max-width: 336px;
-  /* display: inline-block; */
   position: relative;
 }
 
 @media screen and (max-width: 1439px) {
   .history__card-mini-info{
-    /* min-height: 150px; */
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__card-mini-info{
+    width: 182px;
+    /* Сергей, вот эта часть мне очень сильбно не нравиться,
+    но пока не получилось. Предлагаю, по возможности разобраться потом. Сейчас важнее собрать прект*/
   }
 }
