@@ -1,9 +1,9 @@
 .support__checkbox-text {
-    font-family: "Raleway", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
 }
 
 @media screen and (max-width: 1439px) {
@@ -19,5 +19,3 @@
     max-width: 207px;
   }
 }
-
-

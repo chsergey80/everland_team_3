@@ -1,29 +1,29 @@
 .footer__participant {
-    margin: 0;
-    font-family: "Raleway","Arial", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-    color: #333;
-    white-space: nowrap;
+  margin: 0;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #333;
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 1439px) {
-    .footer__participant {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 120%;
-        max-width: 280px;
-        position: absolute;
-        left: 125px;
-    }
+  .footer__participant {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    max-width: 280px;
+    position: absolute;
+    left: 125px;
   }
+}
 
-  @media screen and (max-width: 767px) {
-    .footer__participant {
-      font-size: 12px;
-      position: relative;
-      left: 0;
-    }
+@media screen and (max-width: 767px) {
+  .footer__participant {
+    font-size: 12px;
+    position: relative;
+    left: 0;
+  }
 }

@@ -1,24 +1,24 @@
 .footer__logo-partner {
-    max-width: 100%;
-    object-fit: cover;
-    margin: 0;
-    padding-right: 45px;
+  max-width: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding-right: 45px;
 }
 
 .footer__logo-partner:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 @media screen and (max-width: 1439px) {
-    .footer__logo-partner  {
-        max-width: 83px;
-        padding-right: 8px;
-        position: relative;
-    }
+  .footer__logo-partner {
+    max-width: 83px;
+    padding-right: 8px;
+    position: relative;
   }
+}
 
-  @media screen and (max-width: 767px) {
-    .footer__logo-partner {
-      max-width: 72px;
-    }
+@media screen and (max-width: 767px) {
+  .footer__logo-partner {
+    max-width: 72px;
+  }
 }

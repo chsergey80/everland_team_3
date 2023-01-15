@@ -1,10 +1,10 @@
-.support__list{
-    margin: 0;
-    padding-left: 46px;
-    padding-top: 35px;
-    max-width: 396px;
-    display: flex;
-    flex-wrap: wrap;
+.support__list {
+  margin: 0;
+  padding-left: 46px;
+  padding-top: 35px;
+  max-width: 396px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .support__list:first-of-type {
@@ -20,22 +20,22 @@
 }
 
 @media screen and (max-width: 767px) {
-  .support__list  {
+  .support__list {
     max-width: 300px;
     margin: 0 auto;
     padding-top: 32px;
     padding-left: 0;
   }
 
-  .support__list:nth-child(6){
+  .support__list:nth-child(6) {
     display: none;
   }
 
-  .support__list:nth-child(7){
+  .support__list:nth-child(7) {
     display: none;
   }
 
-  .support__list:nth-child(8){
+  .support__list:nth-child(8) {
     display: none;
   }
 }

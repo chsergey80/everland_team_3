@@ -166,14 +166,12 @@
 @import url("../blocks/support/support.css");
 @import url("../blocks/support/__blocks/support__blocks.css");
 @import url("../blocks/support/__form/support__form.css");
+@import url("../blocks/support/__switch/support__switch.css");
 @import url("../blocks/donation-form/__submit-button/donation-form__submit-button.css");
 @import url("../blocks/donation-form/__fieldset/_border/donation-form__fieldset_border.css");
-
-
-@import url("../blocks/donation-form/__custom-radio/_long-button/donation-form__custom-radio_long-button.css");
 @import url("../blocks/support/__form-pay/support__form-pay.css");
+@import url("../blocks/donation-form/__custom-radio/_long-button/donation-form__custom-radio_long-button.css");
 @import url("../blocks/donation-form/__custom-radio/_medium-button/donation-form__custom-radio_medium-button.css");
-@import url("../blocks/support/__switch/support__switch.css");
 @import url("../blocks/donation-form/__custom-radio/_middle-button/donation-form__custom-radio_middle-button.css");
 @import url("../blocks/support/__bank-cards/support__bank-cards.css");
 @import url("../blocks/support/__image-card/support__image-card.css");
@@ -183,22 +181,21 @@
 @import url("../blocks/support/__item/_el/support__item_el_extra-options.css");
 @import url("../blocks/donation-form/_place_support/donation-form_place_support.css");
 @import url("../blocks/support/__subtitle/support__subtitle.css");
+@import url("../blocks/support/__subtitle/_self-information/support__subtitle_self-information.css");
 @import url("../blocks/support/__description/support__description.css");
 @import url("../blocks/support/__contact-details/support__contact-details.css");
 @import url("../blocks/support/__item/support__item.css");
-@import url("../blocks/support/__checkbox-text/_link/support__checkbox-text_link.css");
-@import url("../blocks/support/__checkbox/support__checkbox.css");
-@import url("../blocks/support/__сustom-checkbox/support__сustom-checkbox.css");
-@import url("../blocks/support/__pseudo-checkbox/support__pseudo-checkbox.css");
 @import url("../blocks/support/__item/_el/support__item_el_extra-options.css");
 @import url("../blocks/support/__item/_el/support__item_el_number-of-columns.css");
+@import url("../blocks/support/__checkbox/support__checkbox.css");
+@import url("../blocks/support/__checkbox-text/_link/support__checkbox-text_link.css");
+@import url("../blocks/support/__pseudo-checkbox/support__pseudo-checkbox.css");
 @import url("../blocks/support/__checkbox-text/support__checkbox-text.css");
 @import url("../blocks/support/__who-donat/support__who-donat.css");
 @import url("../blocks/support/__thanks/suppot__thanks.css");
 @import url("../blocks/support/__list/support__list.css");
 @import url("../blocks/support/__donator/support__donator.css");
-@import url("../blocks/support/__donator/__donator-time/support__donator-time.css");
-@import url("../blocks/support/__subtitle/_self-information/support__subtitle_self-information.css");
+@import url("../blocks/support/__donator-time/support__donator-time.css");
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__grid/footer__grid.css");

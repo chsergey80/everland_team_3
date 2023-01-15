@@ -1,20 +1,20 @@
 .support__item {
-    margin: 0;
-    max-width: 455px;
-    min-height: 48px;
-    margin-top: 21px;
-    border: 1px solid #DADADA;
-    border-radius: 10px;
-    font-family: "Raleway", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
-    padding-left: 20px;
+  margin: 0;
+  max-width: 455px;
+  min-height: 48px;
+  margin-top: 21px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  padding-left: 20px;
 }
 
 .support__item:first-of-type {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 1439px) {
@@ -32,5 +32,3 @@
     min-height: 44px;
   }
 }
-
-
