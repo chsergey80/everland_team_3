@@ -17,8 +17,8 @@
 @media screen and (max-width: 1439px) {
   .history__card-mini{
     max-width: 334px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 0px;
     padding-left: 20px;
     column-gap: 16px;
@@ -30,7 +30,13 @@
 @media screen and (max-width: 767px) {
   .history__card-mini{
     max-width: 300px;
-    padding: 16px;
+    /* padding: 16px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 16px;
+    padding-left: 20px;
+    column-gap: 16px;
+    height: 122px; /* потом убрать */
   }
 
 }

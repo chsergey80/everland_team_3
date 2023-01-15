@@ -9,10 +9,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  grid-column: 1/3;
 }
 
 @media screen and (max-width: 1439px) {
   .history__card {
+    margin-top: 34px;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -20,12 +22,11 @@
 
 @media screen and (max-width: 767px) {
   .history__card {
-    /* padding-top: 23px;
-    padding-bottom: 23px; */
     display: block;
+    margin-top: 0;
+    margin-bottom: 31px;
     max-width: 299px;
-    /* margin-left: auto;
-    margin-right: auto; */
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 }

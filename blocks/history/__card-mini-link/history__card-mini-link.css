@@ -33,3 +33,16 @@
 
 }
 
+@media screen and (max-width: 767px) {
+  .history__card-mini-link{
+    line-height: 14px;
+    margin-top: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 34px;
+    font-size: 12px;
+    background-size: 24px 24px;
+    
+  }
+
+}

@@ -2,7 +2,7 @@
 .history__text{
   border: 1px solid blue;
   max-width: 977px;
-  /* margin-left: 19px; */
+
 }
 
 @media screen and (max-width: 1439px) {
