@@ -1,4 +1,4 @@
-/*    */
+/*  Стили подзаголовка в больших карточках  */
 .history__subtitle{
   margin: 0;
   line-height: 41px;
@@ -11,5 +11,12 @@
   .history__subtitle {
     line-height: 24px;
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__subtitle {
+    line-height: 19px;
+    font-size: 16px;
   }
 }

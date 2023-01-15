@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1439px) {
   .history__card-mini-subtitle {
-    margin-top: 6px;
+    margin-top: 0px;
     line-height: 24px;
     font-size: 20px;
   }
