@@ -16,6 +16,7 @@
 1. Внес корректировки в index.css - расставил блоки по порядку, описал назначение
 2. Создал папку content в ней content.css. Тегу main присовил класс content
 3. Пытаюсь сделать правильный pull reques
+4. Сохраню еще раз перед тем как блоки с карточками сделаю челез спики
 
 ## Макет в Figma
 * [Ссылка на макет](https://www.figma.com/file/59a1PXM1KLWN0hWWMl1Kni/Everland-(%D0%92%D0%B5%D0%B1%2B)?node-id=430%3A712&t=xwTybjLNsqVvjcig-0)

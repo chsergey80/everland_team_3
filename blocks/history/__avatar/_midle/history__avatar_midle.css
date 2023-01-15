@@ -1,0 +1,25 @@
+/* модификатор аватара на среднем размере контента */
+.history__avatar_midle {
+  /* max-width: 224px;
+  max-height: 224px;
+  border-radius: 50%; */
+
+}
+
+@media screen and (max-width: 1439px) {
+  .history__avatar_midle {
+    max-width: 120px;
+    max-height: 120px;
+    /* margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px; */
+}
+}
+
+@media screen and (max-width: 767px) {
+  .history__avatar_midle {
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0;
+  }
+}
