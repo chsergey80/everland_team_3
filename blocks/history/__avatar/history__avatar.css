@@ -2,10 +2,10 @@
 .history__avatar{
   /* border: 2px solid goldenrod; */
   max-width: 224px;
-  max-height: 224px;
+  /* max-height: 224px; */
   border-radius: 50%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-top: 50px; */
+  /* margin-bottom: 50px; */
   /* align-items: center; */
 }
 
@@ -13,9 +13,8 @@
   .history__avatar {
     max-width: 204px;
     max-height: 204px;
-    margin-top: 23px;
-    margin-bottom: 23px;
-  }
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -23,4 +22,5 @@
     max-width: 80px;
     max-height: 80px;
   }
+}
 }

@@ -1,9 +1,9 @@
 /* стили маленьких карточек внизу блока history */
 .history__card-mini{
   background: #EAE6FF;
-  max-width: 610px; /* скорее всего max-width .. не так это точно */
+  /* max-width: 670px; скорее всего max-width .. не так это точно */
   /* max-height: 285px; скорее весго,  потом уберу */
-  padding: 30px;
+  /* padding: 30px; */
   border-radius: 30px;
   display: flex;
   flex-direction: row;
@@ -16,7 +16,7 @@
 @media screen and (max-width: 1439px) {
   .history__card-mini{
     max-width: 334px;
-    padding: 25px;
+    /* padding: 25px; */
   }
 
 }
