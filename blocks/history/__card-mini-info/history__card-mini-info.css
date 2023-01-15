@@ -1,4 +1,13 @@
 /* стили тектовых сообщений в карточках мини */
 .history__card-mini-info {
+  border: 2px solid red;
   max-width: 336px;
+  /* display: inline-block; */
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .history__card-mini-info{
+    /* min-height: 150px; */
+  }
 }

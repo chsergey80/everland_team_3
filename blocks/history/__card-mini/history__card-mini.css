@@ -19,8 +19,9 @@
     max-width: 334px;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-right: 20px;
+    padding-right: 0px;
     padding-left: 20px;
+    column-gap: 16px;
 
   }
 
