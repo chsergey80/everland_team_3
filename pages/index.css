@@ -43,6 +43,10 @@
 
 /* Блок 9 Истории */
 @import url(../blocks/history/history.css);
+@import url(../blocks/history/__title/history__title.css);
+@import url(../blocks/history/__title/_switch/history__title_switch_off.css);
+@import url(../blocks/history/__title/_switch/history__title_switch_on.css);
+@import url(../blocks/history/__button/history__button.css);
 @import url(../blocks/history/__card/history__card.css);
 @import url(../blocks/history/__card/_reverse/history__card_reverse.css);
 @import url(../blocks/history/__avatar/history__avatar.css);

@@ -1,0 +1,13 @@
+/*стили кнопки - все истории*/
+.history__button{
+  border: 1px solid #0C4BA0;
+  border-radius: 10px;
+  color: #0C4BA0;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
