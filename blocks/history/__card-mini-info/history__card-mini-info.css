@@ -1,6 +1,6 @@
 /* стили тектовых сообщений в карточках мини */
 .history__card-mini-info {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 336px;
   position: relative;
 }

@@ -1,7 +1,7 @@
 /*стили ссылки на истории из мини карт*/
 .history__card-mini-link{
   display: inline-block;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   text-decoration: none;
   color:#333333;
   cursor: pointer;
@@ -42,7 +42,6 @@
     padding-right: 34px;
     font-size: 12px;
     background-size: 24px 24px;
-    
   }
 
 }

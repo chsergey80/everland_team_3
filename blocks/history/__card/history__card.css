@@ -1,6 +1,6 @@
 /* стили карточки внутри блока history */
 .history__card{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-top: 50px;
   margin-left: 40px;
   margin-right: 40px;

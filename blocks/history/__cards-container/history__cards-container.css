@@ -1,6 +1,6 @@
 /* стили контейнера для маленьких карточек внизу блока history */
 .history__cards-container{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 0;
   list-style-type: none; /* убираем настройки списков */
   display:grid;
@@ -23,9 +23,7 @@
 @media screen and (max-width: 767px) {
   .history__cards-container {
     margin-top: 0;
-    /* grid-template: 1fr 1fr / 1fr;  переломили в две строки и одна колонка */
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template: 1fr 1fr / 1fr;  /* переломили в две строки и одна колонка */
     row-gap: 16px;
     justify-items: center;
     max-width: 300px;
