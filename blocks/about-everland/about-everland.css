@@ -1,0 +1,19 @@
+.about-everland {
+    margin: 40px auto 0 auto;
+    padding: 0;
+    max-width: 1440px;
+}
+
+@media screen and (max-width: 1439px) {
+    .about-everland {
+        margin-top: 186px;
+        max-width: 688px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about-everland {
+        margin-top: 104px;
+        max-width: 304px;
+    }
+}

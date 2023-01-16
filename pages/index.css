@@ -20,6 +20,7 @@
 @import url(../blocks/special-projects/special-projects.css);
 @import url(../blocks/support/support.css);
 @import url(../blocks/button-primary/button-primary.css);
+@import url(../blocks/everland-slides/everland-slides.css);
 
 /* Импорт элементов*/
 @import url(../blocks/header-navigation/__buttons/header-navigation__buttons.css);
@@ -39,6 +40,16 @@
 @import url(../blocks/popup/__list-project/popup__list-project.css);
 @import url(../blocks/popup/__list-people/popup__list-people.css);
 @import url(../blocks/popup/__list-services/popup__list-services.css);
+@import url(../blocks/everland-slides/__blue-title/everland-slides__blue-title.css);
+@import url(../blocks/everland-slides/__button-back/everland-slides__button-back.css);
+@import url(../blocks/everland-slides/__button-forward/everland-slides__button-forward.css);
+@import url(../blocks/everland-slides/__buttons/everland-slides__buttons.css);
+@import url(../blocks/everland-slides/__img/everland-slides__img.css);
+@import url(../blocks/everland-slides/__paragraph/everland-slides__paragraph.css);
+@import url(../blocks/everland-slides/__photos/everland-slides__photos.css);
+@import url(../blocks/everland-slides/__slide-num/everland-slides__slide-num.css);
+@import url(../blocks/everland-slides/__text/everland-slides__text.css);
+@import url(../blocks/everland-slides/__title/everland-slides__title.css);
 
 /* Импорт модификаторов*/
 @import url(../blocks/header-navigation/__buttons/_size/header-navigation__buttons_size.css);

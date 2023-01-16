@@ -1,0 +1,39 @@
+.everland-slides__img {
+    margin: 158px 0 0 0;
+    padding: 0;
+    z-index: 1;
+    max-width: 392px;
+    object-fit: contain;
+    border-radius: 10px;
+    float: left;
+}
+
+.everland-slides__img:last-of-type {
+    margin: 0 0 250px -224px;
+    float: right;
+    z-index: 0;
+    max-width: 352px;
+}
+
+@media screen and (max-width: 1439px) {
+    .everland-slides__img {
+        margin-top: 70px;
+        max-width: 170px;
+    }
+
+    .everland-slides__img:last-of-type {
+        margin: 0 0 120px -110px;
+        max-width: 184px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .everland-slides__img {
+        margin-top: 40px;
+    }
+
+    .everland-slides__img:last-of-type {
+        margin-bottom: 56px;
+        max-width: 190px;
+    }
+}
