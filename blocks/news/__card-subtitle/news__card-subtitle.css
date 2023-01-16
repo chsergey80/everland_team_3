@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 767px) {
   .news__card-subtitle{
-
+    line-height: 22px;
+    font-size: 18px;
   }
 }

@@ -3,6 +3,7 @@
   border: 2px solid yellowgreen;
   margin: 0;
   margin-left: 30px;
+  margin-right: 30px;
   line-height: 23px;
   font-size: 18px;
   font-weight: 400;
@@ -22,7 +23,10 @@
 
 @media screen and (max-width: 767px) {
   .news__card-data-text{
-
+    position: relative;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
   }
 }
 

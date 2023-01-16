@@ -25,7 +25,9 @@
 
 @media screen and (max-width: 767px) {
   .news__cards-container{
-    grid-template: 3fr/repeat(1, 300px);
+    grid-template: repeat(3, auto)/repeat(1, 300px);
     row-gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 0;
   }
 }
