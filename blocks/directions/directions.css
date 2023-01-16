@@ -1,0 +1,23 @@
+.directions {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: auto;
+  max-width: 1360px;
+  width: 100%;
+}
+
+@media (max-width:1439px) {
+  .directions {
+    gap: 32px;
+    max-width: 689px;
+  }
+}
+
+@media (max-width:767px) {
+  .directions {
+    gap: 24px;
+    max-width: 300px;
+  }
+}

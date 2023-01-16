@@ -1,0 +1,13 @@
+.directions-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+@media (max-width:767px) {
+  .directions-cards {
+    gap: 16px;
+  }
+}
