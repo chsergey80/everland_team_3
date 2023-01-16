@@ -1,0 +1,10 @@
+/*модификатор отключающий кнопку с надписью - Все истории /Код идентичен history__title_switch_off*/
+.news__button_switch_off{
+
+}
+
+@media screen and (max-width: 1439px) {
+  .news__button_switch_off{
+    display: none;
+  }
+}

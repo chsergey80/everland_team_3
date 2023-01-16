@@ -1,5 +1,5 @@
-/*стили кнопки - все истории*/
-.history__button{
+/*стили кнопки - все новости ! В данный момент код полностью идентичен history__button*/
+.news__button{
   border: 1px solid #0C4BA0;
   border-radius: 10px;
   color: #0C4BA0;
@@ -22,18 +22,18 @@
 
 }
 
-.history__button:hover {
+.news__button:hover {
   color: #fff;
   background: #0C4BA0;
 }
 
 @media screen and (max-width: 1439px) {
-  .history__button {
+  .news__button {
     grid-row: 5/6;
     grid-column: 1/3;
     line-height: 19px;
     font-size: 16px;
-    margin-top: 40px;
+    margin-top: 32px;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
@@ -43,13 +43,16 @@
 }
 
 @media screen and (max-width: 767px) {
-  .history__button {
+  .news__button {
     line-height: 17px;
     font-size: 14px;
-    margin-top: 24px;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    /* margin-left: 10px; */
+    margin-top: 32px;
+    width: 300px;
+    grid-column: 1/3;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+
   }
 }
