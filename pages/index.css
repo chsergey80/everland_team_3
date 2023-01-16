@@ -6,6 +6,15 @@
 @import url(../blocks/about-everland/about-everland.css);
 @import url(../blocks/agency/agency.css);
 @import url(../blocks/directions/directions.css);
+@import url(../blocks/directions-cards/directions-cards.css);
+@import url(../blocks/direction-card/direction-card.css);
+@import url(../blocks/direction-card/_color/direction-card_color_orange.css);
+@import url(../blocks/direction-card/_color/direction-card_color_green.css);
+@import url(../blocks/direction-card/_color/direction-card_color_blue.css);
+@import url(../blocks/direction-card/__title/direction-card__title.css);
+@import url(../blocks/direction-card/__text/direction-card__text.css);
+@import url(../blocks/direction-card/__button-container/direction-card__button-container.css);
+@import url(../blocks/direction-card/__button/direction-card__button.css);
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/everland-in-numbers/everland-in-numbers.css);
 @import url(../blocks/numbers-card/numbers-card.css);
