@@ -1,27 +1,19 @@
-.popup__list {
+.popup__list-services {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    grid-area: project-container;
-}
-
-.popup__list:nth-of-type(2) {
-    grid-area: people-container;
-}
-
-.popup__list:nth-of-type(3) {
     grid-area: services-container;
 }
 
 @media screen and (max-width: 1439px) {
-    .popup__list {
+    .popup__list-services {
         margin-bottom: 36px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .popup__list {
+    .popup__list-services {
         margin-bottom: 0;
         display: grid;
         grid-template-columns: repeat(1, fit-content(200px));

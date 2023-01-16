@@ -45,7 +45,7 @@
     }
     
     .popup__paragraph:first-of-type {
-        margin-top: 4px;
+        margin-top: 0px;
     }
 
     .popup__paragraph:last-of-type {
