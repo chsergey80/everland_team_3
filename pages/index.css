@@ -69,6 +69,11 @@
 /*Блок 10 Агентство */
 @import url(../blocks/agency/agency.css);
 
+@import url(../blocks/agency/__title/agency__title.css);
+@import url(../blocks/agency/__subtitle/agency__subtitle.css);
+@import url(../blocks/agency/__title/_switch/agency__title_switch_off.css);
+@import url(../blocks/agency/__title/_switch/agency__title_switch_on.css);
+
 
 /* Блок 11 Новости */
 @import url(../blocks/news/news.css);
