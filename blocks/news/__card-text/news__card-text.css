@@ -1,7 +1,9 @@
 /*Стили текстовых сообений внутри карточки*/
 .news__card-text{
   border: 1px solid red;
+  margin-top: 20px;
   line-height: 26px;
   font-size: 20px;
   font-weight: 400;
+  /* padding-bottom: 20px; */
 }

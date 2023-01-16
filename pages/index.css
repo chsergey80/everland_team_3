@@ -77,6 +77,7 @@
 @import url(../blocks/news/__button/news__button.css);
 @import url(../blocks/news/__cards-container/news__cards-container.css);
 @import url(../blocks/news/__card/news__card.css);
+@import url(../blocks/news/__card/_color/news__card_color.css);
 @import url(../blocks/news/__card-upper-text/news__card-upper-text.css);
 @import url(../blocks/news/__card-data-text/news__card-data-text.css);
 @import url(../blocks/news/__cards-content/news__cards-content.css);
