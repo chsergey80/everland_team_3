@@ -1,7 +1,25 @@
 /* стили описания в разделе history__info */
 .history__description{
   margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
   line-height: 26px;
   font-size: 20px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 1439px) {
+  .history__description {
+    line-height: 19px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__description {
+    line-height: 17px;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
 }

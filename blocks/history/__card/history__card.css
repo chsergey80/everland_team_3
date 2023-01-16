@@ -1,11 +1,32 @@
 /* стили карточки внутри блока history */
 .history__card{
   /* border: 1px solid green; */
-  min-height: 324px;
+  margin-top: 50px;
   margin-left: 40px;
   margin-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  grid-column: 1/3;
+}
+
+@media screen and (max-width: 1439px) {
+  .history__card {
+    margin-top: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .history__card {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 31px;
+    max-width: 299px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 }
