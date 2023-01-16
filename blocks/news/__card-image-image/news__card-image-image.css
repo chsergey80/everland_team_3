@@ -6,3 +6,15 @@
   display: block;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1439px) {
+  .news__card-image-image{
+ 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card-image-image{
+
+  }
+}

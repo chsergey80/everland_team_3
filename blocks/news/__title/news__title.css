@@ -1,6 +1,7 @@
 /*Заголовок блока news !ВАЖНО -> ПОЛНОСТЮ ИДЕНТИЧЕН history__title*/
 
 .news__title {
+  border: 2px solid salmon;
   margin: 0;
   margin-left: 40px;
   line-height: 77px;

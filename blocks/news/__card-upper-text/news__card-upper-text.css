@@ -9,3 +9,17 @@
   margin-top: 30px;
   /* margin-bottom: 30px; */
 }
+
+@media screen and (max-width: 1439px) {
+  .news__card-upper-text{
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card-upper-text{
+
+  }
+}

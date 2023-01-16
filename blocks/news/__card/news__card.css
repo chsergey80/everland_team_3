@@ -3,5 +3,17 @@
   border: 2px solid green;
   border-radius: 30px;
   min-height: 800px;
-  /* grid-column: 1/3; */
+}
+
+@media screen and (max-width: 1439px) {
+  .news__card{
+    max-width: 334px;
+    min-height: 551px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card{
+    /* min-height: 367px; */
+  }
 }
