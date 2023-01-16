@@ -1,0 +1,5 @@
+/* Стили картинок в карточках */
+.news__card-image{
+  border: 1px solid green;
+  border-radius: 30px;
+}

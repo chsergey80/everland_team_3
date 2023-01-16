@@ -73,6 +73,23 @@
 /* Блок 11 Новости */
 @import url(../blocks/news/news.css);
 
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__button/news__button.css);
+@import url(../blocks/news/__cards-container/news__cards-container.css);
+@import url(../blocks/news/__card/news__card.css);
+@import url(../blocks/news/__card-upper-text/news__card-upper-text.css);
+@import url(../blocks/news/__card-data-text/news__card-data-text.css);
+@import url(../blocks/news/__cards-content/news__cards-content.css);
+@import url(../blocks/news/__card-image/news__card-image.css);
+@import url(../blocks/news/__card-image-image/news__card-image-image.css);
+@import url(../blocks/news/__card-subtitle/news__card-subtitle.css);
+@import url(../blocks/news/__card-text/news__card-text.css);
+@import url(../blocks/news/__card-data-text/news__card-data-text.css);
+
+
+
+
+
 
 /* Блок 12 Поддержать */
 @import url(../blocks/support/support.css);

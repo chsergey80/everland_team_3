@@ -1,0 +1,11 @@
+/*Стили контейнера с карточками новостей*/
+.news__cards-container{
+  border: 2px solid orange;
+  list-style-type: none; /* сбрасываем стили списка */
+  padding: 0;
+  display: grid;
+  grid-template: 1fr/repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr; */
+
+}

@@ -1,0 +1,9 @@
+/* Стили маленького текста вверху - "Тема"*/
+.news__card-upper-text{
+  border: 1px solid blue;
+  margin: 0;
+  margin-left: 30px;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 400;
+}
