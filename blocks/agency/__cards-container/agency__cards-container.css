@@ -18,6 +18,8 @@
 @media screen and (max-width: 1439px) {
   .agency__cards-container {
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 22px;
+    margin-bottom: 33px;
   }
 }
 
@@ -29,5 +31,6 @@
     margin-top: 24px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 22px;
   }
 }
