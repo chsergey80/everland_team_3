@@ -1,6 +1,6 @@
 /* Стили маленького текста вверху - "Тема"*/
 .news__card-upper-text{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 0;
   line-height: 23px;
   font-size: 18px;
@@ -21,6 +21,5 @@
     margin-top: 24px;
     line-height: 14px;
     font-size: 12px;
-
   }
 }
