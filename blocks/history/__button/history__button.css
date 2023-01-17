@@ -39,7 +39,7 @@
     font-size: 14px;
     padding: 12.5px 51px;
     margin: 24px 10px 0;
-    width: 300px;
+    justify-self: stretch;
 
   }
 }

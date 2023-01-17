@@ -3,6 +3,16 @@
   border: 2px solid green;
   border-radius: 30px;
   min-height: 800px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  /* justify-content: flex-start; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, min-content);
+
 }
 
 @media screen and (max-width: 1439px) {
