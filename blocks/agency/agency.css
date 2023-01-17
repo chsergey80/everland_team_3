@@ -1,0 +1,27 @@
+/*Самые общие стили блока agency*/
+.agency{
+  border: 1px solid blue;
+  font-family: 'Raleway';
+  margin: auto;
+  max-width: 1440px;
+  background-color: #F5F5F5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+@media screen and (max-width: 1439px) {
+  .agency{
+    padding-top: 50px; /* расстояние до верхнего белого блока news */
+    max-width: 768px;
+    padding-bottom: 50px; /* расстояние до нижнего белого блока news */
+  }
+  }
+
+  @media screen and (max-width: 767px) {
+  .agency{
+    padding-top: 32px; /* расстояние до верхнего белого блока news */
+    max-width: 320px;
+    padding-bottom: 32px; /* расстояние до нижнего белого блока news */
+  }
+  }
