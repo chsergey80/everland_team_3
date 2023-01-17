@@ -13,5 +13,6 @@
   .footer__subscription-block {
     padding-top: 0;
     grid-row: 5;
+    padding-top: 25px;
   }
 }
