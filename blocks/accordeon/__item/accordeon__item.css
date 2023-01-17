@@ -1,0 +1,32 @@
+.accordeon__item {
+  align-items: center;
+  border-radius: 30px;
+  border: 2px solid #DADADA;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-between;
+  min-width: 670px;
+  padding: 30px 20px;
+}
+
+@media (max-width:1439px) {
+  .accordeon__item {
+    border-radius: 20px;
+    border: 1px solid #DADADA;
+    height: 72px;
+    max-width: 688px;
+    padding: 20.5px 20px;
+
+  }
+}
+
+@media (max-width:767px) {
+  .accordeon__item {
+    border-radius: 15px;
+    height: 56px;
+    min-width: 300px;
+    padding: 17px 12px 17px 16px;
+  }
+}

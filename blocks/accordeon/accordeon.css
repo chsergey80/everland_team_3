@@ -1,0 +1,22 @@
+.accordeon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media (max-width:1439px) {
+  .accordeon {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:767px) {
+  .accordeon {
+    gap: 16px;
+  }
+}

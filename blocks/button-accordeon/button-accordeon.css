@@ -1,27 +1,33 @@
 .button-accordeon {
-    width: 45px;
-    height: 45px;
-    border-radius: 20px;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background: no-repeat center #E7F0FF url("../../images/Icon_plus.svg");
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: no-repeat center #E7F0FF url(../../images/in-work/inwork-open-icon.svg);
 }
 
-.button-accordeon:hover { /*состояние при наведении*/
-    transition: 0.35s;
-    cursor: pointer;
-    background: no-repeat center #0C4BA0 url("../../images/Icon_plus-white.svg");
+.button-accordeon:hover {
+  /*состояние при наведении*/
+  transition: 0.35s;
+  cursor: pointer;
+  background: no-repeat center #0C4BA0 url(../../images/in-work/inwork-hover-icon.svg);
+}
+
+.button-accordeon:active {
+  /*состояние при нажатии*/
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 1439px) {
+  .button-accordeon {
+    width: 32px;
+    height: 32px;
+    background-size: 12px;
   }
 
-  .button-accordeon:active { /*состояние при нажатии*/
-    transform: rotate(45deg);
+  .button-accordeon:hover {
+    background-size: 12px;
   }
-
-  @media screen and (max-width: 320px) {
-    .button-accordeon {
-      width: 32px;
-      height: 32px;
-      background-size: 12px;
-    }
-  }
+}

@@ -228,6 +228,10 @@
 
 
 @import url(../blocks/in-work/in-work.css);
+@import url(../blocks/accordeon/accordeon.css);
+@import url(../blocks/accordeon/__text/accordeon__text.css);
+@import url(../blocks/accordeon/__item/accordeon__item.css);
+@import url(../blocks/accordeon/__item/_opened/accordeon__item_opened.css);
 
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__button/news__button.css);
