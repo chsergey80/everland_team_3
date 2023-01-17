@@ -1,0 +1,33 @@
+/* стили контейнера под карточки в блоке agency */
+.agency__cards-container {
+  border: 1px solid orangered;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  column-gap: 20px;
+  /* grid-template: 1fr/repeat(3, 1fr); */
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__cards-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 30px;
+    margin-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

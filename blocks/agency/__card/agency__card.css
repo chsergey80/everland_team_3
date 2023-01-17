@@ -1,0 +1,17 @@
+/*стили карточек в блоке agency*/
+.agency__card {
+  border: 2px solid slateblue;
+ 
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__card {
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__card {
+
+  }
+}

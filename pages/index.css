@@ -73,6 +73,12 @@
 @import url(../blocks/agency/__subtitle/agency__subtitle.css);
 @import url(../blocks/agency/__title/_switch/agency__title_switch_off.css);
 @import url(../blocks/agency/__title/_switch/agency__title_switch_on.css);
+@import url(../blocks/agency/__cards-container/agency__cards-container.css);
+@import url(../blocks/agency/__card/agency__card.css);
+@import url(../blocks/agency/__card/_switch-off-on/agency__card_switch-off-on.css);
+@import url(../blocks/agency/__card-img/agency__card-img.css);
+@import url(../blocks/agency/__card-subtitle/agency__card-subtitle.css);
+@import url(../blocks/agency/__button/agency__button.css);
 
 
 /* Блок 11 Новости */

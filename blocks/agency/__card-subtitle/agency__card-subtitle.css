@@ -1,0 +1,22 @@
+/* Стили подзаголовкосв в карточках*/
+.agency__card-subtitle{
+  border: 1px solid red;
+  margin: 0;
+  margin-top: 20px;
+  line-height: 29px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__card-subtitle {
+    line-height: 19px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__card-subtitle {
+
+  }
+}
