@@ -9,6 +9,11 @@
   min-height: 23px;
 }
 
+.footer__contact:last-of-type {
+  padding-left: 55px;
+  width: 313px;
+}
+
 @media screen and (max-width: 1439px) {
   .footer__contact {
     padding-bottom: 13px;
@@ -18,6 +23,8 @@
 
   .footer__contact:last-of-type {
     padding-bottom: 0;
+    width: 311px;
+    padding-left: 0;
   }
 }
 

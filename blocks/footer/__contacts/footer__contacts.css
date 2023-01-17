@@ -1,15 +1,19 @@
 .footer__contacts {
   margin: 0;
   padding-left: 0;
-  column-count: 2;
   max-width: 517px;
-  padding-top: 30px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 49px;
 }
 
 @media screen and (max-width: 1439px) {
   .footer__contacts {
     padding-top: 20px;
-    column-count: 1;
+    flex-wrap: nowrap;
+    height: 100px;
     max-width: 311px;
   }
 }
@@ -20,6 +24,6 @@
     grid-row: 4;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 19;
+    padding-top: 19px;
   }
 }
