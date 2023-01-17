@@ -1,27 +1,41 @@
 .button-slider {
-    width: 35px;
-    height: 35px;
-    border-radius: 10px;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background: no-repeat center/17px #0C4BA0 url("../../images/arrow_forward.svg");
+  min-width: 35px;
+  min-height: 35px;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: no-repeat center/17px #0C4BA0 url("../../images/icon/arrow_back.svg");
 }
 
-.button-slider:hover { /*состояние при наведении*/
-    transition: 0.35s;
-    cursor: pointer;
-    background-color: #4183DC;
+.button-slider:last-of-type {
+  background: no-repeat center/17px #0C4BA0 url("../../images/icon/arrow_forward.svg");
+}
+
+.button-slider:hover {
+  /*состояние при наведении*/
+  transition: 0.35s;
+  cursor: pointer;
+  background-color: #4183DC;
+}
+
+.button-slider:active {
+  /*состояние при нажатии*/
+  background-color: #00275C;
+}
+
+@media screen and (max-width: 1439px) {
+  .button-slider {
+    min-width: 24px;
+    min-height: 24px;
+    background-size: 10px;
+    border-radius: 6px;
   }
 
-  .button-slider:active { /*состояние при нажатии*/
-    background-color: #00275C;
+  .button-slider:last-of-type {
+    min-width: 24px;
+    min-height: 24px;
+    background-size: 10px;
+    border-radius: 6px;
   }
-
-  @media screen and (max-width: 320px) {
-    .button-slider {
-      width: 24px;
-      height: 24px;
-      background-size: 10px;
-    }
-  }
+}
