@@ -10,6 +10,10 @@
   .donation-form__submit-button {
     width: 200px;
   }
+
+  .donation-form__submit-button:last-of-type {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {

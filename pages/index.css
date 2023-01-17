@@ -265,6 +265,7 @@
 @import url(../blocks/support/__item/_el/support__item_el_number-of-columns.css);
 @import url(../blocks/support/__list/support__list.css);
 @import url(../blocks/support/__payment-method/support__payment-method.css);
+@import url(../blocks/donation-form/__radiobuttons-container/_for/donation-form__radiobuttons-container_for_support.css);
 @import url(../blocks/support/__payment-method/_size-other/support__payment-method_size-other.css);
 @import url(../blocks/support/__payment-methods/support__payment-methods.css);
 @import url(../blocks/support/__pseudo-checkbox/support__pseudo-checkbox.css);
@@ -273,3 +274,4 @@
 @import url(../blocks/support/__switch/support__switch.css);
 @import url(../blocks/support/__thanks/suppot__thanks.css);
 @import url(../blocks/support/__who-donat/support__who-donat.css);
+@import url(../blocks/support/__title/support__title.css);

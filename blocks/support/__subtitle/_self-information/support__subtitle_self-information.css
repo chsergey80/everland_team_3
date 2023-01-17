@@ -1,3 +1,9 @@
 .support__subtitle_self-information {
-  padding: 20px 15px 25px;
+  padding: 12px 10px 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .support__description {
+    padding: 24.28px 15px 25px 8px;
+  }
 }

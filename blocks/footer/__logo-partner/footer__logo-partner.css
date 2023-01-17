@@ -2,11 +2,7 @@
   max-width: 100%;
   object-fit: cover;
   margin: 0;
-  padding-right: 45px;
-}
-
-.footer__logo-partner:last-child {
-  padding-right: 0;
+  padding-top: 19px;
 }
 
 @media screen and (max-width: 1439px) {
@@ -20,5 +16,6 @@
 @media screen and (max-width: 767px) {
   .footer__logo-partner {
     max-width: 72px;
+    padding-right: 0;
   }
 }

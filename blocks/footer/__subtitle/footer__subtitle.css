@@ -9,6 +9,10 @@
   padding-bottom: 19px;
 }
 
+.footer__subtitle:last-of-type {
+  padding-bottom: 0;
+}
+
 @media screen and (max-width: 1439px) {
   .footer__subtitle {
     font-size: 20px;

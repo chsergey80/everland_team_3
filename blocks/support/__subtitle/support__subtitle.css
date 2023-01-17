@@ -18,7 +18,7 @@
 @media screen and (max-width: 767px) {
   .support__subtitle {
     font-size: 16px;
-    padding: 15px 19px 0;
+    padding: 15px 8px 16px 16px;
   }
 
   .support__subtitle:nth-child(3) {
