@@ -1,0 +1,24 @@
+/*Стили подзаголовков в карточках*/
+.news__card-subtitle{
+  margin-top: 30px;
+  line-height: 41px;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__card-subtitle{
+    line-height: 31px;
+    font-size: 26px;
+    /* max-width: 274px; */
+    margin-top: 20px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card-subtitle{
+    line-height: 22px;
+    font-size: 18px;
+  }
+}

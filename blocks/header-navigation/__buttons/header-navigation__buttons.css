@@ -1,0 +1,11 @@
+.header-navigation__buttons {
+    margin: 0 0 0 308px;
+    padding: 0;
+    display: flex;
+}
+
+@media screen and (max-width: 1439px) {
+    .header-navigation__buttons {
+        margin: 0 24px 0 169px;
+    }
+}

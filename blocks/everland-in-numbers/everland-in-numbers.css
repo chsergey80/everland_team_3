@@ -4,7 +4,7 @@
   flex-direction: column;
   gap: 50px;
   margin: 150px auto 0;
-  max-width: 1360px;
+  max-width: 1440px;
   width: 100%;
 }
 
@@ -15,7 +15,6 @@
     max-width: 688px;
   }
 }
-
 
 @media (max-width:767px) {
   .everland-in-numbers {
