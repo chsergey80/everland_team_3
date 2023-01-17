@@ -4,6 +4,7 @@
 
 @import url(../blocks/scroll-container/scroll-container.css);
 
+@import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_foto-project-section.css);
