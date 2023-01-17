@@ -1,20 +1,7 @@
-/**/
+/*стили картинок внутри карточек */
 .agency__card-img {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 100%;
   border-radius: 30px;
 
-}
-
-@media screen and (max-width: 1439px) {
-  .agency__card-img {
-
-
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .agency__card-img {
-
-  }
 }

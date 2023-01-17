@@ -1,6 +1,6 @@
 /* стили контейнера под карточки в блоке agency */
 .agency__cards-container {
-  border: 1px solid orangered;
+  /* border: 1px solid orangered; */
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   column-gap: 20px;
-  /* grid-template: 1fr/repeat(3, 1fr); */
 }
 
 @media screen and (max-width: 1439px) {

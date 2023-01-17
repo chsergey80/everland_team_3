@@ -1,6 +1,6 @@
 /* стили подзаголовка в блоке agency */
 .agency__subtitle{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: 0;
   margin-left: 40px;
   margin-top: 20px;

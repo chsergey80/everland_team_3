@@ -1,6 +1,6 @@
 /* Стили подзаголовкосв в карточках*/
 .agency__card-subtitle{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0;
   margin-top: 20px;
   line-height: 29px;

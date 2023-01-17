@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1439px) {
   .agency{
-    padding-top: 50px;
+    padding-top: 50px; /* расстояние до верхнего белого блока news */
     max-width: 768px;
     padding-bottom: 50px; /* расстояние до нижнего белого блока news */
   }
@@ -20,7 +20,7 @@
 
   @media screen and (max-width: 767px) {
   .agency{
-    padding-top: 32px;
+    padding-top: 32px; /* расстояние до верхнего белого блока news */
     max-width: 320px;
     padding-bottom: 32px; /* расстояние до нижнего белого блока news */
   }
