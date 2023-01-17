@@ -1,0 +1,15 @@
+.popup__list-items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    grid-area: items;
+}
+
+@media screen and (max-width: 767px) {
+    .popup__list-items {
+        max-width: 300px;
+        display: none;
+        margin-top: 24px;
+    }
+}

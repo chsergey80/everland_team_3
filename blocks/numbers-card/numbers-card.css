@@ -1,6 +1,7 @@
 .numbers-card {
   display: flex;
   flex-direction: row;
+  padding-top: 50px;
   gap: 135px;
 }
 

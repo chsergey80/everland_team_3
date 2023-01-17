@@ -1,0 +1,21 @@
+/* Стили карточек новостей */
+.news__card{
+  border: 1px solid #DADADA;
+  border-radius: 30px;
+  min-height: 800px;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__card{
+    max-width: 334px;
+    min-height: 551px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card{
+    position: relative;
+    min-height: 367px;
+    /* min-height: 367px; */
+  }
+}

@@ -1,0 +1,16 @@
+/* модификатор который отключает карточку на 1439 и включает на 767*/
+.news__card_swithc-on-off{
+
+}
+
+@media screen and (max-width: 1439px) {
+  .news__card_swithc-on-off {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card_swithc-on-off {
+    display: block;
+  }
+}

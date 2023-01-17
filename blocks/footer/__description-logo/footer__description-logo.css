@@ -1,0 +1,18 @@
+.footer__description-logo {
+  max-width: 483px;
+  min-height: 158px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__description-logo {
+    max-width: 294px;
+    min-height: 108px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__description-logo {
+    max-width: 300px;
+  }
+}
