@@ -1,0 +1,25 @@
+/* Самые общие стили блока news */
+.news{
+  /*border: 1px solid blue; */
+  font-family: 'Raleway';
+  margin: 100px auto;
+  max-width: 1360px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+}
+
+@media screen and (max-width: 1439px) {
+  .news {
+    max-width: 768px;
+    padding-bottom: 50px; /* расстояние до нижнего серого блока agency */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news {
+    max-width: 320px;
+    padding-bottom: 32px; /* расстояние до нижнего серого блока agency */
+  }
+}

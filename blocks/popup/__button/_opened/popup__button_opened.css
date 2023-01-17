@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+    .popup__button_opened {
+        background-image: url("../../../../images/mobile-button-up.png");
+    }
+}
