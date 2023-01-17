@@ -1,14 +1,6 @@
 /*Стиль самой картинки */
 .news__card-image{
-
-  /* border: 3px solid brown;
-  padding: 0; */
-  /* margin-top: 30px; */
-  /* margin-right: 30px;
-  margin-left: 30px; */
-
-  /* height: auto; */
-  /* border-radius: 30px; */
+  margin-top: 30px;
   width: 100%;
   display: block;
   object-fit: cover;

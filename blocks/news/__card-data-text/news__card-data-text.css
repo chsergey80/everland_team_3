@@ -5,10 +5,9 @@
   line-height: 23px;
   font-size: 18px;
   font-weight: 400;
-  /* margin-top: 30px;
-  margin-bottom: 30px; */
-  /* position: absolute;
-  bottom: 0; */
+  margin-bottom: 30px;
+  grid-row: 5/6;
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 1439px) {
@@ -21,7 +20,6 @@
 
 @media screen and (max-width: 767px) {
   .news__card-data-text{
-    position: relative;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 24px;
