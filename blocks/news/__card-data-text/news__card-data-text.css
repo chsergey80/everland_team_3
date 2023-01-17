@@ -20,8 +20,7 @@
 
 @media screen and (max-width: 767px) {
   .news__card-data-text{
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-top: 20px;
     margin-bottom: 24px;
   }
 }

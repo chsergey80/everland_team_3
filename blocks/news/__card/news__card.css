@@ -20,7 +20,8 @@
 
 @media screen and (max-width: 767px) {
   .news__card{
-    position: relative;
     min-height: 367px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
