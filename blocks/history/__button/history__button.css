@@ -7,15 +7,9 @@
   line-height: 24px;
   font-size: 20px;
   font-weight: 500;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 16px;
-  padding-right: 16px;
-  max-width: 194px;
-  min-height: 48px;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
+  padding: 12px 16px;
+  justify-self: end;
+  align-self: center;
   margin-right: 40px;
   cursor: pointer;
   transition: 0.6s;
@@ -34,11 +28,8 @@
     line-height: 19px;
     font-size: 16px;
     margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    min-height: 44px;
-
+    justify-self: center;
+    padding: 11.5px 51px;
   }
 }
 
@@ -46,10 +37,9 @@
   .history__button {
     line-height: 17px;
     font-size: 14px;
-    margin-top: 24px;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    /* margin-left: 10px; */
+    padding: 12.5px 51px;
+    margin: 24px 10px 0;
+    width: 300px;
+
   }
 }

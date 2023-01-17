@@ -1,0 +1,7 @@
+/*ТЕСТОВЫЙ БЛОК !!!!!!!!!!! ПОСЛЕ НАПИСАНИЯ КОДА УДАЛИТЬ!!!!!! */
+.news__test-block{
+  border: 2px solid orangered;
+  grid-column: 1/3;
+  font-size: 35px;
+  margin: 20px 40px;
+}
