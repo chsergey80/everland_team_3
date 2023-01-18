@@ -2,6 +2,7 @@
 .news__card-data-text{
   /* border: 2px solid yellowgreen; */
   margin: 0;
+  margin-top: 30px;
   color: rgba(38, 38, 38, 0.5);
   line-height: 23px;
   font-size: 18px;
@@ -16,12 +17,15 @@
     line-height: 17px;
     font-size: 14px;
     font-weight: 500;
+    margin-top: 20px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .news__card-data-text{
-    margin-top: 20px;
+    line-height: 14px;
+    font-size: 12px;
+    margin-top: 18px;
     margin-bottom: 24px;
   }
 }

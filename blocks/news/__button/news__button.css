@@ -7,7 +7,7 @@
   line-height: 24px;
   font-size: 20px;
   font-weight: 500;
-  padding: 12px 16px;
+  padding: 12px 36.5px;
   justify-self: end;
   align-self: center;
   margin-right: 40px;
@@ -29,7 +29,8 @@
     font-size: 16px;
     margin-top: 32px;
     padding: 12.5px 37.5px;
-    justify-self: center;
+    /* justify-self: center; */
+    margin-right: 283px;
 
   }
 }
