@@ -1,12 +1,10 @@
 .support__checkbox {
   padding-top: 18px;
-  padding-bottom: 23px;
   display: block;
 }
 
 .support__checkbox:first-of-type {
   padding-top: 39px;
-  padding-bottom: 0px;
 }
 
 @media screen and (max-width: 1439px) {
@@ -25,6 +23,10 @@
   .support__checkbox {
     display: flex;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 12px;
+  }
+  .support__checkbox:first-of-type {
+    padding-top: 20px;
+    padding-bottom: 0px;
   }
 }

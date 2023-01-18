@@ -1,0 +1,13 @@
+@media screen and (max-width: 1439px) {
+    .button-primary_header-size {
+        max-width: 134px;
+        max-height: 44px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .button-primary_header-size {
+        display: none;
+    }
+}

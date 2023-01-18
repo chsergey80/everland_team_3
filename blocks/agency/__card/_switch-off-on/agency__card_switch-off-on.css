@@ -1,0 +1,16 @@
+/*модификатор отключающий карточку*/
+.agency__card_switch-off-on{
+
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__card_switch-off-on {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__card_switch-off-on {
+    display: block;
+  }
+}

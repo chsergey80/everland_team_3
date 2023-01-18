@@ -1,6 +1,7 @@
 /*Стили текстовых сообений внутри карточки*/
 .news__card-text{
-  margin-top: 20px;
+  /* border: 1px solid red; */
+  margin: 0;
   line-height: 26px;
   font-size: 20px;
   font-weight: 400;
@@ -10,8 +11,6 @@
   .news__card-text{
     line-height: 19px;
     font-size: 16px;
-    margin-top: 10px;
-
   }
 }
 

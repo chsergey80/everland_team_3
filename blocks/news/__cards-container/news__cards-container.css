@@ -1,9 +1,12 @@
 /*Стили контейнера с карточками новостей*/
 .news__cards-container{
+  /* border: 2px solid orange; */
   list-style-type: none; /* сбрасываем стили списка */
   padding: 0;
   margin-top: 50px;
-  position: relative;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 0;
   display: grid;
   grid-template: 1fr/repeat(3, 1fr);
   column-gap: 20px;
@@ -13,12 +16,8 @@
 
 @media screen and (max-width: 1439px) {
   .news__cards-container{
-    max-width: 688px;
     margin-top: 32px;
     grid-template: 1fr/repeat(2, 334px);
-    column-gap: 20px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -27,6 +26,8 @@
     grid-template: repeat(3, auto)/repeat(1, 300px);
     row-gap: 16px;
     margin-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 0;
   }
 }
