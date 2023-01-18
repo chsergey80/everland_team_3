@@ -1,0 +1,9 @@
+.button-accordeon_active {
+  transform: rotate(45deg);
+}
+
+@media (max-width: 1439px) {
+  .button-accordeon_active {
+    background-size: 12px;
+  }
+}

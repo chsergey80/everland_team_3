@@ -1,18 +1,23 @@
 .accordeon__text {
-  font-size: 34px;
-  font-weight: 700;
+  display: none;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 120%;
   margin: 0;
+  max-width: 630px;
+  padding-top: 10px;
 }
 
 @media (max-width:1439px) {
   .accordeon__text {
-    font-size: 26px;
+    font-size: 14px;
+    max-width: 648px;
+    padding-top: 20px;
   }
 }
 
 @media (max-width:767px) {
   .accordeon__text {
-    font-size: 18px;
+    max-width: 268px;
   }
 }
