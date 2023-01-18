@@ -1,0 +1,54 @@
+.popup__paragraph {
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-family: "Raleway", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.popup__paragraph:last-of-type {
+    margin-bottom: 0px;
+}
+
+.popup__paragraph:hover {
+    /*состояние при наведении*/
+    transition: 0.35s;
+    cursor: pointer;
+    color: #4183DC;
+}
+
+@media screen and (max-width: 1439px) {
+    .popup__paragraph {
+        margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .popup__paragraph:first-of-type {
+        margin-top: 24px;
+    }
+
+    .popup__paragraph:last-of-type {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .popup__paragraph {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .popup__paragraph:first-of-type {
+        margin-top: 0px;
+    }
+
+    .popup__paragraph:last-of-type {
+        margin-bottom: 0px;
+    }
+}
