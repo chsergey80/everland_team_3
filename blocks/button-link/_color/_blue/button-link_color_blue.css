@@ -1,0 +1,15 @@
+.button-link_color_blue {
+    background-color: #E7F0FF;
+    color: #0C4BA0;
+}
+
+.button-link_color_blue:hover { /*состояние при наведении*/
+    transition: 0.35s;
+    cursor: pointer;
+    background-color: #0C4BA0;
+    color: #FFF;
+  }
+
+  .button-link_color_blue:active { /*состояние при нажатии*/
+    background-color: #00275C;
+  }

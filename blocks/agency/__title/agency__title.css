@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 1439px) {
 .agency__title{
+  max-width: 394px;
   line-height: 43px;
   font-size: 36px;
 }

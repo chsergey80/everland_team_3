@@ -5,3 +5,16 @@
   border-radius: 30px;
 
 }
+
+@media screen and (max-width: 1439px) {
+  .agency__card-img{
+    height: 334px;
+    border-radius: 20px;
+  }
+  }
+
+  @media screen and (max-width: 767px) {
+    .agency__card-img{
+      height: 300px;
+    }
+    }

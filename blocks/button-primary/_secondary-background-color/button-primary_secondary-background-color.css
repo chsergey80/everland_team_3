@@ -1,0 +1,17 @@
+.button-primary_secondary-background-color { /*стили используются, если фон цветной*/
+    color: #333;
+    border: 1px solid #333;
+    background-color: transparent;
+}
+
+.button-primary_secondary-background-color:hover { /*состояние при наведении*/
+    transition: 0.35s;
+    cursor: pointer;
+    border-width: 2px;
+    background-color: transparent;
+  }
+
+  .button-primary_secondary-background-color:active { /*состояние при нажатии*/
+    color: #FFFFFF;
+    background-color: #333;;
+  }

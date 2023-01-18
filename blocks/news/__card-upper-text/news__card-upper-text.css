@@ -1,14 +1,11 @@
 /* Стили маленького текста вверху - "Тема"*/
 .news__card-upper-text{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 0;
-  margin-left: 30px;
-  margin-right: 30px;
   line-height: 23px;
   font-size: 18px;
   font-weight: 400;
   margin-top: 30px;
-  /* margin-bottom: 30px; */
 }
 
 @media screen and (max-width: 1439px) {
@@ -24,7 +21,5 @@
     margin-top: 24px;
     line-height: 14px;
     font-size: 12px;
-    margin-left: 24px;
-    margin-right: 24px;
   }
 }

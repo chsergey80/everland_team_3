@@ -1,0 +1,16 @@
+.support__donator-time {
+  padding-left: 62%;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__donator-time {
+    padding-left: 58%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__donator-time {
+    padding-right: 0;
+    padding-left: 71%;
+  }
+}

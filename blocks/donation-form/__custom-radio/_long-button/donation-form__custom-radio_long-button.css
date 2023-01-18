@@ -1,0 +1,9 @@
+.donation-form__custom-radio_long-button {
+    width: 316px;
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__custom-radio_long-button  {
+    max-width: 122px;
+  }
+}
