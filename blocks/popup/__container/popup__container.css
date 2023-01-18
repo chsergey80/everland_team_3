@@ -1,0 +1,43 @@
+.popup__container {
+    margin: 40px auto 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(4, fit-content(320px));
+    grid-template-rows: repeat(4, fit-content(400px));
+    grid-template-areas:
+        "project-container people-container services-container thanks"
+        "project-container people-container services-container programs"
+        "project-container people-container services-container mentors"
+        "project-container people-container services-container support";
+}
+
+@media screen and (max-width: 1439px) {
+    .popup__container {
+        max-width: 690px;
+        grid-template-columns: repeat(3, fit-content(320px));
+        grid-template-rows: repeat(3, fit-content(400px));
+        grid-template-areas:
+            "project-container people-container services-container"
+            "thanks mentors services-container"
+            "programs support фservices-container";
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .popup__container {
+        max-width: 320px;
+        grid-template-columns: repeat(1, fit-content(320px));
+        grid-template-rows: repeat(10, fit-content(400px));
+        grid-template-areas:
+            "project-container"
+            "people-container"
+            "services-container"
+            "thanks"
+            "programs"
+            "mentors"
+            "support";
+        gap: 20px;
+    }
+}

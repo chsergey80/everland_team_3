@@ -1,21 +1,14 @@
-/* Стили картинок в карточках */
+/*Стиль самой картинки */
 .news__card-image{
-  border: 1px solid green;
-  border-radius: 30px;
   margin-top: 30px;
-
+  width: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1439px) {
   .news__card-image{
-    max-width: 274px;
     margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .news__card-image{
-
   }
 }
 

@@ -1,0 +1,18 @@
+.donation-form__fieldset_border {
+  border-top: 1px solid #dadada;
+}
+
+.donation-form__fieldset_border:last-of-type {
+  margin-top: 17px;
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__fieldset_border {
+    padding-bottom: 15px;
+  }
+
+  .donation-form__fieldset_border:nth-child(4) {
+    margin-top: 0;
+    padding-bottom: 0px;
+  }
+}

@@ -1,0 +1,12 @@
+.secondary-menu {
+    margin: 90px auto 0 auto;
+    padding: 0;
+    min-height: 50px;
+    min-width: 1440px;
+}
+
+@media screen and (max-width: 1439px) {
+    .secondary-menu {
+        display: none;
+    }
+}
