@@ -52,3 +52,16 @@ menuServices.addEventListener("click", function (){
     openMenuMobile(menuServices);
     openMenuMobileBlock(menuServicesBlock);
 })
+
+
+//АККОРДИОН
+const accordion = document.querySelectorAll(".button-accordeon");
+let buttons = [accordion[0], accordion[1], accordion[2], accordion[3], accordion[4], accordion[5]];
+
+buttons.forEach(function(item){
+  item.addEventListener("click", function(){
+      let text = this.nextElementSibling;
+      text.classList.toggle("accordeon__text_visible");
+      this.classList.toggle("button-accordeon_active");
+  });
+});
