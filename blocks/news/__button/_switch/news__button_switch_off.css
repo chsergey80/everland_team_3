@@ -8,3 +8,9 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .news__button_switch_off{
+    display: block;
+  }
+}
