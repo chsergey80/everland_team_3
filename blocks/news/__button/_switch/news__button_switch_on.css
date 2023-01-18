@@ -1,0 +1,16 @@
+/*модификатор, котрый включает текст - Наши стории*/
+.news__button_switch_on{
+  display: none;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__button_switch_on{
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__button_switch_on{
+    display: none;
+  }
+}

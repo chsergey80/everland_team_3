@@ -1,0 +1,21 @@
+.numbers-card {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  gap: 135px;
+}
+
+@media (max-width:1439px) {
+  .numbers-card {
+    gap: 0;
+    max-width: 688px;
+  }
+}
+
+@media (max-width:767px) {
+  .numbers-card {
+    flex-direction: column-reverse;
+    gap: 24px;
+    max-width: 300px;
+  }
+}

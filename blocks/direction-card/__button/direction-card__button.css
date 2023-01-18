@@ -1,0 +1,55 @@
+.direction-card__button {
+  background-color: #FFF;
+  background-image: url(../../../images/icon/arrow_forward_base.svg);
+  background-position: 94% 50%;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 120%;
+  overflow: hidden;
+  padding-right: 20px;
+  text-overflow: ellipsis;
+  transition: 0.6s;
+  white-space: nowrap;
+  width: 165px;
+}
+
+.direction-card__button:hover {
+  background-image: url(../../../images/icon/arrow_forward_hover.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  color: #00275C;
+  cursor: pointer;
+  transition: 0.35s;
+}
+
+.direction-card__button:active {
+  background-image: url(../../../images/icon/arrow_forward_active.svg);
+  color: #0C4BA0;
+}
+
+
+@media (max-width: 1439px) {
+  .direction-card__button {
+    font-size: 16px;
+    height: 44px;
+    width: 139px;
+  }
+}
+
+@media (max-width: 767px) {
+  .direction-card__button {
+    background-size: 15px;
+    font-size: 14px;
+    height: 37px;
+    width: 120px;
+  }
+
+  .direction-card__button:hover {
+    background-size: 15px;
+  }
+}
