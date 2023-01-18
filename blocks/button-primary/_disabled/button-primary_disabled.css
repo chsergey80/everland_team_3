@@ -1,8 +1,0 @@
-.button-primary_disabled {
-  /*недоступная кнопка, так как у нас сейчас нет никаких переходов на другие страницы, модификатор не используется*/
-  cursor: default;
-  color: #262626;
-  opacity: 0.5;
-  background-color: #f5f5f5;
-  border: 2px solid #c4c4c4;
-}
