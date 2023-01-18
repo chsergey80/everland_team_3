@@ -271,6 +271,7 @@
 @import url(../blocks/support/__pseudo-checkbox/support__pseudo-checkbox.css);
 @import url(../blocks/support/__subtitle/support__subtitle.css);
 @import url(../blocks/support/__subtitle/_self-information/support__subtitle_self-information.css);
+@import url(../blocks/support/__subtitle/_payment/support__subtitle_payment.css);
 @import url(../blocks/support/__switch/support__switch.css);
 @import url(../blocks/support/__thanks/suppot__thanks.css);
 @import url(../blocks/support/__who-donat/support__who-donat.css);

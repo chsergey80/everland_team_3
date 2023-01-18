@@ -12,6 +12,5 @@
 @media screen and (max-width: 767px) {
   .donation-form__radiobuttons-container_for_support {
     grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-    padding-top: 32px;
     }
   }
