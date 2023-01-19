@@ -31,36 +31,3 @@
     gap: 0;
   }
 }
-
-/*.footer__grid {
-  max-width: 100%;
-  margin: 0;
-  padding-top: 81px;
-  padding-left: 40px;
-  padding-bottom: 150px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(47%, max-content));
-  grid-template-rows: minmax(46px, max-content);
-  justify-self: center;
-  column-gap: 10px;
-}
-
-@media screen and (max-width: 1439px) {
-  .footer__grid {
-    max-width: 90%;
-    padding-top: 50px;
-    padding-left: 0;
-    padding-bottom: 52px;
-    margin: 0 auto;
-    column-gap: 28px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .footer__grid {
-    max-width: 100%;
-    padding-top: 32px;
-    padding-bottom: 10px;
-    gap: 25px;
-  }
-}*/

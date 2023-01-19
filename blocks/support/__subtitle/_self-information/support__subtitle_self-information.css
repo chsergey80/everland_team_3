@@ -1,3 +1,15 @@
 .support__subtitle_self-information {
-  padding: 20px 15px 25px;
+  padding: 0 10px 25px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__subtitle_self-information {
+    padding: 39px 15px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__subtitle_self-information {
+    padding: 19px 15px 25px 8px;
+  }
 }

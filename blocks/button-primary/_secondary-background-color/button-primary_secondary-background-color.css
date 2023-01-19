@@ -1,17 +1,50 @@
-.button-primary_secondary-background-color { /*стили используются, если фон цветной*/
-    color: #333;
-    border: 1px solid #333;
-    background-color: transparent;
+.button-primary_secondary-background-color {
+  /*стили используются, если фон цветной*/
+  color: #333;
+  border: 1px solid #333;
+  background-color: transparent;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+  max-width: 194px;
+  max-height: 48px;
+  border-radius: 10px;
+  grid-area: button;
 }
 
-.button-primary_secondary-background-color:hover { /*состояние при наведении*/
-    transition: 0.35s;
-    cursor: pointer;
-    border-width: 2px;
-    background-color: transparent;
-  }
+.button-primary_secondary-background-color:hover {
+  /*состояние при наведении*/
+  transition: 0.35s;
+  cursor: pointer;
+  border-width: 2px;
+  background-color: transparent;
+}
 
-  .button-primary_secondary-background-color:active { /*состояние при нажатии*/
-    color: #FFFFFF;
-    background-color: #333;;
+.button-primary_secondary-background-color:active {
+  /*состояние при нажатии*/
+  color: #FFFFFF;
+  background-color: #333;
+}
+
+@media screen and (max-width: 1439px) {
+  .button-primary_secondary-background-color {
+    max-width: 200px;
+    min-height: 44px;
+    font-size: 16px;
+    line-height: 19px;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .button-primary_secondary-background-color {
+    max-width: 250px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
