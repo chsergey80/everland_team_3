@@ -1,5 +1,6 @@
 .donation-form_place_support {
     max-width: 691px;
+    margin: 0;
 }
 
 @media screen and (max-width: 1439px) {

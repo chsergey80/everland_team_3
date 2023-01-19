@@ -12,5 +12,6 @@
   .support__donator-time {
     padding-right: 0;
     padding-left: 71%;
+    max-width: 84px;
   }
 }

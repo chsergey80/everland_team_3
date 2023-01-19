@@ -8,8 +8,8 @@
   }
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 767px) {
   .support__subtitle_payment {
-    padding: 28px 16px 16px;
+    padding: 18px 16px 16px;
   }
 }
