@@ -1,29 +1,37 @@
-const buttonsBack = document.querySelectorAll(".button-slider__back");
-const buttonsForward = document.querySelectorAll(".button-slider__forward");
-const test = document.querySelector(".about-everland");
+const slide = document.querySelectorAll(".everland-slides");
+const projectsSlide = document.querySelectorAll(".projects")
 
 
 
-buttonsBack.forEach(function (btn) {
+slide.forEach(function (slides) {
     // Вешаем событие клик
-    btn.addEventListener('click', function () {
-        buttonBackItem(test)
+    let preSlide = slides.previousElementSibling;
+    slides.querySelector(".button-slider__back").addEventListener("click", function () {
+        buttonBackItem(slides, preSlide);
+    })
+    slides.querySelector(".button-slider__forward").addEventListener("click", function () {
+        buttonForwardItem(slides);
     })
 })
-
-buttonsForward.forEach(function (btn) {
-    // Вешаем событие клик
-    btn.addEventListener('click', function () {
-        buttonForwardItem(test);
-    })
-})
-
-
 
 function buttonForwardItem(item) {
-    item.style.left = "-1400px";
+    const width = document.documentElement.clientWidth;
+    if (width >= "1440") {
+        item.style.marginLeft = "-1360px";
+    } else if (width <= "1439" && width >= "768") {
+        item.style.marginLeft = "-688px";
+    } else {
+        item.style.marginLeft = "-304px";
+    }
 }
 
-function buttonBackItem(item) {
-    item.style.left = "0px";
+function buttonBackItem(item, pre) {
+    const width = document.documentElement.clientWidth;
+    if (width >= "1440") {
+        item.style.marginLeft = "40px";
+        pre.style.marginLeft = "40px";
+    } else {
+        item.style.marginLeft = "0px";
+        pre.style.marginLeft = "0px";
+    } 
 }
