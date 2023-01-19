@@ -1,5 +1,7 @@
 const slide = document.querySelectorAll(".everland-slides");
-const projectsSlide = document.querySelectorAll(".projects")
+const projectsSlide = document.querySelectorAll(".projects");
+const lastSlide = [].slice.call(slide).pop();
+const lastProjectsSlide = [].slice.call(projectsSlide).pop();
 
 
 /*Проходим по массиву слайдов про Everland*/
@@ -30,14 +32,27 @@ projectsSlide.forEach(function (slides) {
 /*Функции слистывания слайдов про Everland*/
 function buttonForwardItem(item) {
     const width = document.documentElement.clientWidth;
-    if (width >= "1440") {
-        item.style.marginLeft = "-1360px";
-    } else if (width <= "1439" && width >= "768") {
-        item.style.marginLeft = "-688px";
+    if (item != lastSlide) {
+        if (width >= "1440") {
+            item.style.marginLeft = "-1360px";
+        } else if (width <= "1439" && width >= "768") {
+            item.style.marginLeft = "-688px";
+        } else {
+            item.style.marginLeft = "-304px";
+        }
     } else {
-        item.style.marginLeft = "-304px";
+        if (width >= "1440") {
+            item.style.marginLeft = "40px";
+        } else if (width <= "1439" && width >= "768") {
+            item.style.marginLeft = "0px";
+        } else {
+            item.style.marginLeft = "0px";
+        }
     }
+
 }
+
+
 
 function buttonBackItem(item, pre) {
     const width = document.documentElement.clientWidth;
@@ -47,19 +62,29 @@ function buttonBackItem(item, pre) {
     } else {
         item.style.marginLeft = "0px";
         pre.style.marginLeft = "0px";
-    } 
+    }
 }
 
 
 /*Функции слистывания слайдов про специальные проекты*/
 function buttonForwardItemProjects(item) {
     const width = document.documentElement.clientWidth;
-    if (width >= "1440") {
-        item.style.marginLeft = "-1330px";
-    } else if (width <= "1439" && width >= "768") {
-        item.style.marginLeft = "-658px";
+    if (item != lastProjectsSlide) {
+        if (width >= "1440") {
+            item.style.marginLeft = "-1330px";
+        } else if (width <= "1439" && width >= "768") {
+            item.style.marginLeft = "-658px";
+        } else {
+            item.style.marginLeft = "-278px";
+        }
     } else {
-        item.style.marginLeft = "-278px";
+        if (width >= "1440") {
+            item.style.marginLeft = "30px";
+        } else if (width <= "1439" && width >= "768") {
+            item.style.marginLeft = "30px";
+        } else {
+            item.style.marginLeft = "24px";
+        }
     }
 }
 
@@ -68,12 +93,12 @@ function buttonBackItemProjects(item, pre) {
     if (width >= "1440") {
         item.style.marginLeft = "30px";
         pre.style.marginLeft = "30px";
-    } else if (width <= "1439" && width >= "768"){
+    } else if (width <= "1439" && width >= "768") {
         item.style.marginLeft = "30px";
         pre.style.marginLeft = "30px";
     }
     else {
         item.style.marginLeft = "24px";
         pre.style.marginLeft = "24px";
-    } 
+    }
 }
