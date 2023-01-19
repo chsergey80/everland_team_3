@@ -18,6 +18,7 @@
 @import url(../blocks/button/_type/button_type_click-back.css);
 @import url(../blocks/button-text/button-text.css);
 @import url(../blocks/button-accordeon/button-accordeon.css);
+@import url(../blocks/button-accordeon/_active/button-accordeon_active.css);
 @import url(../blocks/button-accordeon/_disabled/button-accordeon_disabled.css);
 @import url(../blocks/button-link-container/button-link-container.css);
 @import url(../blocks/button-link/button-link.css);
@@ -184,7 +185,12 @@
 @import url(../blocks/numbers-card/__title-span/numbers-card__title-span.css);
 @import url(../blocks/numbers-card/__text/numbers-card__text.css);
 
-
+@import url(../blocks/in-work/in-work.css);
+@import url(../blocks/accordeon/accordeon.css);
+@import url(../blocks/accordeon/__title/accordeon__title.css);
+@import url(../blocks/accordeon/__item/accordeon__item.css);
+@import url(../blocks/accordeon/__text/accordeon__text.css);
+@import url(../blocks/accordeon/__text/_visible/accordeon__text_visible.css);
 
 
 /* history Igor */
