@@ -57,9 +57,9 @@ let buttons = [accordion[0], accordion[1], accordion[2], accordion[3], accordion
 
 buttons.forEach(function(item){
   item.addEventListener("click", function(){
-      let text = this.nextElementSibling;
-      text.classList.toggle("accordeon__text_visible");
-      this.classList.toggle("button-accordeon_active");
+    let text = this.nextElementSibling;
+    text.classList.toggle("accordeon__text_visible");
+    this.classList.toggle("button-accordeon_active");
   });
 });
 
