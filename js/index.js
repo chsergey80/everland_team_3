@@ -62,3 +62,4 @@ buttons.forEach(function(item){
       this.classList.toggle("button-accordeon_active");
   });
 });
+
