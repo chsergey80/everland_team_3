@@ -26,8 +26,8 @@
     grid-template: repeat(3, auto)/repeat(1, 300px);
     row-gap: 16px;
     margin-top: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;  /*10*/
+    margin-right: 0px;  /*10*/
     margin-bottom: 0;
   }
 }

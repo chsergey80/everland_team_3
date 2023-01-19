@@ -23,5 +23,6 @@
   .footer__copyright {
     font-size: 12px;
     padding-top: 30px;
+    max-width: 300px;
   }
 }
