@@ -2,16 +2,13 @@
 const popup = document.querySelector(".popup");
 const menuButton = document.querySelector(".header-navigation__menu");
 const menuImg = document.querySelector(".header-navigation__menu-img")
-
 /*Нахождение элементов для мобильнеых устройств*/
 const mobileMenuProject = document.querySelector(".popup__list-project");
 const menuProject = mobileMenuProject.querySelector(".popup__button");
 const menuProjectBlock = mobileMenuProject.querySelector(".popup__list-items");
-
 const mobileMenuPeople = document.querySelector(".popup__list-people");
 const menuPeople = mobileMenuPeople.querySelector(".popup__button");
 const menuPeopleBlock = mobileMenuPeople.querySelector(".popup__list-items");
-
 const mobileMenuServices = document.querySelector(".popup__list-services");
 const menuServices = mobileMenuServices.querySelector(".popup__button");
 const menuServicesBlock = mobileMenuServices.querySelector(".popup__list-items")

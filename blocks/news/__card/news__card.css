@@ -1,8 +1,15 @@
 /* Стили карточек новостей */
 .news__card{
-  border: 1px solid #DADADA;
+  /* border: 2px solid green; */
   border-radius: 30px;
+  border: 1px solid #DADADA;
   min-height: 800px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, min-content) auto;
+
 }
 
 @media screen and (max-width: 1439px) {
@@ -14,8 +21,8 @@
 
 @media screen and (max-width: 767px) {
   .news__card{
-    position: relative;
     min-height: 367px;
-    /* min-height: 367px; */
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
