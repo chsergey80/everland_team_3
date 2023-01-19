@@ -57,6 +57,8 @@
 @import url(../blocks/projects/__paragraph/projects__paragraph.css);
 @import url(../blocks/projects/__small-text/projects__small-text.css);
 @import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/button-slider/__back/button-slider__back.css);
+@import url(../blocks/button-slider/__forward/button-slider__forward.css);
 
 /* Импорт модификаторов*/
 @import url(../blocks/button-primary/_secondary/button-primary_secondary.css);
