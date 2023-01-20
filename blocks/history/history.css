@@ -1,6 +1,5 @@
 /* самые общие стили блока history */
 .history{
-  /*border: 1px solid blue; /* обозначены границы блока для удобства верстки при окончательной сборке проекта */
   font-family: 'Raleway';
   margin: auto;
   max-width: 1440px;
