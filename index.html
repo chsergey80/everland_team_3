@@ -27,20 +27,20 @@
         <span class="header-navigation__menu-paragraph">Меню</span>
       </button>
       <div class="header-navigation__buttons">
-        <a href="#" class="header-navigation__link">
-          <button class="button-primary button-primary_secondary header-navigation__buttons_size"
-            type="button">Платформа
-          </button>
-        </a>
-        <a href="#support" class="header-navigation__link">
-          <button class="button-primary header-navigation__buttons_size" type="button">
-            Поддержать
-          </button>
-        </a>
+        <button type="submit"
+          class="button-primary button-primary_secondary header-navigation__buttons_size"
+          onclick="document.location='index.html#header-menu'">
+          Платформа
+        </button>
+        <button type="submit"
+          class="button-primary header-navigation__buttons_size"
+          onclick="document.location='index.html#support'">
+          Поддержать
+        </button>
       </div>
     </div>
   </header>
-  <div class="secondary-menu">
+  <div class="secondary-menu" id="header-menu">
     <ul class="secondary-menu__links">
       <li class="secondary-menu__link"><a href="index.html#forwhom" class="secondary-menu__paragraph">Для кого</a></li>
       <li class="secondary-menu__link"><a href="index.html#directions" class="secondary-menu__paragraph">Направления
@@ -59,7 +59,7 @@
 
   <main>
     <!-- about-everland -->
-    <section class="about-everland" aria-label="about-everland">
+    <section class="about-everland" aria-label="about-everland" id="everland">
       <article class="everland-slides">
         <div class="everland-slides__text">
           <h2 class="everland-slides__title">
@@ -191,8 +191,9 @@
             </div>
           </fieldset>
           <button type="submit"
-            class="button button_theme_primary button-text donation-form__submit-button donation-form__submit-button_for_donat">
-            Поддержать <a href="#support"></a>
+            class="button button_theme_primary button-text donation-form__submit-button donation-form__submit-button_for_donat"
+            onclick="document.location='index.html#support'">
+            Поддержать
           </button>
         </form>
       </div>

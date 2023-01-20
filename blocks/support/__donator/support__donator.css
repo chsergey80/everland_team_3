@@ -22,4 +22,7 @@
     font-size: 14px;
     padding-right: 28px;
   }
+  .support__donator:last-of-type {
+    padding-right: 0;
+  }
 }
