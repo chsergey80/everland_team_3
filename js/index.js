@@ -30,7 +30,7 @@ function openMenuMobileBlock(item){
     item.classList.toggle("popup__list-items_opened");
 }
 
-menuButton.addEventListener("click", function () {
+menuButton.addEventListener("mouseover", function () {
     menuButton.classList.toggle("header-navigation__menu_opened");
     openPopup(popup);
 })
