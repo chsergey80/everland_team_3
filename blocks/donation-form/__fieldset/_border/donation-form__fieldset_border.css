@@ -8,11 +8,17 @@
 
 @media screen and (max-width: 767px) {
   .donation-form__fieldset_border {
-    padding-bottom: 15px;
+    margin-top: 32px;
+    padding-top: 20px;
+  }
+
+  .donation-form__fieldset_border:nth-child(3) {
+    padding-top: 16;
   }
 
   .donation-form__fieldset_border:nth-child(4) {
-    margin-top: 0;
-    padding-bottom: 0px;
+    margin-top: 19px;
+    padding-top: 25px;
+    padding-bottom: 0;
   }
 }
