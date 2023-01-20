@@ -8,14 +8,13 @@
   flex-wrap: wrap;
   height: fit-content;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px 20px;
   width: 670px;
 }
 
 @media (max-width:1439px) {
   .accordeon__item {
     border-radius: 20px;
-    border: 1px solid #DADADA;
     max-width: 688px;
     padding: 30px 20px;
   }
@@ -24,6 +23,7 @@
 @media (max-width:767px) {
   .accordeon__item {
     border-radius: 15px;
+    border: 1px solid #DADADA;
     max-width: 300px;
     padding: 16px;
   }
