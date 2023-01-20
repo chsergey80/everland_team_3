@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 767px) {
   .support__subtitle_self-information {
-    padding: 2px 15px 25px 8px;
+    padding: 2px 15px 0 8px;
   }
 }
