@@ -1,12 +1,13 @@
 .donation-form__radiobuttons-container_for_donat {
   column-gap: 40px;
-  /*grid-template-columns: repeat(5, 1fr);*/
   grid-template-columns: 159px 159px 159px 159px 211px
 }
 
 @media screen and (max-width: 1439px) {
   .donation-form__radiobuttons-container_for_donat {
     column-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+
   }
 }
 
