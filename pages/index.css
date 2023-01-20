@@ -259,6 +259,7 @@
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__buttons/projects__buttons.css);
 @import url(../blocks/projects/__img/projects__img.css);
+@import url(../blocks/projects/__img/projects__img-1.css);
 @import url(../blocks/projects/__info/projects__info.css);
 @import url(../blocks/projects/__paragraph/projects__paragraph.css);
 @import url(../blocks/projects/__small-text/projects__small-text.css);
