@@ -1,18 +1,19 @@
 .accordeon__text {
-  display: none;
   font-size: 20px;
   font-weight: 400;
+  height: 0;
   line-height: 120%;
   margin: 0;
   max-width: 630px;
-  padding-top: 10px;
+  opacity: 0;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 @media (max-width:1439px) {
   .accordeon__text {
     font-size: 14px;
     max-width: 648px;
-    padding-top: 20px;
   }
 }
 
@@ -21,3 +22,5 @@
     max-width: 268px;
   }
 }
+
+
