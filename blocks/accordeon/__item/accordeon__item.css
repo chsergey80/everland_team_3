@@ -15,7 +15,6 @@
 @media (max-width:1439px) {
   .accordeon__item {
     border-radius: 20px;
-    border: 1px solid #DADADA;
     max-width: 688px;
     padding: 30px 20px;
   }
@@ -26,5 +25,6 @@
     border-radius: 15px;
     max-width: 300px;
     padding: 16px;
+    border: 1px solid #DADADA;
   }
 }
