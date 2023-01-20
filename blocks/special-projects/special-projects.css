@@ -1,20 +1,21 @@
 .special-projects {
   margin: 0 auto;
-  padding: 30px;
+  padding: 0;
   border-radius: 30px;
   background-color: #E7F0FF;
-  max-width: 1300px;
+  max-width: 1360px;
+  display: flex;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1439px) {
   .special-projects {
-      max-width: 628px;
+      max-width: 698px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .special-projects {
       max-width: 300px;
-      padding: 27px 0 24px 0;
   }
 }
