@@ -27,7 +27,7 @@
     row-gap: 16px;
     justify-items: center;
     max-width: 300px;
-    margin-left: 10px;
+    margin-left: 0;  /* 10*/
     margin-right: 10px;
   }
 }
