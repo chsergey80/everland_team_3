@@ -18,6 +18,11 @@ function openPopup(item) {
     item.classList.toggle("popup_opened");
 }
 
+/*Закрытие попапа*/
+function closePopup(item) {
+  item.classList.remove("popup_opened");
+}
+
 function openMobilePopup(item) {
     item.classList.toggle("popup__list-items_opened");
 }
@@ -33,6 +38,11 @@ function openMenuMobileBlock(item){
 menuButton.addEventListener("mouseover", function () {
     menuButton.classList.toggle("header-navigation__menu_opened");
     openPopup(popup);
+})
+
+menuButton.addEventListener("click", function () {
+  menuButton.classList.toggle("header-navigation__menu_opened");
+  closePopup(popup);
 })
 
 menuProject.addEventListener("click", function (){
