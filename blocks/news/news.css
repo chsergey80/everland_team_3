@@ -1,6 +1,5 @@
 /* Самые общие стили блока news */
 .news{
-  /* border: 1px solid blue; */
   font-family: 'Raleway';
   margin: auto;
   max-width: 1440px;

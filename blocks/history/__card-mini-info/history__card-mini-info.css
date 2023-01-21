@@ -1,10 +1,8 @@
 /* стили тектовых сообщений в карточках мини */
 .history__card-mini-info {
-  /* border: 2px solid red; */
-  max-width: 336px;
+  width: 366px;
   position: relative;
 }
-
 
 @media screen and (max-width: 767px) {
   .history__card-mini-info{

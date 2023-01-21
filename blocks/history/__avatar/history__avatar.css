@@ -1,6 +1,5 @@
 /* стили аватаров в блоке history_card */
 .history__avatar{
-  /* border: 2px solid goldenrod; */
   max-width: 224px;
   max-height: 224px;
   border-radius: 50%;

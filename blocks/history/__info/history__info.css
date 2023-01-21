@@ -1,10 +1,10 @@
 /* стили блока с информацией к аватрау */
 .history__info{
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-self: flex-start;
+  padding: 0 0 0 14px;
 }
 
 @media screen and (max-width: 1439px) {
