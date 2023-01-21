@@ -17,6 +17,6 @@
   .whom {
     grid-template-columns: repeat(auto-fit, 300px);
     gap: 16px;
-    margin: 32px 0 0;
+    margin: 25px 0 0;
   }
 }
