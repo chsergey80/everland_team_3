@@ -22,4 +22,9 @@
   .donation-form__submit-button {
     width: 260px;
   }
+
+  .donation-form__submit-button:last-of-type {
+    margin-top: 0;
+    width: 260px;
+  }
 }

@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 767px) {
   .news__title{
-    margin-left: 10px;
+    margin-left: 0;
     line-height: 31px;
     font-size: 26px;
   }

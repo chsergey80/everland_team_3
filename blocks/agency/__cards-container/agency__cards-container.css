@@ -26,7 +26,7 @@
   .agency__cards-container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
-    row-gap: 20px;
+    row-gap: 25px;
     margin-top: 24px;
     margin-left: 10px;
     margin-right: 10px;

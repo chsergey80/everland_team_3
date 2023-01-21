@@ -22,8 +22,9 @@
 @media screen and (max-width: 767px) {
   .support__list {
     max-width: 300px;
+    min-height: 45px;
     margin: 0 auto;
-    padding-top: 32px;
+    padding-top: 10px;
     padding-left: 0;
   }
 

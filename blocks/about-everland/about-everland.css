@@ -16,7 +16,8 @@
 
 @media screen and (max-width: 767px) {
   .about-everland {
-      margin-top: 104px;
+      margin-top: 108px;
       max-width: 304px;
+      margin-bottom: 0;
   }
 }

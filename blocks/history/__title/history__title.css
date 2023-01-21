@@ -17,8 +17,9 @@
 @media screen and (max-width: 767px) {
   .history__title{
     margin-bottom: 24px;
-    margin-left: 10px;
+    margin-left: 0;
     line-height: 31px;
     font-size: 26px;
+    align-self: start;
   }
 }
