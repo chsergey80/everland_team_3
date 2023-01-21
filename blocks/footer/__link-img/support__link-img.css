@@ -1,0 +1,7 @@
+.footer__link-img {
+  padding-right: 40px;
+}
+
+.footer__link-img:last-of-type {
+  padding-right: 0;
+}
