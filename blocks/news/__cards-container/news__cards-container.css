@@ -1,11 +1,10 @@
 /*Стили контейнера с карточками новостей*/
 .news__cards-container{
-  /* border: 2px solid orange; */
-  list-style-type: none; /* сбрасываем стили списка */
+  list-style-type: none;
   padding: 0;
   margin-top: 50px;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-right: 0px;
+  margin-left: 0px;
   margin-bottom: 0;
   display: grid;
   grid-template: 1fr/repeat(3, 1fr);
@@ -26,8 +25,8 @@
     grid-template: repeat(3, auto)/repeat(1, 300px);
     row-gap: 16px;
     margin-top: 24px;
-    margin-left: 0px;  /*10*/
-    margin-right: 0px;  /*10*/
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 0;
   }
 }

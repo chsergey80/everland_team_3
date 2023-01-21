@@ -6,6 +6,12 @@
   padding-right: 0;
 }
 
+@media screen and (max-width: 1439px) {
+  .footer__link-img {
+    padding-right: 8px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer__link-img {
     padding-right: 0;
