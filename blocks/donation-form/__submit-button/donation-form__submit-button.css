@@ -6,6 +6,11 @@
   width: 218px;
 }
 
+.donation-form__submit-button:last-of-type {
+  margin-top: 0;
+  width: 200px;
+}
+
 @media screen and (max-width: 1439px) {
   .donation-form__submit-button {
     margin: 0;

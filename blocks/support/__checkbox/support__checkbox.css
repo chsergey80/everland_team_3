@@ -1,11 +1,11 @@
 .support__checkbox {
-  padding-top: 18px;
+  padding-top: 17px;
   display: block;
   padding-bottom: 24px;
 }
 
 .support__checkbox:first-of-type {
-  padding-top: 30px;
+  padding-top: 25px;
   padding-bottom: 0;
 }
 
