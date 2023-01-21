@@ -6,7 +6,7 @@
 @media screen and (max-width: 1439px) {
   .donation-form__radiobuttons-container_for_donat {
     column-gap: 10px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr) 1.8fr;
 
   }
 }

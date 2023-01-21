@@ -6,7 +6,7 @@
   flex-direction: row;
   gap: 90px;
   max-width: 1360px;
-  padding: 58px 30px;
+  padding: 58px 54px 58px 30px;
 }
 
 @media screen and (max-width: 1439px) {
