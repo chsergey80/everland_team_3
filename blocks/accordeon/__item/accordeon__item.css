@@ -15,7 +15,7 @@
 @media (max-width:1439px) {
   .accordeon__item {
     border-radius: 20px;
-    min-width: 688px;
+    /*min-width: 688px;*/
     padding: 18.5px 20px 18.5px 20px;
   }
 }
