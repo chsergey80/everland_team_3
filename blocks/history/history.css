@@ -1,29 +1,26 @@
 /* самые общие стили блока history */
 .history{
   font-family: 'Raleway';
-  margin: auto;
-  max-width: 1440px;
+  margin: 150px auto 100px;
+  max-width: 1360px;
   background-color: #fff;
-  padding-top: 150px;
-  padding-bottom: 100px; /* расстояние до нижнего серого блока agency */
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(5, auto);
-
 }
 
 @media screen and (max-width: 1439px) {
   .history {
-    padding-top: 100px;
-    max-width: 768px;
-    padding-bottom: 50px; /* расстояние до нижнего серого блока agency */
+    margin-top: 100px;
+    max-width: 688px;
+    margin-bottom: 50px; /* расстояние до нижнего серого блока agency */
   }
 }
 
 @media screen and (max-width: 767px) {
   .history {
-    max-width: 320px;
-    padding-top: 64px;
-    padding-bottom: 32px; /* расстояние до нижнего серого блока agency */
+    max-width: 300px;
+    margin-top: 64px;
+    margin-bottom: 32px; /* расстояние до нижнего серого блока agency */
   }
 }
