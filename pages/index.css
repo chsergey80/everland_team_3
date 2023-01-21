@@ -162,6 +162,7 @@
 @import url(../blocks/everland-slides/__title/everland-slides__title.css);
 
 @import url(../blocks/directions/directions.css);
+@import url(../blocks/directions/__title/direction__title.css);
 @import url(../blocks/direction-card/direction-card.css);
 @import url(../blocks/direction-card/__button-container/direction-card__button-container.css);
 @import url(../blocks/direction-card/__button/direction-card__button.css);

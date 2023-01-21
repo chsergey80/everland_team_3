@@ -1,9 +1,6 @@
 /* стили карточки внутри блока history */
 .history__card{
-  /* border: 1px solid green; */
   margin-top: 50px;
-  /*margin-left: 40px;
-  margin-right: 40px;*/
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
@@ -15,7 +12,7 @@
 
 @media screen and (max-width: 1439px) {
   .history__card {
-    margin-top: 18px;
+    margin-top: 15px;
     padding-top: 0;
     padding-bottom: 0;
     max-width: 688px;

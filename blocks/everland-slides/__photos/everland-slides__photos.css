@@ -10,6 +10,7 @@
 @media screen and (max-width: 1439px) {
     .everland-slides__photos {
         max-width: 244px;
+        margin-top: 18px;
     }
 }
 
