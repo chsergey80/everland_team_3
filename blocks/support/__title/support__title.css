@@ -1,0 +1,7 @@
+@media screen and (max-width: 1439px) {
+  .support__title {
+    max-width: 347px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}

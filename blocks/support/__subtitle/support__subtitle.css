@@ -1,0 +1,27 @@
+.support__subtitle {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  margin: 0 auto;
+  padding: 23px 10px 16px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__subtitle {
+    font-size: 20px;
+    padding: 32px 14px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__subtitle {
+    font-size: 16px;
+    padding: 32px 8px 20px 16px;
+  }
+
+  .support__subtitle:first-of-type {
+    padding: 0 8px 0 16px;
+  }
+}

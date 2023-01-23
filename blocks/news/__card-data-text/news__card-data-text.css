@@ -1,0 +1,28 @@
+/* стили текста с датой */
+.news__card-data-text{
+  /* border: 2px solid yellowgreen; */
+  margin: 0;
+  color: rgba(38, 38, 38, 0.5);
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  grid-row: 5/6;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__card-data-text{
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card-data-text{
+    margin-top: 20px;
+    margin-bottom: 24px;
+  }
+}
+

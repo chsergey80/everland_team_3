@@ -1,0 +1,25 @@
+/* Стили маленького текста вверху - "Тема"*/
+.news__card-upper-text{
+  /* border: 1px solid blue; */
+  margin: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__card-upper-text{
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card-upper-text{
+    margin-top: 24px;
+    line-height: 14px;
+    font-size: 12px;
+  }
+}

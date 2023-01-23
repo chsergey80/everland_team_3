@@ -1,0 +1,11 @@
+.footer__logo-participant-develop {
+  width: 161.38px;
+  height: 27.97px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__logo-participant-develop {
+    width: 115.37px;
+    height: 20.03px;
+  }
+}

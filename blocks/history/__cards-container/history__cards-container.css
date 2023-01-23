@@ -1,0 +1,31 @@
+/* стили контейнера для маленьких карточек внизу блока history */
+.history__cards-container{
+  padding: 0;
+  list-style-type: none;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  margin-top: 99px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0;
+  grid-column: 1/3;
+}
+
+@media screen and (max-width: 1439px) {
+  .history__cards-container {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__cards-container {
+    margin-top: 0;
+    grid-template: 1fr 1fr / 1fr;
+    row-gap: 16px;
+    justify-items: center;
+    max-width: 300px;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}

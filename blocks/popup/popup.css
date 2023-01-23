@@ -1,6 +1,13 @@
 .popup {
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
     opacity: 0;
     display: none;
+=======
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  display: none;
+>>>>>>> develop
 }

@@ -1,0 +1,23 @@
+/* стили аватаров в блоке history_card */
+.history__avatar{
+  max-width: 224px;
+  max-height: 224px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1439px) {
+  .history__avatar {
+    max-width: 204px;
+    max-height: 204px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__avatar {
+    max-width: 80px;
+    max-height: 80px;
+  }
+}
+

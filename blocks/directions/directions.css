@@ -1,0 +1,26 @@
+.directions {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 100px auto 0;
+  max-width: 1360px;
+  width: 100%;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+@media (max-width:1439px) {
+  .directions {
+    gap: 32px;
+    margin-top: 50px;
+    max-width: 689px;
+  }
+}
+
+@media (max-width:767px) {
+  .directions {
+    gap: 24px;
+    margin-top: 32px;
+    max-width: 300px;
+  }
+}

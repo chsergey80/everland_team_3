@@ -1,0 +1,8 @@
+.support__pseudo-checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  background-color: #dadada;
+  border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+.support__blocks {
+  display: flex;
+  margin-top: 50px;
+  max-width: 1296px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__blocks {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    max-width: 688px;
+  }
+}

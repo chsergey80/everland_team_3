@@ -1,0 +1,27 @@
+/* Стили карточек новостей */
+.news__card{
+  border-radius: 30px;
+  border: 1px solid #DADADA;
+  min-height: 800px;
+  max-width: 380px;
+  padding-left: 29px;
+  padding-right: 29px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, min-content) auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__card{
+    max-width: 334px;
+    min-height: 551px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__card{
+    min-height: 367px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

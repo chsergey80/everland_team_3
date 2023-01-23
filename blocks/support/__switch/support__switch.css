@@ -1,0 +1,25 @@
+.support__switch {
+  width: 20px;
+  height: 20px;
+  background: no-repeat center/20px transparent
+    url("../../../images/right-arrow.svg");
+  margin: 0;
+  border: none;
+  padding-left: 20px;
+  align-self: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__switch {
+    margin-left: 20px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__switch {
+    margin-top: 6px;
+    transform: rotate(90deg);
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,18 @@
+.support__form {
+  margin: 0;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__form  {
+    max-width: 688px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__form  {
+    max-width: 300px;
+  }
+}
+
+

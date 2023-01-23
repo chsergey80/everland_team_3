@@ -1,0 +1,15 @@
+.donation-form__custom-radio_long-button {
+    width: 316px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__custom-radio_long-button:last-of-type {
+    width: 296px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__custom-radio_long-button  {
+    max-width: 122px;
+  }
+}

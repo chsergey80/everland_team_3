@@ -1,0 +1,29 @@
+.numbers-card__text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 325px;
+  width: 100%;
+}
+
+@media (max-width:1439px) {
+  .numbers-card__text-box {
+    gap: 10px;
+    max-width: 332px;
+  }
+}
+
+@media (max-width:767px) {
+  .numbers-card__text-box {
+    gap: 5px;
+    max-width: 332px;
+  }
+
+  .numbers-card__text-box:nth-of-type(2) {
+    order: +1;
+  }
+
+  .numbers-card__text-box:nth-of-type(4) {
+    order: +1;
+  }
+}

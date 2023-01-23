@@ -1,0 +1,14 @@
+/*Стиль самой картинки */
+.news__card-image{
+  margin-top: 30px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__card-image{
+    margin-top: 20px;
+  }
+}
+

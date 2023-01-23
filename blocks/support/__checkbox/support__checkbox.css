@@ -1,0 +1,32 @@
+.support__checkbox {
+  padding-top: 17px;
+  display: block;
+  padding-bottom: 24px;
+}
+
+.support__checkbox:first-of-type {
+  padding-top: 25px;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__checkbox {
+    padding-top: 14px;
+  }
+
+  .support__checkbox:first-of-type {
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__checkbox {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+  }
+  .support__checkbox:first-of-type {
+    padding-top: 22px;
+    padding-bottom: 0px;
+  }
+}

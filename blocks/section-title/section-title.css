@@ -1,4 +1,5 @@
 .section-title {
+<<<<<<< HEAD
   /*Это все заголовки, начала каждой секции! паддинги не писала, так как где-то отступ 100px, где-то 150.*/
   margin: 0;
   font-family: "Raleway", "Arial", sans-serif;
@@ -9,3 +10,21 @@
   letter-spacing: -0.01em;
   color: #333;
 }
+=======
+  margin-bottom: 50px;
+  letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 1439px) {
+  .section-title {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    margin-bottom: 24px;
+    letter-spacing: -0.02em;
+  }
+}
+>>>>>>> develop

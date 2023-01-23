@@ -1,0 +1,26 @@
+.footer__description {
+  margin: 0;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #333;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__description {
+    font-size: 12px;
+    padding-top: 12px;
+  }
+}

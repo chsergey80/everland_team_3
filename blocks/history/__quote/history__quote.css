@@ -1,0 +1,23 @@
+/* стили кавычек в history__info */
+.history__quote{
+  /* border: 1px solid orangered; */
+  height: 35px;
+  width: 35px;
+  margin: 15px 31.5px 0 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .history__quote {
+    height: 28.51px;
+    width: 20px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history__quote {
+    height: 24.44px;
+    width: 17.14px;
+    margin-bottom: 0;
+  }
+}
