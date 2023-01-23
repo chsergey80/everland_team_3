@@ -1,4 +1,32 @@
 .button-accordeon {
+<<<<<<< HEAD
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: no-repeat center #E7F0FF url("../../images/Icon_plus.svg");
+}
+
+.button-accordeon:hover { /*состояние при наведении*/
+    transition: 0.35s;
+    cursor: pointer;
+    background: no-repeat center #0C4BA0 url("../../images/Icon_plus-white.svg");
+  }
+
+  .button-accordeon:active { /*состояние при нажатии*/
+    transform: rotate(45deg);
+  }
+
+  @media screen and (max-width: 320px) {
+    .button-accordeon {
+      width: 32px;
+      height: 32px;
+      background-size: 12px;
+    }
+  }
+=======
   width: 45px;
   height: 45px;
   border-radius: 20px;
@@ -31,3 +59,4 @@
     background-size: 12px;
   }
 }
+>>>>>>> develop
