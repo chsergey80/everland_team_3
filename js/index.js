@@ -73,3 +73,18 @@ buttons.forEach(function(item){
   });
 });
 
+function changeNameTitleDir(info) {
+  const titleDir = document.querySelector(info);
+  if (info == '#ourdirects'){
+    titleDir.textContent = 'В каких направлениях мы работаем?';
+  }else{
+    titleDir.textContent = 'Главное в нашей работе';
+  }
+}
+
+if (
+  document.documentElement.clientWidth <= 1439
+) {
+  changeNameTitleDir('#ourdirects');
+  changeNameTitleDir('#inwork');  
+}

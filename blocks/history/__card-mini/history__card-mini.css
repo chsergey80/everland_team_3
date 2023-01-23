@@ -7,6 +7,7 @@
   justify-content: space-between;
   column-gap: 20px;
   padding: 30px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1439px) {
@@ -16,7 +17,7 @@
     padding-bottom: 20px;
     padding-right: 0px;
     padding-left: 20px;
-    column-gap: 16px;
+    margin-top: 40px;
   }
 
 }
@@ -27,7 +28,9 @@
     padding-bottom: 16px;
     padding-right: 7px;
     padding-left: 16px;
-    column-gap: 15px;
-  }
+    padding-left: 16px;
+    column-gap: 16px;
+    margin-top: 0;
 
+}
 }

@@ -26,6 +26,7 @@
 
   .direction-card:nth-of-type(3) {
     order: 4;
+    min-height: 298px;
   }
 
   .direction-card:nth-of-type(4) {

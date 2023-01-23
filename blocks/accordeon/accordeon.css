@@ -12,6 +12,7 @@
 @media (max-width:1439px) {
   .accordeon {
     flex-direction: column;
+    
   }
 }
 
