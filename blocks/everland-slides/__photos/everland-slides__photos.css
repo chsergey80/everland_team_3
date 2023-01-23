@@ -3,21 +3,19 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
-    min-width: 520px;
-    min-height: 565px;
+    max-width: 520px;
     grid-area: img;
 }
 
 @media screen and (max-width: 1439px) {
     .everland-slides__photos {
-        min-width: 244px;
-        min-height: 286px;
+        max-width: 244px;
+        margin-top: 18px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .everland-slides__photos {
-        min-width: 304px;
-        min-height: 200px;
+        max-width: 304px;
     }
 }
