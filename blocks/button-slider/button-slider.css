@@ -1,8 +1,4 @@
 .button-slider {
-<<<<<<< HEAD
-  margin: 0;
-  padding: 0;
-=======
   min-width: 35px;
   min-height: 35px;
   border-radius: 10px;
@@ -14,7 +10,6 @@
 
 .button-slider:last-of-type {
   background: no-repeat center/17px #0C4BA0 url("../../images/icon/arrow_forward.svg");
->>>>>>> develop
 }
 
 .button-slider:hover {
@@ -27,9 +22,6 @@
 .button-slider:active {
   /*состояние при нажатии*/
   background-color: #00275C;
-<<<<<<< HEAD
-}
-=======
 }
 
 @media screen and (max-width: 1439px) {
@@ -47,4 +39,3 @@
     border-radius: 6px;
   }
 }
->>>>>>> develop

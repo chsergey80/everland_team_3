@@ -1,5 +1,5 @@
 const slide = document.querySelectorAll(".everland-slides");
-const projectsSlide = document.querySelectorAll(".projects");
+const projectsSlide = document.querySelectorAll(".projects-slider");
 const lastSlide = [].slice.call(slide).pop();
 const lastProjectsSlide = [].slice.call(projectsSlide).pop();
 

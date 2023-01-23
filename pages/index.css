@@ -1,9 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
-<<<<<<< HEAD
-/* Импорт блоков*/
-=======
 
 @import url(../blocks/scroll-container/scroll-container.css);
 
@@ -55,14 +52,14 @@
 @import url(../blocks/popup/_opened/popup_opened.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header-navigation/header-navigation.css);
-@import url(../blocks/header-navigation/__buttons/header-navigation__buttons.css);
-@import url(../blocks/header-navigation/__buttons/_size/header-navigation__buttons_size.css);
-@import url(../blocks/header-navigation/__link/header-navigation__link.css);
-@import url(../blocks/header-navigation/__logo/header-navigation__logo.css);
-@import url(../blocks/header-navigation/__menu-paragraph/header-navigation__menu-paragraph.css);
-@import url(../blocks/header-navigation/__menu/header-navigation__menu.css);
-@import url(../blocks/header-navigation/__menu/_opened/header-navigation__menu_opened.css);
+@import url(../blocks/logo-navigation/logo-navigation.css);
+@import url(../blocks/logo-navigation/__buttons/logo-navigation__buttons.css);
+@import url(../blocks/logo-navigation/__buttons/_size/logo-navigation__buttons_size.css);
+@import url(../blocks/logo-navigation/__link/logo-navigation__link.css);
+@import url(../blocks/logo-navigation/__logo/logo-navigation__logo.css);
+@import url(../blocks/logo-navigation/__menu-paragraph/logo-navigation__menu-paragraph.css);
+@import url(../blocks/logo-navigation/__menu/logo-navigation__menu.css);
+@import url(../blocks/logo-navigation/__menu/_opened/logo-navigation__menu_opened.css);
 
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__link/secondary-menu__link.css);
@@ -150,7 +147,6 @@
 @import url(../blocks/cards/__subtitle/_correction/cards__subtitle_correction.css);
 @import url(../blocks/cards/__text/cards__text.css);
 @import url(../blocks/main-text/main-text.css);
->>>>>>> develop
 @import url(../blocks/about-everland/about-everland.css);
 
 @import url(../blocks/everland-slides/everland-slides.css);
@@ -158,7 +154,8 @@
 @import url(../blocks/everland-slides/__button-back/everland-slides__button-back.css);
 @import url(../blocks/everland-slides/__button-forward/everland-slides__button-forward.css);
 @import url(../blocks/everland-slides/__buttons/everland-slides__buttons.css);
-@import url(../blocks/everland-slides/__img/everland-slides__img.css);
+@import url(../blocks/everland-slides/__img-forward/everland-slides__img-forward.css);
+@import url(../blocks/everland-slides/__img-back/everland-slides__img-back.css);
 @import url(../blocks/everland-slides/__paragraph/everland-slides__paragraph.css);
 @import url(../blocks/everland-slides/__photos/everland-slides__photos.css);
 @import url(../blocks/everland-slides/__slide-num/everland-slides__slide-num.css);
@@ -178,15 +175,6 @@
 
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/everland-in-numbers/everland-in-numbers.css);
-<<<<<<< HEAD
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/forwhom/forwhom.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/header-navigation/header-navigation.css);
-@import url(../blocks/popup/popup.css);
-@import url(../blocks/secondary-menu/secondary-menu.css);
-@import url(../blocks/history/history.css);
-=======
 
 @import url(../blocks/numbers-card/numbers-card.css);
 @import url(../blocks/numbers-card/__img/numbers-card__img.css);
@@ -196,7 +184,6 @@
 @import url(../blocks/numbers-card/__title-span/numbers-card__title-span.css);
 @import url(../blocks/numbers-card/__text/numbers-card__text.css);
 
->>>>>>> develop
 @import url(../blocks/in-work/in-work.css);
 @import url(../blocks/accordeon/accordeon.css);
 @import url(../blocks/accordeon/__title/accordeon__title.css);
@@ -270,68 +257,15 @@
 @import url(../blocks/accordeon/__title/accordeon__title.css);
 
 @import url(../blocks/special-projects/special-projects.css);
-<<<<<<< HEAD
-@import url(../blocks/support/support.css);
-@import url(../blocks/button-primary/button-primary.css);
-@import url(../blocks/everland-slides/everland-slides.css);
-@import url(../blocks/button-slider/button-slider.css);
-@import url(../blocks/projects/projects.css);
-
-/* Импорт элементов*/
-@import url(../blocks/header-navigation/__buttons/header-navigation__buttons.css);
-@import url(../blocks/header-navigation/__link/header-navigation__link.css);
-@import url(../blocks/header-navigation/__logo/header-navigation__logo.css);
-@import url(../blocks/header-navigation/__menu-paragraph/header-navigation__menu-paragraph.css);
-@import url(../blocks/header-navigation/__menu/header-navigation__menu.css);
-@import url(../blocks/secondary-menu/__link/secondary-menu__link.css);
-@import url(../blocks/secondary-menu/__links/secondary-menu__links.css);
-@import url(../blocks/secondary-menu/__paragraph/secondary-menu__paragraph.css);
-@import url(../blocks/popup/__container/popup__container.css);
-@import url(../blocks/popup/__paragraph/popup__paragraph.css);
-@import url(../blocks/popup/__title/popup__title.css);
-@import url(../blocks/popup/__title-link/popup__title-link.css);
-@import url(../blocks/popup/__list-items/popup__list-items.css);
-@import url(../blocks/popup/__button/popup__button.css);
-@import url(../blocks/popup/__list-project/popup__list-project.css);
-@import url(../blocks/popup/__list-people/popup__list-people.css);
-@import url(../blocks/popup/__list-services/popup__list-services.css);
-@import url(../blocks/everland-slides/__blue-title/everland-slides__blue-title.css);
-@import url(../blocks/everland-slides/__buttons/everland-slides__buttons.css);
-@import url(../blocks/everland-slides/__img/everland-slides__img.css);
-@import url(../blocks/everland-slides/__paragraph/everland-slides__paragraph.css);
-@import url(../blocks/everland-slides/__photos/everland-slides__photos.css);
-@import url(../blocks/everland-slides/__slide-num/everland-slides__slide-num.css);
-@import url(../blocks/everland-slides/__text/everland-slides__text.css);
-@import url(../blocks/everland-slides/__title/everland-slides__title.css);
-@import url(../blocks/button-slider/_background-color/button-slider_background-color.css);
-@import url(../blocks/projects/__buttons/projects__buttons.css);
-@import url(../blocks/projects/__img/projects__img.css);
-=======
-@import url(../blocks/projects/projects.css);
-@import url(../blocks/projects/__buttons/projects__buttons.css);
-@import url(../blocks/projects/__img/projects__img.css);
-@import url(../blocks/projects/__img/projects__img-1.css);
-@import url(../blocks/projects/__img/projects__img-2.css);
->>>>>>> develop
-@import url(../blocks/projects/__info/projects__info.css);
-@import url(../blocks/projects/__paragraph/projects__paragraph.css);
-@import url(../blocks/projects/__small-text/projects__small-text.css);
-@import url(../blocks/projects/__title/projects__title.css);
-<<<<<<< HEAD
-@import url(../blocks/button-slider/__back/button-slider__back.css);
-@import url(../blocks/button-slider/__forward/button-slider__forward.css);
-
-/* Импорт модификаторов*/
-@import url(../blocks/button-primary/_secondary/button-primary_secondary.css);
-@import url(../blocks/button-primary/_secondary-background-color/button-primary_secondary-background-color.css);
-@import url(../blocks/button-primary/_disabled/button-primary_disabled.css);
-@import url(../blocks/popup/_opened/popup_opened.css);
-@import url(../blocks/popup/__list-items/_opened/popup__list-items_opened.css);
-@import url(../blocks/popup/__button/_opened/popup__button_opened.css);
-@import url(../blocks/header-navigation/__menu/_opened/header-navigation__menu_opened.css);
-@import url(../blocks/button-slider/_disabled/button-slider_disabled.css);
-@import url(../blocks/button-primary/_header-size/button-primary_header-size.css);
-=======
+@import url(../blocks/projects-slider/projects-slider.css);
+@import url(../blocks/projects-slider/__buttons/projects-slider__buttons.css);
+@import url(../blocks/projects-slider/__img/projects-slider__img.css);
+@import url(../blocks/projects-slider/__img/projects-slider__img-1.css);
+@import url(../blocks/projects-slider/__img/projects-slider__img-2.css);
+@import url(../blocks/projects-slider/__info/projects-slider__info.css);
+@import url(../blocks/projects-slider/__paragraph/projects-slider__paragraph.css);
+@import url(../blocks/projects-slider/__small-text/projects-slider__small-text.css);
+@import url(../blocks/projects-slider/__title/projects-slider__title.css);
 
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__title/support__title.css);
@@ -383,4 +317,3 @@
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
 @import url(../blocks/footer/__support-block/footer__support-block.css);
 @import url(../blocks/footer/__link-img/support__link-img.css);
->>>>>>> develop

@@ -1,25 +1,4 @@
 .special-projects {
-<<<<<<< HEAD
-    margin: 0 auto;
-    padding: 0;
-    border-radius: 30px;
-    background-color: #E7F0FF;
-    max-width: 1360px;
-    display: flex;
-    overflow: hidden;
-}
-
-@media screen and (max-width: 1439px) {
-    .special-projects {
-        max-width: 698px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .special-projects {
-        max-width: 300px;
-    }
-=======
   margin: 0 auto;
   padding: 0;
   border-radius: 30px;
@@ -39,5 +18,4 @@
   .special-projects {
       max-width: 300px;
   }
->>>>>>> develop
 }
