@@ -15,7 +15,7 @@
   }
 
   .support__checkbox:first-of-type {
-    padding-top: 10px;
+    padding-top: 25px;
   }
 }
 
@@ -23,10 +23,10 @@
   .support__checkbox {
     display: flex;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 10px;
   }
   .support__checkbox:first-of-type {
-    padding-top: 22px;
+    padding-top: 28px;
     padding-bottom: 0px;
   }
 }

@@ -17,6 +17,10 @@
     padding-top: 32px;
     padding-left: 92px;
   }
+
+  .support__list:nth-child(8) {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -33,10 +37,6 @@
   }
 
   .support__list:nth-child(7) {
-    display: none;
-  }
-
-  .support__list:nth-child(8) {
     display: none;
   }
 }
