@@ -9,7 +9,7 @@
 @media screen and (max-width: 1439px) {
   .footer__links {
     max-width: 334px;
-    column-gap: 100px;
+    column-gap: 95px;
     align-items: flex-end;  /*center*/
   }
 }
