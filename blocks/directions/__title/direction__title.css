@@ -1,0 +1,15 @@
+.directions__title {
+
+}
+
+@media (max-width:1439px) {
+  .directions__title {
+    max-width: 420px;
+  }
+}
+
+@media (max-width:767px) {
+  .directions__title {
+    max-width: 300px;
+  }
+}
