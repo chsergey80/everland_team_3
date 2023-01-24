@@ -1,0 +1,22 @@
+.logo-navigation__link {
+    display: inline-block;
+    margin: 0 16px 0 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.logo-navigation__link:last-of-type {
+    margin: 0 40px 0 0;
+}
+
+@media screen and (max-width: 1439px) {
+    .logo-navigation__link {
+        margin: 0;
+        padding: 0;
+        margin-right: 8px;
+    }
+
+    .logo-navigation__link:last-of-type {
+        margin-right: 0;
+    }
+}
