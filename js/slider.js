@@ -1,5 +1,5 @@
 const slide = document.querySelectorAll(".everland-slides");
-const projectsSlide = document.querySelectorAll(".projects-slider");
+const projectsSlide = document.querySelectorAll(".projects");
 const lastSlide = [].slice.call(slide).pop();
 const lastProjectsSlide = [].slice.call(projectsSlide).pop();
 
@@ -104,3 +104,4 @@ function buttonBackItemProjects(item, pre) {
 }
 
 window.onresize = function () { location.reload(); }
+

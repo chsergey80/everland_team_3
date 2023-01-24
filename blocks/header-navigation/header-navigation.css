@@ -1,0 +1,23 @@
+.header-navigation {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+}
+
+@media screen and (max-width: 1439px) {
+    .header-navigation {
+        min-width: 769px;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-navigation {
+        min-height: 54px;
+        min-width: 320px;
+    }
+}

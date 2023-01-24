@@ -52,14 +52,14 @@
 @import url(../blocks/popup/_opened/popup_opened.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/logo-navigation/logo-navigation.css);
-@import url(../blocks/logo-navigation/__buttons/logo-navigation__buttons.css);
-@import url(../blocks/logo-navigation/__buttons/_size/logo-navigation__buttons_size.css);
-@import url(../blocks/logo-navigation/__link/logo-navigation__link.css);
-@import url(../blocks/logo-navigation/__logo/logo-navigation__logo.css);
-@import url(../blocks/logo-navigation/__menu-paragraph/logo-navigation__menu-paragraph.css);
-@import url(../blocks/logo-navigation/__menu/logo-navigation__menu.css);
-@import url(../blocks/logo-navigation/__menu/_opened/logo-navigation__menu_opened.css);
+@import url(../blocks/header-navigation/header-navigation.css);
+@import url(../blocks/header-navigation/__buttons/header-navigation__buttons.css);
+@import url(../blocks/header-navigation/__buttons/_size/header-navigation__buttons_size.css);
+@import url(../blocks/header-navigation/__link/header-navigation__link.css);
+@import url(../blocks/header-navigation/__logo/header-navigation__logo.css);
+@import url(../blocks/header-navigation/__menu-paragraph/header-navigation__menu-paragraph.css);
+@import url(../blocks/header-navigation/__menu/header-navigation__menu.css);
+@import url(../blocks/header-navigation/__menu/_opened/header-navigation__menu_opened.css);
 
 @import url(../blocks/secondary-menu/secondary-menu.css);
 @import url(../blocks/secondary-menu/__link/secondary-menu__link.css);
@@ -154,8 +154,7 @@
 @import url(../blocks/everland-slides/__button-back/everland-slides__button-back.css);
 @import url(../blocks/everland-slides/__button-forward/everland-slides__button-forward.css);
 @import url(../blocks/everland-slides/__buttons/everland-slides__buttons.css);
-@import url(../blocks/everland-slides/__img-forward/everland-slides__img-forward.css);
-@import url(../blocks/everland-slides/__img-back/everland-slides__img-back.css);
+@import url(../blocks/everland-slides/__img/everland-slides__img.css);
 @import url(../blocks/everland-slides/__paragraph/everland-slides__paragraph.css);
 @import url(../blocks/everland-slides/__photos/everland-slides__photos.css);
 @import url(../blocks/everland-slides/__slide-num/everland-slides__slide-num.css);
@@ -258,15 +257,15 @@
 @import url(../blocks/accordeon/__title/accordeon__title.css);
 
 @import url(../blocks/special-projects/special-projects.css);
-@import url(../blocks/projects-slider/projects-slider.css);
-@import url(../blocks/projects-slider/__buttons/projects-slider__buttons.css);
-@import url(../blocks/projects-slider/__img/projects-slider__img.css);
-@import url(../blocks/projects-slider/__img/projects-slider__img-1.css);
-@import url(../blocks/projects-slider/__img/projects-slider__img-2.css);
-@import url(../blocks/projects-slider/__info/projects-slider__info.css);
-@import url(../blocks/projects-slider/__paragraph/projects-slider__paragraph.css);
-@import url(../blocks/projects-slider/__small-text/projects-slider__small-text.css);
-@import url(../blocks/projects-slider/__title/projects-slider__title.css);
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__buttons/projects__buttons.css);
+@import url(../blocks/projects/__img/projects__img.css);
+@import url(../blocks/projects/__img/projects__img-1.css);
+@import url(../blocks/projects/__img/projects__img-2.css);
+@import url(../blocks/projects/__info/projects__info.css);
+@import url(../blocks/projects/__paragraph/projects__paragraph.css);
+@import url(../blocks/projects/__small-text/projects__small-text.css);
+@import url(../blocks/projects/__title/projects__title.css);
 
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__title/support__title.css);
@@ -308,7 +307,6 @@
 @import url(../blocks/footer/__icon/footer__icon.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__logo-img/footer__logo-img.css);
 @import url(../blocks/footer/__logo-participant-develop/footer__logo-participant-develop.css);
 @import url(../blocks/footer/__logo-partner/footer__logo-partner.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -316,5 +314,8 @@
 @import url(../blocks/footer/__partner/footer__partner.css);
 @import url(../blocks/footer/__subscription-block/footer__subscription-block.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__subtitle/_subscription/footer__subtitle_subscription.css);
 @import url(../blocks/footer/__support-block/footer__support-block.css);
-@import url(../blocks/footer/__link-img/support__link-img.css);
+@import url(../blocks/footer/__link-img/footer__link-img.css);
+@import url(../blocks/support/__donator/_dotter/support__donator_dotter.css);
+@import url(../blocks/footer/__tel/footer__tel.css);
