@@ -15,7 +15,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
     padding-top: 50px;
     padding-bottom: 52px;
-    column-gap: 40px;
+    column-gap: 52px;
   }
 }
 
