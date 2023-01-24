@@ -20,12 +20,14 @@
     padding-left: 55.85px;
     padding-bottom: 40px;
     background-image: url("../../../images/Footer/bilain\ 1.png");
-    margin-right: 20px;
+    margin-right: 8px;
     margin-left: 14px;
+    background-size: contain;
+    background-position: center;
   }
   .footer__logo-partner:last-of-type {
     padding-left: 88.38px;
-    padding-bottom: 30px;
+    padding-bottom: 48px;
     margin-right: 0;
   }
 }

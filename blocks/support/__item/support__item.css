@@ -20,8 +20,9 @@
 @media screen and (max-width: 1439px) {
   .support__item {
     font-size: 14px;
+    height: 44px;
     line-height: 120%;
-    margin-top: 24px;
+    margin-top: 10px;
   }
 }
 
