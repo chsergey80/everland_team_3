@@ -1,23 +1,48 @@
 .footer__logo-partner {
-  max-width: 100%;
+  padding-left: 100px;
+  padding-bottom: 52.48px;
   object-fit: cover;
-  margin: 0;
-  padding-right: 19px;
+  background-image: url("../../../images/beeline.png");
+  background-repeat: no-repeat;
+  margin-right: 50px;
 }
 
-.footer__logo-partner:last-child {
-  padding-right: 0;
+.footer__logo-partner:last-of-type {
+  padding-left: 100px;
+  padding-bottom: 52.48px;
+  object-fit: cover;
+  background-image: url("../../../images/fpg.png");
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1439px) {
   .footer__logo-partner {
-    max-width: 83px;
-    position: relative;
+    padding-left: 55.85px;
+    padding-bottom: 40px;
+    background-image: url("../../../images/Footer/bilain\ 1.png");
+    margin-right: 20px;
+    margin-left: 14px;
+  }
+  .footer__logo-partner:last-of-type {
+    padding-left: 88.38px;
+    padding-bottom: 30px;
+    margin-right: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer__logo-partner {
-    max-width: 72px;
+    padding-left: 47.47px;
+    padding-bottom: 40px;
+    margin-right: 7px;
+    width: 47.47px;
+    height: 34px;
+    background-size: contain;
+    background-position: center;
+  }
+  .footer__logo-partner:last-of-type {
+    padding-left: 72.67px;
+    padding-bottom: 40px;
+    margin-right: 0;
   }
 }

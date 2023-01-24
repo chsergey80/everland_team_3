@@ -307,7 +307,6 @@
 @import url(../blocks/footer/__icon/footer__icon.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__logo-img/footer__logo-img.css);
 @import url(../blocks/footer/__logo-participant-develop/footer__logo-participant-develop.css);
 @import url(../blocks/footer/__logo-partner/footer__logo-partner.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -315,5 +314,8 @@
 @import url(../blocks/footer/__partner/footer__partner.css);
 @import url(../blocks/footer/__subscription-block/footer__subscription-block.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__subtitle/_subscription/footer__subtitle_subscription.css);
 @import url(../blocks/footer/__support-block/footer__support-block.css);
-@import url(../blocks/footer/__link-img/support__link-img.css);
+@import url(../blocks/footer/__link-img/footer__link-img.css);
+@import url(../blocks/support/__donator/_dotter/support__donator_dotter.css);
+@import url(../blocks/footer/__tel/footer__tel.css);
