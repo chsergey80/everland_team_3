@@ -5,12 +5,14 @@
   line-height: 26px;
   font-size: 20px;
   font-weight: 400;
+
 }
 
 @media screen and (max-width: 1439px) {
   .news__card-text{
     line-height: 19px;
     font-size: 16px;
+    min-height: fit-content;
   }
 }
 
@@ -18,5 +20,6 @@
   .news__card-text{
     line-height: 17px;
     font-size: 14px;
+    min-width: 260px;
   }
 }

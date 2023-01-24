@@ -6,6 +6,7 @@
   line-height: 23px;
   font-size: 18px;
   font-weight: 400;
+  line-height: 120%;
   margin-bottom: 30px;
   grid-row: 5/6;
   align-self: flex-end;
@@ -23,6 +24,7 @@
   .news__card-data-text{
     margin-top: 20px;
     margin-bottom: 24px;
+    font-size: 12px;
   }
 }
 
