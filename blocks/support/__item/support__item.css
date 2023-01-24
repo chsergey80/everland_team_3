@@ -19,10 +19,9 @@
 
 @media screen and (max-width: 1439px) {
   .support__item {
-    min-height: 40px;
     font-size: 14px;
     line-height: 120%;
-    margin-top: 16px;
+    margin-top: 24px;
   }
 }
 

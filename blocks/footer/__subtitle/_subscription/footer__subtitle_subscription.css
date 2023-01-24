@@ -1,9 +1,0 @@
-.footer__subtitle_subscription {
-  padding-bottom: 11px;
-}
-
-@media screen and (max-width: 1439px) {
-  .footer__subtitle_subscription {
-    padding-bottom: 5px;
-  }
-}

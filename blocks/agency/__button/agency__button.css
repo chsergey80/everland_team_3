@@ -7,15 +7,14 @@
   line-height: 24px;
   font-size: 20px;
   font-weight: 500;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 20px;  /* добавил - pixel pervect*/
-  padding-right: 20px; /* добавил - pixel pervect*/
   cursor: pointer;
   transition: 0.6s;
-  display: block;
   margin: 0 auto;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  min-width: 204px;
 }
 
 .agency__button:hover {
@@ -27,9 +26,8 @@
   .agency__button {
     line-height: 19px;
     font-size: 16px;
-    padding-left: 37.5px;
-    padding-right: 37.5px;
-
+    min-height: 44px;
+    min-width: 200px;
   }
 }
 
@@ -37,10 +35,6 @@
   .agency__button {
     line-height: 17px;
     font-size: 14px;
-    padding-top: 10px;
-    padding-bottom: 15px; /* изменил по pixel perfect */
     min-width: 300px;
-
-
   }
 }

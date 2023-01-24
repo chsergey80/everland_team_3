@@ -1,0 +1,41 @@
+.draft {
+    margin: 30px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, fit-content(603px));
+    grid-template-rows: repeat(3, fit-content(393px));
+    grid-template-areas:
+        "small-text buttons img"
+        "text buttons  img"
+        "button buttons img";
+    gap: 22px 8px;
+    min-width: 1300px;
+}
+
+@media screen and (max-width: 1439px) {
+    .draft {
+        grid-template-columns: repeat(2, fit-content(339px));
+        grid-template-rows: repeat(3, fit-content(284px));
+        grid-template-areas:
+            "small-text img"
+            "text img"
+            "button img";
+        gap: 12px 30px;
+        min-width: 628px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .draft {
+        margin: 27px 24px 24px;
+        min-width: 254px;
+        grid-template-columns: repeat(2, fit-content(254px));
+        grid-template-rows: repeat(5 fit-content(400px));
+        grid-template-areas:
+            "small-text buttons"
+            "img img"
+            "text text"
+            "button button";
+        gap: 20px 66px;
+    }
+}
