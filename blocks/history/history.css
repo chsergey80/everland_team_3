@@ -1,6 +1,6 @@
 /* самые общие стили блока history */
 .history{
-  font-family: 'Raleway';
+  font-family: 'Raleway', Arial, sans-serif;
   margin: 150px auto 100px;
   max-width: 1360px;
   background-color: #fff;
