@@ -597,34 +597,84 @@
     <section class="content support" id="support">
       <h2 class="heading-first-item support__title">Поддержите нас</h2>
       <div class="support__blocks">
-        <form class="donation-form donation-form_place_support" name="place-payment">
-          <fieldset class="donation-form__fieldset support__form-pay">
-            <input type="radio" name="donation-amount" id="donat-amount-month" class="donation-form__radio">
-            <label for="donat-amount-month"
-              class="donation-form__custom-radio button-text donation-form__custom-radio_long-button">Ежемесячно
-              <a class="donation-form__question"></a>
-            </label>
-            <input type="radio" name="donation-amount" id="donat-amount-once" class="donation-form__radio">
-            <label for="donat-amount-once"
-              class="donation-form__custom-radio button-text donation-form__custom-radio_long-button">Разово</label>
-          </fieldset>
-          <fieldset class="donation-form__fieldset donation-form__fieldset_border">
-            <legend class="support__subtitle">Размер пожертвования</legend>
-            <div
-              class="donation-form__radiobuttons-container donation-form__radiobuttons-container_for_amount donation-form__radiobuttons-container_for_support">
-              <input type="radio" name="donation-amount-support" id="donat-amount250" class="donation-form__radio">
-              <label for="donat-amount250"
-                class="donation-form__custom-radio button-text donation-form__custom-radio_medium-button">250&#8381;</label>
-              <input type="radio" name="donation-amount-support" id="donat-amount500" class="donation-form__radio">
-              <label for="donat-amount500"
-                class="donation-form__custom-radio button-text donation-form__custom-radio_medium-button">500&#8381;</label>
-              <input type="radio" name="donation-amount-support" id="donat-amount750" class="donation-form__radio">
-              <label for="donat-amount750"
-                class="donation-form__custom-radio button-text donation-form__custom-radio_medium-button">750&#8381;</label>
-              <input type="radio" name="donation-amount-support" id="donat-amount1000" class="donation-form__radio">
-              <label for="donat-amount1000"
-                class="donation-form__custom-radio button-text donation-form__custom-radio_medium-button">1000&#8381;</label>
-              <input type="radio" name="donation-amount-support" id="donat-amountother" class="donation-form__radio"
+          <form class="donation-form donation-form_place_support" name="place-payment">
+            <fieldset class="donation-form__fieldset support__form-pay">
+              <input type="radio" name="donation-amount" id="donat-amount-month" class="donation-form__radio">
+              <label for="donat-amount-month"
+                class="donation-form__custom-radio button-text donation-form__custom-radio_long-button">Ежемесячно
+                <a class="donation-form__question"></a>
+              </label>
+              <input type="radio" name="donation-amount" id="donat-amount-once" class="donation-form__radio">
+              <label for="donat-amount-once"
+                class="donation-form__custom-radio button-text donation-form__custom-radio_long-button">Разово</label>
+            </fieldset>
+            <fieldset class="donation-form__fieldset donation-form__fieldset_border">
+              <legend class="support__subtitle">Размер пожертвования</legend>
+              <div
+                class="donation-form__radiobuttons-container donation-form__radiobuttons-container_for_amount donation-form__radiobuttons-container_for_support">
+                <input type="radio" name="donation-amount-support" id="donat-amount250" class="donation-form__radio">
+                <label for="donat-amount250"
+                  class="donation-form__custom-radio button-text donation-form__custom-radio_medium-button">250&#8381;</label>
+                <input type="radio" name="donation-amount-support" id="donat-amount500" class="donation-form__radio">
+                <label for="donat-amount500"
+                  class="donation-form__custom-radio button-text donation-form__custom-radio_medium-button">500&#8381;</label>
+                <input type="radio" name="donation-amount-support" id="donat-amount750" class="donation-form__radio">
+                <label for="donat-amount750"
+                  class="donation-form__custom-radio button-text donation-form__custom-radio_medium-button">750&#8381;</label>
+                <input type="radio" name="donation-amount-support" id="donat-amount1000" class="donation-form__radio">
+                <label for="donat-amount1000"
+                  class="donation-form__custom-radio button-text donation-form__custom-radio_medium-button">1000&#8381;</label>
+                <input type="radio" name="donation-amount-support" id="donat-amountother" class="donation-form__radio">
+                <input type="text" name="sum-user" id="sum-user" class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text donation-form__custom-radio_medium-button" placeholder="Другая сумма">
+              </div>
+              <p class="support__description">
+                Регулярные пожертвования очень важны для Everland.
+                Это&nbsp;то, что помогает нашим программам работать
+                бесперебойно, что открывает новые востребованные проекты, что
+                максимально эффективно решает социальную задачу. Если
+                вы&nbsp;захотите поддерживать наши программы постоянно,
+                то&nbsp;каждый месяц с&nbsp;вашей карты будет списываться
+                указанная вами сумма.
+              </p>
+            </fieldset>
+            <fieldset
+              class="donation-form__fieldset donation-form__radiobuttons-container_for_amount donation-form__fieldset_border">
+              <legend class="support__subtitle support__subtitle_payment">Способ оплаты</legend>
+              <div class="support__payment-methods">
+                <input type="radio" name="donation-amount-cards" id="donation-amount-card" class="donation-form__radio">
+                <label for="donation-amount-card"
+                  class="donation-form__custom-radio button-text donation-form__custom-radio_middle-button"><span
+                    class="support__bank-cards">
+                    <img src="./images/payment-methods/mir.svg" alt="Банковская карта Мир" class="support__image-card">
+                    <img src="./images/payment-methods/maestro.svg" alt="Банковская карта Маэстро"
+                      class="support__image-card">
+                    <img src="./images/payment-methods/visa.svg" alt="Банковская карта Виза"
+                      class="support__image-card">
+                    <img src="./images/payment-methods/Mastercard.svg" alt="Банковская карта МастерКард"
+                      class="support__image-card"> </span></label>
+                <input type="radio" name="donation-amount-cards" id="donat-amount-u-money" class="donation-form__radio">
+                <label for="donat-amount-u-money"
+                  class="donation-form__custom-radio button-text donation-form__custom-radio_middle-button"><span
+                    class="support__bank-cards">
+                    <img src="./images/payment-methods/u-money.svg" alt="Способ оплаты Ю-мани"
+                      class="support__payment-method"> </span></label>
+                <input type="radio" name="donation-amount-cards" id="donat-amount-web-money"
+                  class="donation-form__radio">
+                <label for="donat-amount-web-money"
+                  class="donation-form__custom-radio button-text donation-form__custom-radio_middle-button"><span
+                    class="support__bank-cards">
+                    <img src="./images/payment-methods/webmoney.svg" alt="Способ оплаты Веб-мани"
+                      class="support__payment-method_size-other"> </span></label>
+                <button type="button" class="support__switch"></button>
+              </div>
+            </fieldset>
+            <fieldset class="support__contact-details donation-form__fieldset donation-form__fieldset_border">
+              <legend class="support__subtitle support__subtitle_self-information">
+                Ваши данные
+              </legend>
+              <input type="text" class="support__item" name="name" id="name" placeholder="Иван Иванов" value="">
+              <input type="email" class="support__item" id="description" name="email" placeholder="myemail@example.com"
+
                 value="">
               <label for="donat-amountother"
                 class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text donation-form__custom-radio_medium-button">Другая
