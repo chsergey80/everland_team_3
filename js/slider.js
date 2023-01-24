@@ -102,3 +102,6 @@ function buttonBackItemProjects(item, pre) {
         pre.style.marginLeft = "24px";
     }
 }
+
+window.onresize = function () { location.reload(); }
+
