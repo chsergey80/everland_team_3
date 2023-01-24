@@ -1,0 +1,22 @@
+.specialization__buttons {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 126px;
+    max-height: 35px;
+    grid-area: buttons;
+}
+
+@media screen and (max-width: 1439px) {
+    .specialization__buttons {
+        max-width: 97px;
+        max-height: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .specialization__buttons {
+        margin: 0 auto;
+    }
+}

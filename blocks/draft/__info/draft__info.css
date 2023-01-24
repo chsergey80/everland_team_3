@@ -1,0 +1,8 @@
+.draft__info {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    grid-area: text;
+    align-items: flex-start;
+}

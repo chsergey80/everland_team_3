@@ -16,6 +16,7 @@
 
 @media screen and (max-width: 767px) {
   .history__subtitle {
+    margin-top: 4px;
     line-height: 19px;
     font-size: 16px;
   }
