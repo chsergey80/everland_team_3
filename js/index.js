@@ -86,5 +86,5 @@ if (
   document.documentElement.clientWidth <= 1439
 ) {
   changeNameTitleDir('#ourdirects');
-  changeNameTitleDir('#inwork');  
+  changeNameTitleDir('#inwork');
 }
