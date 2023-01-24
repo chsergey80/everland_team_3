@@ -1,4 +1,4 @@
-.heading4 {
+.heading-second-item {
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-feature-settings: 'pnum' on, 'lnum' on;
   font-size: 34px;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .heading4 {
+  .heading-second-item {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .heading4 {
+  .heading-second-item {
     font-size: 18px;
   }
 }
