@@ -9,6 +9,14 @@
 @media screen and (max-width: 1439px) {
   .news__card-image{
     margin-top: 20px;
+    width: 274px;
+    height: 212px;
   }
 }
 
+@media screen and (max-width: 767px) {
+  .news__card-image{
+    width: 252px;
+    height: 192px;
+  }
+}

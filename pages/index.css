@@ -18,7 +18,6 @@
 @import url(../blocks/button-text/button-text.css);
 @import url(../blocks/button-accordeon/button-accordeon.css);
 @import url(../blocks/button-accordeon/_active/button-accordeon_active.css);
-@import url(../blocks/button-accordeon/_disabled/button-accordeon_disabled.css);
 @import url(../blocks/button-link-container/button-link-container.css);
 @import url(../blocks/button-link/button-link.css);
 @import url(../blocks/button-link/_color/_blue/button-link_color_blue.css);
@@ -113,9 +112,9 @@
 @import url(../blocks/forwhom/forwhom.css);
 @import url(../blocks/forwhom/__content/forwhom__content.css);
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/heading-2/heading-2.css);
-@import url(../blocks/heading-4/heading-4.css);
-@import url(../blocks/heading-4/_mobile-as-heading5/heading-4_mobile-as-heading5.css);
+@import url(../blocks/heading-first-item/heading-first-item.css);
+@import url(../blocks/heading-second-item/heading-second-item.css);
+@import url(../blocks/heading-second-item/_mobile-as-heading/heading-second-item_mobile-as-heading.css);
 @import url(../blocks/whom/whom.css);
 @import url(../blocks/whom/__description/whom__description.css);
 @import url(../blocks/whom/__icon/whom__icon.css);
@@ -162,9 +161,7 @@
 @import url(../blocks/everland-slides/__title/everland-slides__title.css);
 
 @import url(../blocks/directions/directions.css);
-@import url(../blocks/directions/__title/direction__title.css);
 @import url(../blocks/direction-card/direction-card.css);
-@import url(../blocks/direction-card/__button-container/direction-card__button-container.css);
 @import url(../blocks/direction-card/__button/direction-card__button.css);
 @import url(../blocks/direction-card/__text/direction-card__text.css);
 @import url(../blocks/direction-card/__title/direction-card__title.css);
@@ -285,6 +282,7 @@
 @import url(../blocks/support/__item/_el/support__item_el_extra-options.css);
 @import url(../blocks/support/__item/_el/support__item_el_number-of-columns.css);
 @import url(../blocks/support/__list/support__list.css);
+@import url(../blocks/support/__list-item/support__list-item.css);
 @import url(../blocks/support/__payment-method/support__payment-method.css);
 @import url(../blocks/support/__payment-method/_size-other/support__payment-method_size-other.css);
 @import url(../blocks/support/__payment-methods/support__payment-methods.css);
@@ -316,6 +314,6 @@
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
 @import url(../blocks/footer/__subtitle/_subscription/footer__subtitle_subscription.css);
 @import url(../blocks/footer/__support-block/footer__support-block.css);
-@import url(../blocks/footer/__link-img/footer__link-img.css);
 @import url(../blocks/support/__donator/_dotter/support__donator_dotter.css);
 @import url(../blocks/footer/__tel/footer__tel.css);
+@import url(../blocks/footer/__logo-img/footer__logo-img.css);
