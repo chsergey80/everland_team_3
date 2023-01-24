@@ -5,6 +5,8 @@
   flex-wrap: wrap;
   max-width: 670px;
   row-gap: 30px;
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width:1439px) {
