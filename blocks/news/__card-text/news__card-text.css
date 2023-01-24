@@ -11,6 +11,7 @@
   .news__card-text{
     line-height: 19px;
     font-size: 16px;
+    min-height: fit-content;
   }
 }
 
