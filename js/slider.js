@@ -105,3 +105,4 @@ function buttonBackItemProjects(item, pre) {
 
 window.onresize = function () { location.reload(); }
 
+
