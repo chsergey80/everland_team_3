@@ -52,19 +52,19 @@
 @import url(../blocks/popup/_opened/popup_opened.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/logo-navigation/logo-navigation.css);
-@import url(../blocks/logo-navigation/__buttons/logo-navigation__buttons.css);
-@import url(../blocks/logo-navigation/__buttons/_size/logo-navigation__buttons_size.css);
-@import url(../blocks/logo-navigation/__link/logo-navigation__link.css);
-@import url(../blocks/logo-navigation/__logo/logo-navigation__logo.css);
-@import url(../blocks/logo-navigation/__menu-paragraph/logo-navigation__menu-paragraph.css);
-@import url(../blocks/logo-navigation/__menu/logo-navigation__menu.css);
-@import url(../blocks/logo-navigation/__menu/_opened/logo-navigation__menu_opened.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__buttons/navigation__buttons.css);
+@import url(../blocks/navigation/__buttons/_size/navigation__buttons_size.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/navigation/__logo/navigation__logo.css);
+@import url(../blocks/navigation/__menu-paragraph/navigation__menu-paragraph.css);
+@import url(../blocks/navigation/__menu/navigation__menu.css);
+@import url(../blocks/navigation/__menu/_opened/navigation__menu_opened.css);
 
-@import url(../blocks/secondary-menu/secondary-menu.css);
-@import url(../blocks/secondary-menu/__link/secondary-menu__link.css);
-@import url(../blocks/secondary-menu/__links/secondary-menu__links.css);
-@import url(../blocks/secondary-menu/__paragraph/secondary-menu__paragraph.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__links/menu__links.css);
+@import url(../blocks/menu/__paragraph/menu__paragraph.css);
 
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/donation-form/donation-form.css);
@@ -149,18 +149,18 @@
 @import url(../blocks/main-text/main-text.css);
 @import url(../blocks/about-everland/about-everland.css);
 
-@import url(../blocks/everland-slides/everland-slides.css);
-@import url(../blocks/everland-slides/__blue-title/everland-slides__blue-title.css);
-@import url(../blocks/everland-slides/__button-back/everland-slides__button-back.css);
-@import url(../blocks/everland-slides/__button-forward/everland-slides__button-forward.css);
-@import url(../blocks/everland-slides/__buttons/everland-slides__buttons.css);
-@import url(../blocks/everland-slides/__img-forward/everland-slides__img-forward.css);
-@import url(../blocks/everland-slides/__img-back/everland-slides__img-back.css);
-@import url(../blocks/everland-slides/__paragraph/everland-slides__paragraph.css);
-@import url(../blocks/everland-slides/__photos/everland-slides__photos.css);
-@import url(../blocks/everland-slides/__slide-num/everland-slides__slide-num.css);
-@import url(../blocks/everland-slides/__text/everland-slides__text.css);
-@import url(../blocks/everland-slides/__title/everland-slides__title.css);
+@import url(../blocks/specialization/specialization.css);
+@import url(../blocks/specialization/__blue-title/specialization__blue-title.css);
+@import url(../blocks/specialization/__button-back/specialization__button-back.css);
+@import url(../blocks/specialization/__button-forward/specialization__button-forward.css);
+@import url(../blocks/specialization/__buttons/specialization__buttons.css);
+@import url(../blocks/specialization/__img-forward/specialization__img-forward.css);
+@import url(../blocks/specialization/__img-back/specialization__img-back.css);
+@import url(../blocks/specialization/__paragraph/specialization__paragraph.css);
+@import url(../blocks/specialization/__photos/specialization__photos.css);
+@import url(../blocks/specialization/__slide-num/specialization__slide-num.css);
+@import url(../blocks/specialization/__text/specialization__text.css);
+@import url(../blocks/specialization/__title/specialization__title.css);
 
 @import url(../blocks/directions/directions.css);
 @import url(../blocks/directions/__title/direction__title.css);
@@ -258,15 +258,15 @@
 @import url(../blocks/accordeon/__title/accordeon__title.css);
 
 @import url(../blocks/special-projects/special-projects.css);
-@import url(../blocks/projects-slider/projects-slider.css);
-@import url(../blocks/projects-slider/__buttons/projects-slider__buttons.css);
-@import url(../blocks/projects-slider/__img/projects-slider__img.css);
-@import url(../blocks/projects-slider/__img/projects-slider__img-1.css);
-@import url(../blocks/projects-slider/__img/projects-slider__img-2.css);
-@import url(../blocks/projects-slider/__info/projects-slider__info.css);
-@import url(../blocks/projects-slider/__paragraph/projects-slider__paragraph.css);
-@import url(../blocks/projects-slider/__small-text/projects-slider__small-text.css);
-@import url(../blocks/projects-slider/__title/projects-slider__title.css);
+@import url(../blocks/draft/draft.css);
+@import url(../blocks/draft/__buttons/draft__buttons.css);
+@import url(../blocks/draft/__img/draft__img.css);
+@import url(../blocks/draft/__img/draft__img-1.css);
+@import url(../blocks/draft/__img/draft__img-2.css);
+@import url(../blocks/draft/__info/draft__info.css);
+@import url(../blocks/draft/__paragraph/draft__paragraph.css);
+@import url(../blocks/draft/__small-text/draft__small-text.css);
+@import url(../blocks/draft/__title/draft__title.css);
 
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__title/support__title.css);

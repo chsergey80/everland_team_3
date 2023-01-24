@@ -1,0 +1,22 @@
+.navigation__logo {
+    margin: 0 0 0 40px;
+    padding: 0;
+    max-height: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+    .navigation__logo {
+        margin: 0;
+        padding: 0;
+        max-height: 24px;
+        position: absolute;
+        left: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navigation__logo {
+        top: 18px;
+        left: 10px;
+    }
+}
