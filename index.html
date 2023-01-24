@@ -571,9 +571,9 @@
             программы»
           </p>
           <p class="news__card-text">
-            Эксперты с инвалидностью, представители бизнеса и некоммерческих организаций поговорили о том, что такое
-            инклюзия, рассмотрели подходы к трудоустройству людей с инвалидностью, обсудили проблемы, к которым нужно
-            быть готовым, и поделились успешными кейсами
+            Эксперты с инвалидностью, представители бизнеса и некоммерческих организаций поговорили о том,
+            что такое инклюзия, рассмотрели подходы к трудоустройству людей с инвалидностью,
+            обсудили проблемы, к которым нужно быть готовым, и поделились успешными кейсами
           </p>
           <p class="news__card-data-text">20 сентября 2021</p>
         </li>
@@ -625,7 +625,7 @@
                 <label for="donat-amount1000"
                   class="donation-form__custom-radio button-text donation-form__custom-radio_medium-button">1000&#8381;</label>
                 <input type="radio" name="donation-amount-support" id="donat-amountother" class="donation-form__radio">
-                <input type="text" name="sum-user" id="sum-user" class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text donation-form__custom-radio_medium-button" placeholder="Другая сумма">
+                <input type="text" name="sum-user" id="sum-user" class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text donation-form__custom-radio_medium-button donation-form__custom-radio_other-sumbutton" placeholder="Другая сумма">
               </div>
               <p class="support__description">
                 Регулярные пожертвования очень важны для Everland.
@@ -674,78 +674,27 @@
               </legend>
               <input type="text" class="support__item" name="name" id="name" placeholder="Иван Иванов" value="">
               <input type="email" class="support__item" id="description" name="email" placeholder="myemail@example.com"
-
                 value="">
-              <label for="donat-amountother"
-                class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text donation-form__custom-radio_medium-button">Другая
-                сумма</label>
-            </div>
-            <p class="support__description">
-              Регулярные пожертвования очень важны для Everland.
-              Это&nbsp;то, что помогает нашим программам работать
-              бесперебойно, что открывает новые востребованные проекты, что
-              максимально эффективно решает социальную задачу. Если
-              вы&nbsp;захотите поддерживать наши программы постоянно,
-              то&nbsp;каждый месяц с&nbsp;вашей карты будет списываться
-              указанная вами сумма.
-            </p>
-          </fieldset>
-          <fieldset
-            class="donation-form__fieldset donation-form__radiobuttons-container_for_amount donation-form__fieldset_border">
-            <legend class="support__subtitle support__subtitle_payment">Способ оплаты</legend>
-            <div class="support__payment-methods">
-              <input type="radio" name="donation-amount-cards" id="donation-amount-card" class="donation-form__radio">
-              <label for="donation-amount-card"
-                class="donation-form__custom-radio button-text donation-form__custom-radio_middle-button"><span
-                  class="support__bank-cards">
-                  <img src="./images/payment-methods/mir.svg" alt="Банковская карта Мир" class="support__image-card">
-                  <img src="./images/payment-methods/maestro.svg" alt="Банковская карта Маэстро"
-                    class="support__image-card">
-                  <img src="./images/payment-methods/visa.svg" alt="Банковская карта Виза" class="support__image-card">
-                  <img src="./images/payment-methods/Mastercard.svg" alt="Банковская карта МастерКард"
-                    class="support__image-card"> </span></label>
-              <input type="radio" name="donation-amount-cards" id="donat-amount-u-money" class="donation-form__radio">
-              <label for="donat-amount-u-money"
-                class="donation-form__custom-radio button-text donation-form__custom-radio_middle-button"><span
-                  class="support__bank-cards">
-                  <img src="./images/payment-methods/u-money.svg" alt="Способ оплаты Ю-мани"
-                    class="support__payment-method"> </span></label>
-              <input type="radio" name="donation-amount-cards" id="donat-amount-web-money" class="donation-form__radio">
-              <label for="donat-amount-web-money"
-                class="donation-form__custom-radio button-text donation-form__custom-radio_middle-button"><span
-                  class="support__bank-cards">
-                  <img src="./images/payment-methods/webmoney.svg" alt="Способ оплаты Веб-мани"
-                    class="support__payment-method_size-other"> </span></label>
-              <button type="button" class="support__switch"></button>
-            </div>
-          </fieldset>
-          <fieldset class="support__contact-details donation-form__fieldset donation-form__fieldset_border">
-            <legend class="support__subtitle support__subtitle_self-information">
-              Ваши данные
-            </legend>
-            <input type="text" class="support__item" name="name" id="name" placeholder="Иван Иванов" value="">
-            <input type="email" class="support__item" id="description" name="email" placeholder="myemail@example.com"
-              value="">
-            <label for="offer" class="support__checkbox">
-              <input type="checkbox" name="extra-option" id="offer"
-                class="support__item support__item_el_extra-options">
-              <span class="support__pseudo-checkbox"></span>
-              <span class="support__checkbox-text">Соглашаюсь с
-                <a href="#" class="support__checkbox-text support__checkbox-text_link">офертой</a></span>
-            </label>
-            <label for="personal-data" class="support__checkbox">
-              <input type="checkbox" name="extra-option" id="personal-data"
-                class="support__item support__item_el_extra-options" value="black-background">
-              <span class="support__pseudo-checkbox"></span>
-              <span class="support__checkbox-text">Соглашаюсь на
-                <a href="#" class="support__checkbox-text support__checkbox-text_link">обработку моих персональных
-                  данных</a></span>
-            </label>
-            <button type="submit" class="button button_theme_primary button-text donation-form__submit-button">
-              Поддержать
-            </button>
-          </fieldset>
-        </form>
+              <label for="offer" class="support__checkbox">
+                <input type="checkbox" name="extra-option" id="offer"
+                  class="support__item support__item_el_extra-options">
+                <span class="support__pseudo-checkbox"></span>
+                <span class="support__checkbox-text">Соглашаюсь с
+                  <a href="#" class="support__checkbox-text support__checkbox-text_link">офертой</a></span>
+              </label>
+              <label for="personal-data" class="support__checkbox">
+                <input type="checkbox" name="extra-option" id="personal-data"
+                  class="support__item support__item_el_extra-options" value="black-background">
+                <span class="support__pseudo-checkbox"></span>
+                <span class="support__checkbox-text">Соглашаюсь на
+                  <a href="#" class="support__checkbox-text support__checkbox-text_link">обработку моих персональных
+                    данных</a></span>
+              </label>
+              <button type="submit" class="button button_theme_primary button-text donation-form__submit-button">
+                Поддержать
+              </button>
+            </fieldset>
+          </form>
         <div class="support__who-donat">
           <p class="suppot__thanks">
             Everland создается силами многих. Мы благодарны каждому за
@@ -754,75 +703,75 @@
           <ul class="support__list">
             <li class="support__list-item">
               <p class="support__donator">Аноним</p>
-              <div class="support__donator_dotter">
-              </div>
-              <p class="support__donator">500 &#8381;</p>
-              <p class="support__donator support__donator-time">
-                2 часа назад
-              </p>
+            <div class="support__donator_dotter">
+            </div>
+            <p class="support__donator">500 &#8381;</p>
+            <p class="support__donator support__donator-time">
+              2 часа назад
+            </p>
             </li>
             <li class="support__list-item">
               <p class="support__donator">Татьяна</p>
-              <div class="support__donator_dotter">
-              </div>
-              <p class="support__donator">600 &#8381;</p>
-              <p class="support__donator support__donator-time">
-                3 часа назад
-              </p>
+            <div class="support__donator_dotter">
+            </div>
+            <p class="support__donator">600 &#8381;</p>
+            <p class="support__donator support__donator-time">
+              3 часа назад
+            </p>
             </li>
             <li class="support__list-item">
               <p class="support__donator">Аноним</p>
-              <div class="support__donator_dotter">
-              </div>
-              <p class="support__donator">500 &#8381;</p>
-              <p class="support__donator support__donator-time">
-                4 часа назад
-              </p>
+            <div class="support__donator_dotter">
+            </div>
+            <p class="support__donator">500 &#8381;</p>
+            <p class="support__donator support__donator-time">
+              4 часа назад
+            </p>
             </li>
             <li class="support__list-item">
               <p class="support__donator">Аноним</p>
-              <div class="support__donator_dotter">
-              </div>
-              <p class="support__donator">300 &#8381;</p>
-              <p class="support__donator support__donator-time">
-                4 часа назад
-              </p>
+            <div class="support__donator_dotter">
+            </div>
+            <p class="support__donator">300 &#8381;</p>
+            <p class="support__donator support__donator-time">
+              4 часа назад
+            </p>
             </li>
             <li class="support__list-item">
               <p class="support__donator">Аноним</p>
-              <div class="support__donator_dotter">
-              </div>
-              <p class="support__donator">100 &#8381;</p>
-              <p class="support__donator support__donator-time">
-                6 часа назад
-              </p>
+            <div class="support__donator_dotter">
+            </div>
+            <p class="support__donator">100 &#8381;</p>
+            <p class="support__donator support__donator-time">
+              6 часа назад
+            </p>
             </li>
             <li class="support__list-item">
               <p class="support__donator">Наталья</p>
-              <div class="support__donator_dotter">
-              </div>
-              <p class="support__donator">600 &#8381;</p>
-              <p class="support__donator support__donator-time">
-                9 часа назад
-              </p>
+            <div class="support__donator_dotter">
+            </div>
+            <p class="support__donator">600 &#8381;</p>
+            <p class="support__donator support__donator-time">
+              9 часа назад
+            </p>
             </li>
             <li class="support__list-item">
               <p class="support__donator">Наталья</p>
-              <div class="support__donator_dotter">
-              </div>
-              <p class="support__donator">600 &#8381;</p>
-              <p class="support__donator support__donator-time">
-                9 часа назад
-              </p>
+            <div class="support__donator_dotter">
+            </div>
+            <p class="support__donator">600 &#8381;</p>
+            <p class="support__donator support__donator-time">
+              9 часа назад
+            </p>
             </li>
             <li class="support__list-item">
               <p class="support__donator">Наталья</p>
-              <div class="support__donator_dotter">
-              </div>
-              <p class="support__donator">600 &#8381;</p>
-              <p class="support__donator support__donator-time">
-                9 часа назад
-              </p>
+            <div class="support__donator_dotter">
+            </div>
+            <p class="support__donator">600 &#8381;</p>
+            <p class="support__donator support__donator-time">
+              9 часа назад
+            </p>
             </li>
           </ul>
         </div>
