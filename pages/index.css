@@ -266,6 +266,7 @@
 @import url(../blocks/draft/__title/draft__title.css);
 
 @import url(../blocks/support/support.css);
+@import url(../blocks/donation-form/__custom-radio/_other-sumbutton/donation-form__custom-radio_other-sumbutton.css);
 @import url(../blocks/support/__title/support__title.css);
 @import url(../blocks/support/__bank-cards/support__bank-cards.css);
 @import url(../blocks/support/__blocks/support__blocks.css);
