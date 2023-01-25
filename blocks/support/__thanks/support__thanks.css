@@ -1,0 +1,28 @@
+.support__thanks {
+  margin: 0;
+  max-width: 488px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  text-align: center;
+  padding-bottom: 74px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__thanks {
+    font-size: 26px;
+    max-width: 531px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__thanks {
+    max-width: 100%;
+    font-size: 18px;
+    padding-bottom: 36px;
+  }
+}

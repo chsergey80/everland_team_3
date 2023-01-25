@@ -1,0 +1,17 @@
+.whom__subtitle {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .whom__subtitle {
+    margin-bottom: 10px;
+    margin-right: 45px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .whom__subtitle {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,9 @@
+.support__amount {
+  margin-top: 23px;
+}
+
+@media screen and (max-width: 767px) {
+  .support__amount {
+    margin-top: 32px;
+  }
+}

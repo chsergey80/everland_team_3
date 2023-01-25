@@ -1,0 +1,10 @@
+.whom__link-text {
+  margin: 0px;
+  padding: 12px 44px 12px 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .whom__link-text {
+    padding: 13px 0px 13px 10px;
+  }
+}

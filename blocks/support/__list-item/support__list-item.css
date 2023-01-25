@@ -14,8 +14,9 @@
 @media screen and (max-width: 1439px) {
   .support__list-item {
     max-width: 349px;
-    padding-top: 32px;
+    padding-top: 30px;
     padding-left: 92px;
+    white-space: nowrap;
   }
 
   .support__list-item:nth-child(8) {
