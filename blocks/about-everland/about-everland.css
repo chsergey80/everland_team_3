@@ -2,7 +2,6 @@
   margin: 40px auto 45px auto;
   padding: 0;
   max-width: 1440px;
-  display: flex;
   position: relative;
   overflow: hidden;
 }
@@ -20,5 +19,6 @@
       margin-top: 108px;
       max-width: 304px;
       margin-bottom: 0;
+      min-height: 506px;
   }
 }
