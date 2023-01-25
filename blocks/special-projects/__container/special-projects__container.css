@@ -1,0 +1,8 @@
+.special-projects__container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}

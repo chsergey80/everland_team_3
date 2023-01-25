@@ -5,18 +5,26 @@
     justify-content: space-between;
     max-width: 126px;
     max-height: 35px;
-    grid-area: buttons;
+    position: absolute;
+    top: 529px;
+    left: 40px;
 }
 
 @media screen and (max-width: 1439px) {
     .specialization__buttons {
         max-width: 97px;
         max-height: 24px;
+        left: 0;
+        top: 262px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .specialization__buttons {
         margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 462px;
+        max-width: 95px;
     }
 }

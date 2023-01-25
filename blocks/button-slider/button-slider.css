@@ -6,6 +6,12 @@
   padding: 0;
   border: none;
   background: no-repeat center/17px #0C4BA0 url("../../images/icon/arrow_back.svg");
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+
 }
 
 .button-slider:last-of-type {
@@ -30,6 +36,9 @@
     min-height: 24px;
     background-size: 10px;
     border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+
   }
 
   .button-slider:last-of-type {
@@ -37,5 +46,12 @@
     min-height: 24px;
     background-size: 10px;
     border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-slider {
+    font-size: 14px;
+    line-height: 17px;
   }
 }
