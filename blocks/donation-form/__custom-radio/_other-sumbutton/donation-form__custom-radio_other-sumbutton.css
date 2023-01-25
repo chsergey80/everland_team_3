@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .donation-form__custom-radio_other-sumbutton {
+    width: 260px;
+  }
+}
