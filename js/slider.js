@@ -4,7 +4,8 @@ const everlandSection = document.querySelector(".about-everland");
 const everlandSlider = document.querySelector(".about-everland__container");
 const everlandSliderBack = everlandSection.querySelector(".button-slider__back");
 const everlandSliderForward = everlandSection.querySelector(".button-slider__forward");
-const everlendSliderNum = document.querySelector(".specialization__num");
+let everlendSliderNum = document.querySelector(".specialization__num");
+let num = 1;
 
 /*Переменные для слайдера Projects*/
 let leftSliderProjects = 0; //смещение от левого края
@@ -19,20 +20,32 @@ everlandSliderForward.addEventListener("click", function () {
     const width = document.documentElement.clientWidth;
     if (width >= "1440") {
         leftSliderEverland += 1400;
+        num += 1;
+        everlendSliderNum.textContent = `${num}/6`;
         if (leftSliderEverland > 7000) {
             leftSliderEverland = 0;
+            num = 1;
+            everlendSliderNum.textContent = `${num}/6`;
         }
         everlandSlider.style.left = -leftSliderEverland + "px";
     } else if (width <= "1439" && width >= "768") {
         leftSliderEverland += 688;
+        num += 1;
+        everlendSliderNum.textContent = `${num}/6`;
         if (leftSliderEverland > 3440) {
             leftSliderEverland = 0;
+            num = 1;
+            everlendSliderNum.textContent = `${num}/6`;
         }
         everlandSlider.style.left = -leftSliderEverland + "px";
     } else {
         leftSliderEverland += 304;
+        num += 1;
+        everlendSliderNum.textContent = `${num}/6`;
         if (leftSliderEverland > 1520) {
             leftSliderEverland = 0;
+            num = 1;
+            everlendSliderNum.textContent = `${num}/6`;
         }
         everlandSlider.style.left = -leftSliderEverland + "px";
     }
@@ -42,20 +55,32 @@ everlandSliderBack.addEventListener("click", function () {
     const width = document.documentElement.clientWidth;
     if (width >= "1440") {
         leftSliderEverland -= 1400;
+        num -= 1;
+        everlendSliderNum.textContent = `${num}/6`;
         if (leftSliderEverland < 0) {
             leftSliderEverland = 7000;
+            num = 6;
+            everlendSliderNum.textContent = `${num}/6`;
         }
         everlandSlider.style.left = -leftSliderEverland + "px";
     } else if (width <= "1439" && width >= "768") {
         leftSliderEverland -= 688;
+        num -= 1;
+        everlendSliderNum.textContent = `${num}/6`;
         if (leftSliderEverland < 0) {
             leftSliderEverland = 3440;
+            num = 6;
+            everlendSliderNum.textContent = `${num}/6`;
         }
         everlandSlider.style.left = -leftSliderEverland + "px";
     } else {
         leftSliderEverland -= 304;
+        num -= 1;
+        everlendSliderNum.textContent = `${num}/6`;
         if (leftSliderEverland < 0) {
             leftSliderEverland = 1520;
+            num = 6;
+            everlendSliderNum.textContent = `${num}/6`;
         }
         everlandSlider.style.left = -leftSliderEverland + "px";
     }
