@@ -168,8 +168,23 @@
 @import url(../blocks/whom/__text/whom__text.css);
 @import url(../blocks/main-text/main-text.css);
 @import url(../blocks/about-everland/about-everland.css);
+@import url(../blocks/about-everland/__container/about-everland__container.css);
+@import url(../blocks/special-projects/__container/special-projects__container.css);
 
-/* Блок Наши Направления */
+@import url(../blocks/specialization/specialization.css);
+@import url(../blocks/specialization/__blue-title/specialization__blue-title.css);
+@import url(../blocks/specialization/__button-back/specialization__button-back.css);
+@import url(../blocks/specialization/__button-forward/specialization__button-forward.css);
+@import url(../blocks/specialization/__buttons/specialization__buttons.css);
+@import url(../blocks/specialization/__img-forward/specialization__img-forward.css);
+@import url(../blocks/specialization/__img-back/specialization__img-back.css);
+@import url(../blocks/specialization/__paragraph/specialization__paragraph.css);
+@import url(../blocks/specialization/__photos/specialization__photos.css);
+@import url(../blocks/specialization/__slide-num/specialization__slide-num.css);
+@import url(../blocks/specialization/__text/specialization__text.css);
+@import url(../blocks/specialization/__title/specialization__title.css);
+@import url(../blocks/specialization/__num/specialization__num.css);
+
 @import url(../blocks/directions/directions.css);
 @import url(../blocks/direction-card/direction-card.css);
 @import url(../blocks/direction-card/__button/direction-card__button.css);
