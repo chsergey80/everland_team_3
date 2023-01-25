@@ -1,25 +1,25 @@
-.draft__paragraph {
-    margin: 0;
+.specialization__num {
+    margin: 0 10px;
     padding: 0;
     font-family: "Raleway", "Arial", sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     line-height: 26px;
     color: #333333;
-    max-width: 427px;
+    display: block;
 }
 
 @media screen and (max-width: 1439px) {
-    .draft__paragraph {
+    .specialization__num  {
         font-size: 16px;
         line-height: 19px;
-        max-width: 315px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .draft__paragraph {
+    .specialization__num  {
+        margin: 0 11px;
         font-size: 14px;
         line-height: 17px;
     }
