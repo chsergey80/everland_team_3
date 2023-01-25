@@ -40,7 +40,6 @@
 @import url(../blocks/button-slider/button-slider.css);
 @import url(../blocks/button-slider/_background-color/button-slider_background-color.css);
 @import url(../blocks/button-slider/_disabled/button-slider_disabled.css);
-@import url(../blocks/button-text/button-text.css);
 
 /* Попап */
 @import url(../blocks/popup/popup.css);
@@ -317,4 +316,3 @@
 @import url(../blocks/footer/__support-block/footer__support-block.css);
 @import url(../blocks/support/__donator/_dotter/support__donator_dotter.css);
 @import url(../blocks/footer/__tel/footer__tel.css);
-@import url(../blocks/footer/__logo-img/footer__logo-img.css);
