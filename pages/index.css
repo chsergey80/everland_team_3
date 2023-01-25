@@ -117,6 +117,7 @@
 @import url(../blocks/heading-second-item/_mobile-as-heading/heading-second-item_mobile-as-heading.css);
 @import url(../blocks/whom/whom.css);
 @import url(../blocks/whom/__description/whom__description.css);
+@import url(../blocks/whom/__description/_second/whom__description_second.css);
 @import url(../blocks/whom/__icon/whom__icon.css);
 @import url(../blocks/whom/__item/whom__item.css);
 @import url(../blocks/cards/cards.css);

@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .whom__description_second {
+    min-height: 87px;
+  }
+}
