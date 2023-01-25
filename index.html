@@ -169,27 +169,28 @@
 
     <!-- donation -->
     <section class="donation content" id="donation" aria-label="Секция доната">
-        <form class="donation-form donation-form_place_donat">
-          <fieldset class="donation-form__fieldset donation-form__radiobuttons-container donation-form__radiobuttons-container_for_donat">
-              <input type="radio" name="donation-amount" id="donat-amount-250" class="donation-form__radio">
-              <label for="donat-amount-250" class="donation-form__custom-radio button-text">250&#8381;</label>
-              <input type="radio" name="donation-amount" id="donat-amount-500" class="donation-form__radio">
-              <label for="donat-amount-500" class="donation-form__custom-radio button-text">500&#8381;</label>
-              <input type="radio" name="donation-amount" id="donat-amount-750" class="donation-form__radio">
-              <label for="donat-amount-750" class="donation-form__custom-radio button-text">750&#8381;</label>
-              <input type="radio" name="donation-amount" id="donat-amount-1000" class="donation-form__radio">
-              <label for="donat-amount-1000" class="donation-form__custom-radio button-text">1000&#8381;</label>
-              <input type="radio" name="donation-amount" id="donat-amount-other" class="donation-form__radio">
-              <label for="donat-amount-other"
-                class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text">Другая
-                сумма</label>
-          </fieldset>
-          <button type="button"
-            class="button button_theme_primary button-text donation-form__submit-button donation-form__submit-button_for_donat"
-            onclick="document.location='index.html#support'">
-            Поддержать
-          </button>
-        </form>
+      <form class="donation-form donation-form_place_donat">
+        <fieldset
+          class="donation-form__fieldset donation-form__radiobuttons-container donation-form__radiobuttons-container_for_donat">
+          <input type="radio" name="donation-amount" id="donat-amount-250" class="donation-form__radio">
+          <label for="donat-amount-250" class="donation-form__custom-radio button-text">250&#8381;</label>
+          <input type="radio" name="donation-amount" id="donat-amount-500" class="donation-form__radio">
+          <label for="donat-amount-500" class="donation-form__custom-radio button-text">500&#8381;</label>
+          <input type="radio" name="donation-amount" id="donat-amount-750" class="donation-form__radio">
+          <label for="donat-amount-750" class="donation-form__custom-radio button-text">750&#8381;</label>
+          <input type="radio" name="donation-amount" id="donat-amount-1000" class="donation-form__radio">
+          <label for="donat-amount-1000" class="donation-form__custom-radio button-text">1000&#8381;</label>
+          <input type="radio" name="donation-amount" id="donat-amount-other" class="donation-form__radio">
+          <label for="donat-amount-other"
+            class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text">Другая
+            сумма</label>
+        </fieldset>
+        <button type="button"
+          class="button button_theme_primary button-text donation-form__submit-button donation-form__submit-button_for_donat"
+          onclick="document.location='index.html#support'">
+          Поддержать
+        </button>
+      </form>
     </section>
 
     <!-- For whom -->
@@ -409,7 +410,10 @@
           </p>
         </div>
         <div class="draft__img"></div>
-        <button class="button-primary_secondary-background-color" type="button">Посмотреть</button>
+        <button type="button" class="button-primary_secondary-background-color"
+          onclick="document.location='index.html'">
+          Посмотреть
+        </button>
         <div class="draft__buttons">
           <button class="button-slider button-slider__back button-slider_background-color" type="button"></button>
           <button class="button-slider button-slider__forward button-slider_background-color" type="button"></button>
@@ -459,7 +463,10 @@
     <section class="history" id="history">
       <h2 class="heading history__title history__title_switch_off">Истории</h2>
       <h2 class="heading history__title history__title_switch_on">Наши истории</h2>
-      <button class="history__button" type="button" aria-label="Открывает секцию с историями">Все истории</button>
+      <button type="button" class="history__button" aria-label="Открывает секцию с историями"
+        onclick="document.location='index.html'">
+        Все истории
+      </button>
       <div class="history__card">
         <img class="history__avatar" src="./images/history/profile1.jpg" alt="Аватар Максима Гильфанова">
         <div class="history__info">
@@ -534,17 +541,23 @@
           </h3>
         </li>
       </ul>
-      <button class="agency__button" type="button" aria-label="Открывает секцию со всеми проектами">Посмотреть
-        все</button>
+      <button type="button" class="agency__button" aria-label="Открывает секцию со всеми проектами"
+        onclick="document.location='index.html'">
+        Посмотреть все
+      </button>
     </section>
 
     <!-- News -->
     <section class="news content" aria-label="Новостной раздел" id="news">
       <h2 class="heading">Новости</h2>
-      <button class="news__button news__button_switch_off" type="button"
-        aria-label="Открывает секцию с полной лентой новостей">Все новости</button>
-      <button class="news__button news__button_switch_on" type="button"
-        aria-label="Открывает секцию с полной лентой новостей">Посмотреть все</button>
+      <button type="button" class="news__button news__button_switch_off"
+        aria-label="Открывает секцию с полной лентой новостей" onclick="document.location='index.html'">
+        Все новости
+      </button>
+      <button type="button" class="news__button news__button_switch_off"
+        aria-label="Открывает секцию с полной лентой новостей" onclick="document.location='index.html'">
+        Посмотреть все
+      </button>
       <ul class="news__cards-container">
         <li class="news__card">
           <p class="news__card-upper-text">Тема</p>
@@ -633,8 +646,7 @@
               указанная вами сумма.
             </p>
           </fieldset>
-          <fieldset
-            class="donation-form__fieldset support__amount donation-form__fieldset_border">
+          <fieldset class="donation-form__fieldset support__amount donation-form__fieldset_border">
             <legend class="support__subtitle support__subtitle_payment">Способ оплаты</legend>
             <div class="support__payment-methods">
               <input type="radio" name="donation-amount-cards" id="donation-amount-card" class="donation-form__radio">
