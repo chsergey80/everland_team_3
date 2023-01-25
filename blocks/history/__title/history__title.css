@@ -1,24 +1,10 @@
 /*стили заголовка блока history*/
 .history__title {
   margin: 0;
-  line-height: 77px;
-  font-size: 64px;
-  font-weight: 700;
-}
-
-@media screen and (max-width: 1439px) {
-  .history__title{
-    line-height: 43px;
-    font-size: 36px;
-  }
 }
 
 @media screen and (max-width: 767px) {
   .history__title{
     margin-bottom: 24px;
-    margin-left: 0;
-    line-height: 31px;
-    font-size: 26px;
-    align-self: start;
   }
 }

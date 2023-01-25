@@ -1,0 +1,15 @@
+.heading_size_small {
+  font-size: 34px;
+}
+
+@media screen and (max-width: 1439px) {
+  .heading_size_small {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading_size_small{
+    font-size: 18px;
+  }
+}
