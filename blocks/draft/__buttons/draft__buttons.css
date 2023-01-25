@@ -1,21 +1,25 @@
 .draft__buttons{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    grid-area: buttons;
     display: flex;
     align-items: flex-end;
+    position: absolute;
+    top: 388px;
+    left: 641px;
 }
 
 @media screen and (max-width: 1439px) {
     .draft__buttons {
         margin-left: 286px;
-        grid-area: button;
+        top: 290px;
+        left: 27px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .draft__buttons {
         margin-left: 0;
-        grid-area: buttons;
+        top: 24px;
+        left: 220px;
     }
 }

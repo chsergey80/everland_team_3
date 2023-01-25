@@ -1,106 +1,109 @@
-const slide = document.querySelectorAll(".specialization");
-const projectsSlide = document.querySelectorAll(".draft");
-const lastSlide = [].slice.call(slide).pop();
-const lastProjectsSlide = [].slice.call(projectsSlide).pop();
+/*Переменные для слайдера Everland*/
+let leftSliderEverland = 0; //смещение от левого края
+const everlandSection = document.querySelector(".about-everland");
+const everlandSlider = document.querySelector(".about-everland__container");
+const everlandSliderBack = everlandSection.querySelector(".button-slider__back");
+const everlandSliderForward = everlandSection.querySelector(".button-slider__forward");
+const everlendSliderNum = document.querySelector(".specialization__num");
+
+/*Переменные для слайдера Projects*/
+let leftSliderProjects = 0; //смещение от левого края
+const projectSection = document.querySelector(".special-projects");
+const projectsSlider = document.querySelector(".special-projects__container");
+const projectsSliderBack = projectSection.querySelector(".button-slider__back");
+const projectsSliderForward = projectSection.querySelector(".button-slider__forward");
 
 
-/*Проходим по массиву слайдов про Everland*/
-slide.forEach(function (slides) {
-    // Вешаем событие клик
-    let preSlide = slides.previousElementSibling;
-    slides.querySelector(".button-slider__back").addEventListener("click", function () {
-        buttonBackItem(slides, preSlide);
-    })
-    slides.querySelector(".button-slider__forward").addEventListener("click", function () {
-        buttonForwardItem(slides);
-    })
-})
-
-/*Проходим по массиву слайдов про специальные проекты*/
-projectsSlide.forEach(function (slides) {
-    // Вешаем событие клик
-    let preProjectsSlide = slides.previousElementSibling;
-    slides.querySelector(".button-slider__back").addEventListener("click", function () {
-        buttonBackItemProjects(slides, preProjectsSlide);
-    })
-    slides.querySelector(".button-slider__forward").addEventListener("click", function () {
-        buttonForwardItemProjects(slides);
-    })
-})
-
-
-/*Функции слистывания слайдов про Everland*/
-function buttonForwardItem(item) {
-    const width = document.documentElement.clientWidth;
-    if (item != lastSlide) {
-        if (width >= "1440") {
-            item.style.marginLeft = "-1360px";
-        } else if (width <= "1439" && width >= "768") {
-            item.style.marginLeft = "-688px";
-        } else {
-            item.style.marginLeft = "-304px";
-        }
-    } else {
-        if (width >= "1440") {
-            item.style.marginLeft = "40px";
-        } else if (width <= "1439" && width >= "768") {
-            item.style.marginLeft = "0px";
-        } else {
-            item.style.marginLeft = "0px";
-        }
-    }
-
-}
-
-
-
-function buttonBackItem(item, pre) {
+/*Реализация работы слайдера Everland*/
+everlandSliderForward.addEventListener("click", function () {
     const width = document.documentElement.clientWidth;
     if (width >= "1440") {
-        item.style.marginLeft = "40px";
-        pre.style.marginLeft = "40px";
-    } else {
-        item.style.marginLeft = "0px";
-        pre.style.marginLeft = "0px";
-    }
-}
-
-
-/*Функции слистывания слайдов про специальные проекты*/
-function buttonForwardItemProjects(item) {
-    const width = document.documentElement.clientWidth;
-    if (item != lastProjectsSlide) {
-        if (width >= "1440") {
-            item.style.marginLeft = "-1330px";
-        } else if (width <= "1439" && width >= "768") {
-            item.style.marginLeft = "-658px";
-        } else {
-            item.style.marginLeft = "-278px";
+        leftSliderEverland += 1400;
+        if (leftSliderEverland > 7000) {
+            leftSliderEverland = 0;
         }
-    } else {
-        if (width >= "1440") {
-            item.style.marginLeft = "30px";
-        } else if (width <= "1439" && width >= "768") {
-            item.style.marginLeft = "30px";
-        } else {
-            item.style.marginLeft = "24px";
-        }
-    }
-}
-
-function buttonBackItemProjects(item, pre) {
-    const width = document.documentElement.clientWidth;
-    if (width >= "1440") {
-        item.style.marginLeft = "30px";
-        pre.style.marginLeft = "30px";
+        everlandSlider.style.left = -leftSliderEverland + "px";
     } else if (width <= "1439" && width >= "768") {
-        item.style.marginLeft = "30px";
-        pre.style.marginLeft = "30px";
+        leftSliderEverland += 688;
+        if (leftSliderEverland > 3440) {
+            leftSliderEverland = 0;
+        }
+        everlandSlider.style.left = -leftSliderEverland + "px";
+    } else {
+        leftSliderEverland += 304;
+        if (leftSliderEverland > 1520) {
+            leftSliderEverland = 0;
+        }
+        everlandSlider.style.left = -leftSliderEverland + "px";
     }
-    else {
-        item.style.marginLeft = "24px";
-        pre.style.marginLeft = "24px";
-    }
-}
+});
 
-window.onresize = function () { location.reload(); }
+everlandSliderBack.addEventListener("click", function () {
+    const width = document.documentElement.clientWidth;
+    if (width >= "1440") {
+        leftSliderEverland -= 1400;
+        if (leftSliderEverland < 0) {
+            leftSliderEverland = 7000;
+        }
+        everlandSlider.style.left = -leftSliderEverland + "px";
+    } else if (width <= "1439" && width >= "768") {
+        leftSliderEverland -= 688;
+        if (leftSliderEverland < 0) {
+            leftSliderEverland = 3440;
+        }
+        everlandSlider.style.left = -leftSliderEverland + "px";
+    } else {
+        leftSliderEverland -= 304;
+        if (leftSliderEverland < 0) {
+            leftSliderEverland = 1520;
+        }
+        everlandSlider.style.left = -leftSliderEverland + "px";
+    }
+});
+
+/*Реализация работы слайдера Projects*/
+projectsSliderForward.addEventListener("click", function () {
+    const width = document.documentElement.clientWidth;
+    if (width >= "1440") {
+        leftSliderProjects += 1360;
+        if (leftSliderProjects > 2720) {
+            leftSliderProjects = 0;
+        }
+        projectsSlider.style.left = -leftSliderProjects + "px";
+    } else if (width <= "1439" && width >= "768") {
+        leftSliderProjects += 688;
+        if (leftSliderProjects > 1376) {
+            leftSliderProjects = 0;
+        }
+        projectsSlider.style.left = -leftSliderProjects + "px";
+    } else {
+        leftSliderProjects += 300;
+        if (leftSliderProjects > 600) {
+            leftSliderProjects = 0;
+        }
+        projectsSlider.style.left = -leftSliderProjects + "px";
+    }
+});
+
+projectsSliderBack.addEventListener("click", function () {
+    const width = document.documentElement.clientWidth;
+    if (width >= "1440") {
+        leftSliderProjects -= 1360;
+        if (leftSliderProjects < 0) {
+            leftSliderProjects = 2720;
+        }
+        projectsSlider.style.left = -leftSliderProjects + "px";
+    } else if (width <= "1439" && width >= "768") {
+        leftSliderProjects -= 688;
+        if (leftSliderProjects < 0) {
+            leftSliderProjects = 1376;
+        }
+        projectsSlider.style.left = -leftSliderProjects + "px";
+    } else {
+        leftSliderProjects -= 300;
+        if (leftSliderProjects < 0) {
+            leftSliderProjects = 600;
+        }
+        projectsSlider.style.left = -leftSliderProjects + "px";
+    }
+});
