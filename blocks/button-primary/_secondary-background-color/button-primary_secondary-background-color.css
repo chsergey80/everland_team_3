@@ -16,7 +16,6 @@
   min-height: 48px;
   border-radius: 10px;
   grid-area: button;
-  margin-top: 20px;
 }
 
 .button-primary_secondary-background-color:hover {
