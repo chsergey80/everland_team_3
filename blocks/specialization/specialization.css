@@ -3,9 +3,10 @@
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, fit-content(826px));
-    grid-template-rows: repeat(1, fit-content(565px));
+    grid-template-rows: repeat(2, fit-content(565px));
     grid-template-areas:
-        "text img";
+        "text img"
+        "buttons img";
     gap: 173px 14px;
 }
 
@@ -21,10 +22,11 @@
     .specialization {
         max-width: 304px;
         grid-template-columns: repeat(1, fit-content(320px));
-        grid-template-rows: repeat(2, fit-content(400px));
+        grid-template-rows: repeat(3, fit-content(400px));
         grid-template-areas:
             "text"
-            "img";
+            "img"
+            "buttons";
         gap: 20px 16px;
     }
 }
