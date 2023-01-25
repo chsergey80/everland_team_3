@@ -6,7 +6,6 @@
   max-width: 1360px;
   display: flex;
   overflow: hidden;
-  position: relative;
 }
 
 @media screen and (max-width: 1439px) {

@@ -168,8 +168,6 @@
 @import url(../blocks/whom/__text/whom__text.css);
 @import url(../blocks/main-text/main-text.css);
 @import url(../blocks/about-everland/about-everland.css);
-@import url(../blocks/about-everland/__container/about-everland__container.css);
-@import url(../blocks/special-projects/__container/special-projects__container.css);
 
 /* Блок Наши Направления */
 @import url(../blocks/directions/directions.css);
@@ -316,4 +314,3 @@
 @import url(../blocks/footer/__support-block/footer__support-block.css);
 @import url(../blocks/support/__donator/_dotter/support__donator_dotter.css);
 @import url(../blocks/footer/__tel/footer__tel.css);
-
