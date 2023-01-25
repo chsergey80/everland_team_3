@@ -1,4 +1,4 @@
-.suppot__thanks {
+.support__thanks {
   margin: 0;
   max-width: 488px;
   font-family: "Raleway", "Arial", sans-serif;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .suppot__thanks {
+  .support__thanks {
     font-size: 26px;
     max-width: 531px;
     padding-bottom: 32px;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .suppot__thanks {
+  .support__thanks {
     max-width: 100%;
     font-size: 18px;
     padding-bottom: 36px;

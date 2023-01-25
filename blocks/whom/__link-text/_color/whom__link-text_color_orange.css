@@ -1,0 +1,7 @@
+.whom__link-text_color_orange {
+  color: #e98509;
+}
+
+.whom__link_color_orange:hover .whom__link-text_color_orange {
+  color: #fff;
+}

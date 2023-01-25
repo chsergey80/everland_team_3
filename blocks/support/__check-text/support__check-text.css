@@ -1,4 +1,4 @@
-.support__checkbox-text {
+.support__chec-text {
   font-family: "Raleway", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .support__checkbox-text {
+  .support__chec-text {
     font-size: 12px;
     line-height: 120%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .support__checkbox-text {
+  .support__chec-text {
     padding-left: 10px;
     max-width: 207px;
   }

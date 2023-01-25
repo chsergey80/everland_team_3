@@ -118,7 +118,6 @@
 @import url(../blocks/donation-form/__question/donation-form__question.css);
 @import url(../blocks/donation-form/__radio/donation-form__radio.css);
 @import url(../blocks/donation-form/__radiobuttons-container/donation-form__radiobuttons-container.css);
-@import url(../blocks/donation-form/__radiobuttons-container/_for/donation-form__radiobuttons-container_for_amount.css);
 @import url(../blocks/donation-form/__radiobuttons-container/_for/donation-form__radiobuttons-container_for_donat.css);
 @import url(../blocks/donation-form/__radiobuttons-container/_for/donation-form__radiobuttons-container_for_frequency.css);
 @import url(../blocks/donation-form/__radiobuttons-container/_for/donation-form__radiobuttons-container_for_methods.css);
@@ -143,32 +142,30 @@
 @import url(../blocks/whom/__description/_second/whom__description_second.css);
 @import url(../blocks/whom/__icon/whom__icon.css);
 @import url(../blocks/whom/__item/whom__item.css);
-@import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/__everland/cards__everland.css);
+@import url(../blocks/whom/__everland/whom__everland.css);
 @import url(../blocks/cards/__investment/cards__investment.css);
 @import url(../blocks/cards/__investment/_correction/cards__investment_correction.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__item/_color/cards__item_color_blue.css);
 @import url(../blocks/cards/__item/_color/cards__item_color_green.css);
 @import url(../blocks/cards/__item/_color/cards__item_color_orange.css);
-@import url(../blocks/cards/__link/cards__link.css);
-@import url(../blocks/cards/__link/_color/cards__link_color_blue.css);
-@import url(../blocks/cards/__link/_color/cards__link_color_green.css);
-@import url(../blocks/cards/__link/_color/cards__link_color_orange.css);
-@import url(../blocks/cards/__link/_color/cards__link_color_white.css);
+@import url(../blocks/whom/__link/whom__link.css);
+@import url(../blocks/whom/__link/_color/whom__link_color_blue.css);
+@import url(../blocks/whom/__link/_color/whom__link_color_green.css);
+@import url(../blocks/whom/__link/_color/whom__link_color_orange.css);
+@import url(../blocks/whom/__link/_color/whom__link_color_white.css);
 @import url(../blocks/cards/__link-arrow/cards__link-arrow.css);
 @import url(../blocks/cards/__link-arrow/_color/cards__link-arrow_color_black.css);
 @import url(../blocks/cards/__link-arrow/_color/cards__link-arrow_color_blue.css);
 @import url(../blocks/cards/__link-arrow/_color/cards__link-arrow_color_green.css);
 @import url(../blocks/cards/__link-arrow/_color/cards__link-arrow_color_orange.css);
-@import url(../blocks/cards/__link-text/cards__link-text.css);
-@import url(../blocks/cards/__link-text/_color/cards__link-text_color_black.css);
-@import url(../blocks/cards/__link-text/_color/cards__link-text_color_blue.css);
-@import url(../blocks/cards/__link-text/_color/cards__link-text_color_green.css);
-@import url(../blocks/cards/__link-text/_color/cards__link-text_color_orange.css);
-@import url(../blocks/cards/__subtitle/cards__subtitle.css);
-@import url(../blocks/cards/__subtitle/_correction/cards__subtitle_correction.css);
-@import url(../blocks/cards/__text/cards__text.css);
+@import url(../blocks/whom/__link-text/whom__link-text.css);
+@import url(../blocks/whom/__link-text/_color/whom__link-text_color_black.css);
+@import url(../blocks/whom/__link-text/_color/whom__link-text_color_blue.css);
+@import url(../blocks/whom/__link-text/_color/whom__link-text_color_green.css);
+@import url(../blocks/whom/__link-text/_color/whom__link-text_color_orange.css);
+@import url(../blocks/whom/__subtitle/whom__subtitle.css);
+@import url(../blocks/whom/__text/whom__text.css);
 @import url(../blocks/main-text/main-text.css);
 @import url(../blocks/about-everland/about-everland.css);
 
@@ -268,8 +265,9 @@
 @import url(../blocks/support/__title/support__title.css);
 @import url(../blocks/support/__bank-cards/support__bank-cards.css);
 @import url(../blocks/support/__blocks/support__blocks.css);
-@import url(../blocks/support/__checkbox-text/support__checkbox-text.css);
-@import url(../blocks/support/__checkbox-text/_link/support__checkbox-text_link.css);
+@import url(../blocks/support/__check-text/support__check-text.css);
+@import url(../blocks/support/__link/support__link.css);
+@import url(../blocks/support/__amount/support__amount.css);
 @import url(../blocks/support/__checkbox/support__checkbox.css);
 @import url(../blocks/support/__contact-details/support__contact-details.css);
 @import url(../blocks/support/__description/support__description.css);
@@ -291,7 +289,7 @@
 @import url(../blocks/support/__subtitle/_payment/support__subtitle_payment.css);
 @import url(../blocks/support/__subtitle/_self-information/support__subtitle_self-information.css);
 @import url(../blocks/support/__switch/support__switch.css);
-@import url(../blocks/support/__thanks/suppot__thanks.css);
+@import url(../blocks/support/__thanks/support__thanks.css);
 @import url(../blocks/support/__who-donat/support__who-donat.css);
 
 /* Футер */
