@@ -169,28 +169,27 @@
 
     <!-- donation -->
     <section class="donation content" id="donation" aria-label="Секция доната">
-      <form class="donation-form donation-form_place_donat">
-        <fieldset
-          class="donation-form__fieldset donation-form__radiobuttons-container donation-form__radiobuttons-container_for_donat">
-          <input type="radio" name="donation-amount" id="donat-amount-250" class="donation-form__radio">
-          <label for="donat-amount-250" class="donation-form__custom-radio button-text">250&#8381;</label>
-          <input type="radio" name="donation-amount" id="donat-amount-500" class="donation-form__radio">
-          <label for="donat-amount-500" class="donation-form__custom-radio button-text">500&#8381;</label>
-          <input type="radio" name="donation-amount" id="donat-amount-750" class="donation-form__radio">
-          <label for="donat-amount-750" class="donation-form__custom-radio button-text">750&#8381;</label>
-          <input type="radio" name="donation-amount" id="donat-amount-1000" class="donation-form__radio">
-          <label for="donat-amount-1000" class="donation-form__custom-radio button-text">1000&#8381;</label>
-          <input type="radio" name="donation-amount" id="donat-amount-other" class="donation-form__radio">
-          <label for="donat-amount-other"
-            class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text">Другая
-            сумма</label>
-        </fieldset>
-        <button type="submit"
-          class="button button_theme_primary button-text donation-form__submit-button donation-form__submit-button_for_donat"
-          onclick="document.location='index.html#support'">
-          Поддержать
-        </button>
-      </form>
+        <form class="donation-form donation-form_place_donat">
+          <fieldset class="donation-form__fieldset donation-form__radiobuttons-container donation-form__radiobuttons-container_for_donat">
+              <input type="radio" name="donation-amount" id="donat-amount-250" class="donation-form__radio">
+              <label for="donat-amount-250" class="donation-form__custom-radio button-text">250&#8381;</label>
+              <input type="radio" name="donation-amount" id="donat-amount-500" class="donation-form__radio">
+              <label for="donat-amount-500" class="donation-form__custom-radio button-text">500&#8381;</label>
+              <input type="radio" name="donation-amount" id="donat-amount-750" class="donation-form__radio">
+              <label for="donat-amount-750" class="donation-form__custom-radio button-text">750&#8381;</label>
+              <input type="radio" name="donation-amount" id="donat-amount-1000" class="donation-form__radio">
+              <label for="donat-amount-1000" class="donation-form__custom-radio button-text">1000&#8381;</label>
+              <input type="radio" name="donation-amount" id="donat-amount-other" class="donation-form__radio">
+              <label for="donat-amount-other"
+                class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text">Другая
+                сумма</label>
+          </fieldset>
+          <button type="button"
+            class="button button_theme_primary button-text donation-form__submit-button donation-form__submit-button_for_donat"
+            onclick="document.location='index.html#support'">
+            Поддержать
+          </button>
+        </form>
     </section>
 
     <!-- For whom -->
@@ -803,8 +802,8 @@
         <a href="#"><img src="./images/vk.png" alt="Логотип соцсети ВК" class="footer__icon"></a>
       </div>
       <ul class="footer__contacts">
-        <li class="footer__contact">+7 (495) 646 04 28</li>
-        <li class="footer__contact">+7 (985) 473 08 93</li>
+        <li class="footer__contact"><a href="tel:#" class="footer__tel">+7 (495) 646 04 28</a></li>
+        <li class="footer__contact"><a href="tel:#" class="footer__tel">+7 (985) 473 08 93</a></li>
         <li class="footer__contact">Гоголевский бульвар, дом 8, строение 2, офис 8, Москва,&nbsp;Россия.</li>
       </ul>
       <p class="footer__copyright">
