@@ -1,0 +1,22 @@
+.support__donator_dotter {
+  width: 152px;
+  border-bottom: 2px dotted #333;
+  margin-right: 10px;
+  list-style: none;
+  margin-bottom: 6px;
+  padding-right: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__donator_dotter {
+    width: 164px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__donator_dotter  {
+    width: 141px;
+    margin-bottom: 8;
+    padding-right: 0;
+  }
+}

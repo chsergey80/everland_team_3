@@ -4,6 +4,7 @@
   line-height: 41px;
   font-size: 34px;
   font-weight: 700;
+  quotes: none;
 }
 
 
@@ -16,6 +17,7 @@
 
 @media screen and (max-width: 767px) {
   .history__subtitle {
+    margin-top: 4px;
     line-height: 19px;
     font-size: 16px;
   }

@@ -1,0 +1,33 @@
+.whom__link_color_blue {
+  background: #e7f0ff;
+  display: inline-block;
+  color: #0C4BA0;
+  text-decoration: none;
+  background-size: 16px 16px;
+  background-image: url(../../../../images/history/arrow_forward.svg);
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  border-radius: 10px;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+
+.whom__link_color_blue:hover {
+  background: #0c4ba0;
+  background-image: url(../../../../images/history/arrow_forward_white.svg);
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  color: #fff;
+}
+
+.whom__link_color_blue:active {
+  background: #00275c;
+}
+
+.whom__link_color_blue:disabled {
+  background: #c4c4c4;
+  cursor: not-allowed;
+}

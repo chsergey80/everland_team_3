@@ -1,0 +1,30 @@
+.specialization {
+    margin: 0 0 0 40px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, fit-content(826px));
+    grid-template-rows: repeat(1, fit-content(565px));
+    grid-template-areas:
+        "text img";
+    gap: 173px 14px;
+}
+
+@media screen and (max-width: 1439px) {
+    .specialization {
+        margin-left: 0;
+        max-width: 688px;
+        gap: 37px 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .specialization {
+        max-width: 304px;
+        grid-template-columns: repeat(1, fit-content(320px));
+        grid-template-rows: repeat(2, fit-content(400px));
+        grid-template-areas:
+            "text"
+            "img";
+        gap: 20px 16px;
+    }
+}

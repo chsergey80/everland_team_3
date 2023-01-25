@@ -1,7 +1,7 @@
 /*Нахождение всех нужных для взаимодействия элементов*/
 const popup = document.querySelector(".popup");
-const menuButton = document.querySelector(".header-navigation__menu");
-const menuImg = document.querySelector(".header-navigation__menu-img")
+const menuButton = document.querySelector(".navigation__menu");
+const menuImg = document.querySelector(".navigation__menu-img")
 /*Нахождение элементов для мобильнеых устройств*/
 const mobileMenuProject = document.querySelector(".popup__list-project");
 const menuProject = mobileMenuProject.querySelector(".popup__button");
@@ -36,12 +36,12 @@ function openMenuMobileBlock(item){
 }
 
 menuButton.addEventListener("mouseover", function () {
-    menuButton.classList.toggle("header-navigation__menu_opened");
+    menuButton.classList.toggle("navigation__menu_opened");
     openPopup(popup);
 })
 
 menuButton.addEventListener("click", function () {
-  menuButton.classList.toggle("header-navigation__menu_opened");
+  menuButton.classList.toggle("navigation__menu_opened");
   closePopup(popup);
 })
 
@@ -86,5 +86,5 @@ if (
   document.documentElement.clientWidth <= 1439
 ) {
   changeNameTitleDir('#ourdirects');
-  changeNameTitleDir('#inwork');  
+  changeNameTitleDir('#inwork');
 }

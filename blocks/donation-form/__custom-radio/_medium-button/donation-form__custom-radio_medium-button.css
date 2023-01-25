@@ -12,8 +12,4 @@
   .donation-form__custom-radio_medium-button {
     width: 122px;
   }
-
-  .donation-form__custom-radio_medium-button:last-of-type {
-    width: 260px;
-  }
 }

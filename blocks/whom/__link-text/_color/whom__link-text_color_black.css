@@ -1,0 +1,11 @@
+.whom__link-text_color_black {
+  color: #333333;
+}
+
+.whom__link_color_white:hover .whom__link-text_color_black {
+  color: #00275c;
+}
+
+.whom__link_color_white:active .whom__link-text_color_black {
+  color: #0c4ba0;
+}

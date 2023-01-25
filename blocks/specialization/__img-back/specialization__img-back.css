@@ -1,0 +1,29 @@
+.specialization__img-back {
+    margin: 0 0 250px -224px;
+    float: right;
+    z-index: -2;
+    min-width: 352px;
+    min-height: 315px;
+    background-image: url(../../../images/Image_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1439px) {
+    .specialization__img-back {
+        margin: 0 0 100px -110px;
+        min-width: 184px;
+        min-height: 152px;
+        background-image: url(../../../images/Image_2_tablet.png);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .specialization__img-back {
+        margin-bottom: 56px;
+        min-width: 190px;
+        min-height: 144px;
+        background-image: url(../../../images/Image_2_mobile.png);
+    }
+}

@@ -1,0 +1,13 @@
+.menu__paragraph{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu__paragraph:hover {
+    /*состояние при наведении*/
+    transition: 0.35s;
+    cursor: pointer;
+    color: #4183DC;
+}

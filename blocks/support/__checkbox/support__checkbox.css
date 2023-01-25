@@ -13,10 +13,6 @@
   .support__checkbox {
     padding-top: 14px;
   }
-
-  .support__checkbox:first-of-type {
-    padding-top: 10px;
-  }
 }
 
 @media screen and (max-width: 767px) {

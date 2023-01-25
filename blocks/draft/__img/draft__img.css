@@ -1,0 +1,30 @@
+.draft__img {
+    margin: 0;
+    padding: 0;
+    min-height: 393px;
+    min-width: 555px;
+    border-radius: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../../images/Img_fpf.png");
+    grid-area: img;
+}
+
+@media screen and (max-width: 1439px) {
+    .draft__img {
+        margin-left: 0;
+        min-height: 284px;
+        min-width: 259px;
+        border-radius: 10px;
+        background-image: url("../../../images/Img_qwe.png");
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .draft__img {
+        min-height: 180px;
+        min-width: 254px;
+        background-image: url("../../../images/Img_fpf.png");
+    }
+}
